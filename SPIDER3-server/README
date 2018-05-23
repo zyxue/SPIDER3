@@ -1,0 +1,15 @@
+#Prerequisite:
+Download & Install
+1. tensorflow: https://www.tensorflow.org/versions/r0.11/get_started/os_setup.html
+2. HHblits & blast+
+3. Download NR database (NR90, or uniref90) for psiblast
+4. Download uniprot20_2016_02 for HHblits
+and set correct variables in the script "run_list.sh"
+
+#RUN
+./run_list.sh *.seq
+outputs: *.spd33
+
+## advanced ###
+If you have .pssm and .hhm from hhblits & blast+, you can simply include or link them in the current directory and the script will automatically skip generating them
+

@@ -1,0 +1,451 @@
+PSIBLAST 2.2.29+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: nr90
+           17,137,457 sequences; 5,715,038,960 total letters
+
+Results from round 1
+
+
+Query= 1a1x_A mol:protein length:108  HMTCP-1
+
+Length=108
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|159162910|pdb|1QTT|A Chain A, Solution Structure Of The Onco...    216   2e-70
+  gi|431919194|gb|ELK17899.1| Protein p13 MTCP-1 [Pteropus alecto]      195   5e-61
+  gi|395546452|ref|XP_003775101.1| PREDICTED: protein p13 MTCP-1 ...    187   3e-59
+  gi|512017460|ref|XP_004826014.1| PREDICTED: protein p13 MTCP-1 ...    186   7e-59
+  gi|507984383|ref|XP_004695258.1| PREDICTED: protein p13 MTCP-1 ...    183   1e-57
+  gi|345328460|ref|XP_001513013.2| PREDICTED: protein p13 MTCP-1-...    166   5e-51
+  gi|109506275|ref|XP_574098.2| PREDICTED: protein p13 MTCP-1-lik...    148   5e-44
+  gi|488587790|ref|XP_004479213.1| PREDICTED: cx9C motif-containi...    140   3e-41
+  gi|513180352|ref|XP_004940682.1| PREDICTED: cx9C motif-containi...    129   2e-36
+  gi|507946117|ref|XP_004682080.1| PREDICTED: T-cell leukemia/lym...    102   4e-25
+  gi|507563854|ref|XP_004665605.1| PREDICTED: T-cell leukemia/lym...  97.4    7e-24
+  gi|449267893|gb|EMC78784.1| Protein p13 MTCP-1, partial [Columb...  94.0    5e-23
+  gi|335292964|ref|XP_001926659.2| PREDICTED: T-cell leukemia/lym...  92.0    1e-21
+  gi|157819357|ref|NP_001103071.1| T-cell leukemia/lymphoma prote...  91.3    1e-21
+  gi|297488260|ref|XP_002696811.1| PREDICTED: T-cell leukemia/lym...  92.8    2e-21
+  gi|395827917|ref|XP_003787135.1| PREDICTED: T-cell leukemia/lym...  91.3    2e-21
+  gi|301770235|ref|XP_002920536.1| PREDICTED: t-cell leukemia/lym...  89.0    1e-20
+  gi|403274600|ref|XP_003929059.1| PREDICTED: T-cell leukemia/lym...  88.6    1e-20
+  gi|16974831|pdb|1JNP|A Chain A, Crystal Structure Of Murine Tcl...  87.4    4e-20
+  gi|440907263|gb|ELR57427.1| T-cell leukemia/lymphoma protein 1A...  87.0    6e-20
+  gi|119593047|gb|EAW72641.1| mature T-cell proliferation 1, isof...  84.7    9e-20
+  gi|471378078|ref|XP_004376844.1| PREDICTED: T-cell leukemia/lym...  85.1    3e-19
+  gi|355693549|gb|EHH28152.1| hypothetical protein EGK_18515 [Mac...  84.7    5e-19
+  gi|478520164|ref|XP_004434301.1| PREDICTED: T-cell leukemia/lym...  84.7    6e-19
+  gi|507631244|ref|XP_004699158.1| PREDICTED: T-cell leukemia/lym...  84.3    6e-19
+  gi|291411816|ref|XP_002722184.1| PREDICTED: T-cell lymphoma bre...  84.3    7e-19
+  gi|426248894|ref|XP_004018192.1| PREDICTED: T-cell leukemia/lym...  84.0    9e-19
+  gi|470629411|ref|XP_004321447.1| PREDICTED: T-cell leukemia/lym...  84.0    1e-18
+  gi|354482273|ref|XP_003503323.1| PREDICTED: T-cell leukemia/lym...  82.0    5e-18
+  gi|465965241|ref|XP_004262541.1| PREDICTED: uncharacterized pro...  84.0    7e-18
+  gi|444518371|gb|ELV12125.1| T-cell leukemia/lymphoma protein 1A...  79.3    4e-17
+  gi|504144334|ref|XP_004584596.1| PREDICTED: T-cell leukemia/lym...  78.2    1e-16
+  gi|296215845|ref|XP_002754324.1| PREDICTED: uncharacterized pro...  80.9    1e-16
+  gi|358418022|ref|XP_003583815.1| PREDICTED: T-cell leukemia/lym...  79.3    2e-16
+  gi|114654643|ref|XP_001154719.1| PREDICTED: uncharacterized pro...  77.4    3e-16
+  gi|74143538|dbj|BAE28834.1| unnamed protein product [Mus musculus]  78.6    4e-16
+  gi|351702981|gb|EHB05900.1| Protein p13 MTCP-1 [Heterocephalus ...  77.4    6e-16
+  gi|511957318|ref|XP_004796947.1| PREDICTED: T-cell leukemia/lym...  76.3    9e-16
+  gi|344273670|ref|XP_003408642.1| PREDICTED: T-cell leukemia/lym...  75.5    2e-15
+  gi|488552596|ref|XP_004467709.1| PREDICTED: uncharacterized pro...  76.3    3e-15
+  gi|410962937|ref|XP_003988025.1| PREDICTED: T-cell leukemia/lym...  74.7    5e-15
+  gi|507660356|ref|XP_004635275.1| PREDICTED: T-cell leukemia/lym...  74.3    1e-14
+  gi|348553750|ref|XP_003462689.1| PREDICTED: hypothetical protei...  74.7    2e-14
+  gi|511866791|ref|XP_004754926.1| PREDICTED: T-cell leukemia/lym...  72.8    2e-14
+  gi|488552593|ref|XP_004467708.1| PREDICTED: T-cell leukemia/lym...  70.9    1e-13
+  gi|470629408|ref|XP_004321446.1| PREDICTED: T-cell leukemia/lym...  70.5    2e-13
+  gi|440907262|gb|ELR57426.1| T-cell leukemia/lymphoma protein 1B...  69.7    2e-13
+  gi|472349785|ref|XP_004394588.1| PREDICTED: LOW QUALITY PROTEIN...  69.3    4e-13
+  gi|431839257|gb|ELK01184.1| T-cell leukemia/lymphoma protein 1A...  70.1    6e-13
+  gi|512848455|ref|XP_004886535.1| PREDICTED: T-cell leukemia/lym...  68.6    7e-13
+  gi|73964442|ref|XP_855242.1| PREDICTED: T-cell leukemia/lymphom...  68.2    1e-12
+  gi|301770233|ref|XP_002920535.1| PREDICTED: t-cell leukemia/lym...  68.2    3e-12
+  gi|444518372|gb|ELV12126.1| T-cell leukemia/lymphoma protein 1B...  67.4    3e-12
+  gi|432100462|gb|ELK29091.1| T-cell leukemia/lymphoma protein 1A...  65.9    2e-11
+  gi|355693548|gb|EHH28151.1| hypothetical protein EGK_18514 [Mac...  64.7    2e-11
+  gi|359320154|ref|XP_855245.3| PREDICTED: uncharacterized protei...  64.3    7e-11
+  gi|296215843|ref|XP_002754323.1| PREDICTED: T-cell leukemia/lym...  63.2    8e-11
+  gi|281339677|gb|EFB15261.1| hypothetical protein PANDA_009272 [...  61.2    6e-10
+  gi|351701174|gb|EHB04093.1| T-cell leukemia/lymphoma protein 1A...  59.7    8e-10
+  gi|311261534|ref|XP_003128758.1| PREDICTED: T-cell leukemia/lym...  60.1    1e-09
+  gi|426377933|ref|XP_004055705.1| PREDICTED: T-cell leukemia/lym...  59.7    1e-09
+  gi|432096213|gb|ELK27074.1| T-cell leukemia/lymphoma protein 1A...  53.1    2e-07
+  gi|504144336|ref|XP_004584597.1| PREDICTED: T-cell leukemia/lym...  45.1    2e-04
+  gi|332252593|ref|XP_003275437.1| PREDICTED: LOW QUALITY PROTEIN...  39.3    0.039
+  gi|148877859|gb|AAI45789.1| Tcl1b4 protein [Mus musculus]           37.7    0.079
+  gi|119571721|gb|EAW51336.1| hCG1646511 [Homo sapiens]               34.7    0.44 
+  gi|7305561|ref|NP_038804.1| protein TCL1B5 [Mus musculus]           35.0    0.79 
+  gi|309273258|ref|XP_001481286.2| PREDICTED: protein TCL1B3-like...  35.0    0.90 
+  gi|496530757|ref|WP_009237448.1| alpha-amylase [Prevotella sp. ...  35.4    1.4  
+  gi|196007322|ref|XP_002113527.1| hypothetical protein TRIADDRAF...  33.9    3.4  
+  gi|507563856|ref|XP_004665606.1| PREDICTED: uncharacterized pro...  33.9    4.7  
+  gi|149275199|ref|XP_001473277.1| PREDICTED: protein TCL1B3-like...  33.1    5.4  
+  gi|496935773|ref|WP_009413434.1| Bacteroidetes-specific putativ...  33.5    6.4  
+  gi|391326656|ref|XP_003737828.1| PREDICTED: general transcripti...  33.5    6.8  
+  gi|498238065|ref|WP_010552221.1| type II restriction endonuclea...  33.5    7.8  
+  gi|499033033|ref|XP_004567209.1| PREDICTED: KN motif and ankyri...  33.1    8.4  
+
+
+> gi|159162910|pdb|1QTT|A Chain A, Solution Structure Of The Oncoprotein 
+P13mtcp1
+  Chain A, Solution Structure Of The Oncoprotein P13mtcp1
+Length=117
+
+ Score =   216 bits (550),  Expect = 2e-70, Method: Compositional matrix adjust.
+ Identities = 106/106 (100%), Positives = 106/106 (100%), Gaps = 0/106 (0%)
+
+Query  3    AGEDVGAPPDHLWVHQEGIYRDEYQRTWVAVVEEETSFLRARVQQIQVPLGDAARPSHLL  62
+            AGEDVGAPPDHLWVHQEGIYRDEYQRTWVAVVEEETSFLRARVQQIQVPLGDAARPSHLL
+Sbjct  4    AGEDVGAPPDHLWVHQEGIYRDEYQRTWVAVVEEETSFLRARVQQIQVPLGDAARPSHLL  63
+
+Query  63   TSQLPLMWQLYPEERYMDNNSRLWQIQHHLMVRGVQELLLKLLPDD  108
+            TSQLPLMWQLYPEERYMDNNSRLWQIQHHLMVRGVQELLLKLLPDD
+Sbjct  64   TSQLPLMWQLYPEERYMDNNSRLWQIQHHLMVRGVQELLLKLLPDD  109
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.136    0.429    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 141202951296
+Results from round 2
+
+
+Query= 1a1x_A mol:protein length:108  HMTCP-1
+
+Length=108
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  gi|297488260|ref|XP_002696811.1| PREDICTED: T-cell leukemia/lym...    187   5e-58
+  gi|335292964|ref|XP_001926659.2| PREDICTED: T-cell leukemia/lym...    173   1e-53
+  gi|440907263|gb|ELR57427.1| T-cell leukemia/lymphoma protein 1A...    171   1e-52
+  gi|507946117|ref|XP_004682080.1| PREDICTED: T-cell leukemia/lym...    173   4e-52
+  gi|470629411|ref|XP_004321447.1| PREDICTED: T-cell leukemia/lym...    169   4e-52
+  gi|465965241|ref|XP_004262541.1| PREDICTED: uncharacterized pro...    173   6e-52
+  gi|301770235|ref|XP_002920536.1| PREDICTED: t-cell leukemia/lym...    167   3e-51
+  gi|478520164|ref|XP_004434301.1| PREDICTED: T-cell leukemia/lym...    164   7e-50
+  gi|395827917|ref|XP_003787135.1| PREDICTED: T-cell leukemia/lym...    163   2e-49
+  gi|291411816|ref|XP_002722184.1| PREDICTED: T-cell lymphoma bre...    162   2e-49
+  gi|159162910|pdb|1QTT|A Chain A, Solution Structure Of The Onco...    161   9e-49
+  gi|507563854|ref|XP_004665605.1| PREDICTED: T-cell leukemia/lym...    160   2e-48
+  gi|426248894|ref|XP_004018192.1| PREDICTED: T-cell leukemia/lym...    159   3e-48
+  gi|348553750|ref|XP_003462689.1| PREDICTED: hypothetical protei...    163   1e-47
+  gi|355693549|gb|EHH28152.1| hypothetical protein EGK_18515 [Mac...    158   1e-47
+  gi|403274600|ref|XP_003929059.1| PREDICTED: T-cell leukemia/lym...    158   1e-47
+  gi|16974831|pdb|1JNP|A Chain A, Crystal Structure Of Murine Tcl...    156   7e-47
+  gi|157819357|ref|NP_001103071.1| T-cell leukemia/lymphoma prote...    154   2e-46
+  gi|431919194|gb|ELK17899.1| Protein p13 MTCP-1 [Pteropus alecto]      156   4e-46
+  gi|296215845|ref|XP_002754324.1| PREDICTED: uncharacterized pro...    160   5e-46
+  gi|345328460|ref|XP_001513013.2| PREDICTED: protein p13 MTCP-1-...    153   7e-46
+  gi|507984383|ref|XP_004695258.1| PREDICTED: protein p13 MTCP-1 ...    153   9e-46
+  gi|395546452|ref|XP_003775101.1| PREDICTED: protein p13 MTCP-1 ...    153   1e-45
+  gi|471378078|ref|XP_004376844.1| PREDICTED: T-cell leukemia/lym...    151   4e-45
+  gi|504144334|ref|XP_004584596.1| PREDICTED: T-cell leukemia/lym...    150   9e-45
+  gi|511957318|ref|XP_004796947.1| PREDICTED: T-cell leukemia/lym...    150   1e-44
+  gi|512848455|ref|XP_004886535.1| PREDICTED: T-cell leukemia/lym...    150   2e-44
+  gi|344273670|ref|XP_003408642.1| PREDICTED: T-cell leukemia/lym...    150   2e-44
+  gi|507660356|ref|XP_004635275.1| PREDICTED: T-cell leukemia/lym...    150   4e-44
+  gi|444518371|gb|ELV12125.1| T-cell leukemia/lymphoma protein 1A...    148   5e-44
+  gi|354482273|ref|XP_003503323.1| PREDICTED: T-cell leukemia/lym...    146   6e-43
+  gi|513180352|ref|XP_004940682.1| PREDICTED: cx9C motif-containi...    145   1e-42
+  gi|114654643|ref|XP_001154719.1| PREDICTED: uncharacterized pro...    145   2e-42
+  gi|488552593|ref|XP_004467708.1| PREDICTED: T-cell leukemia/lym...    144   3e-42
+  gi|410962937|ref|XP_003988025.1| PREDICTED: T-cell leukemia/lym...    144   6e-42
+  gi|512017460|ref|XP_004826014.1| PREDICTED: protein p13 MTCP-1 ...    142   2e-41
+  gi|74143538|dbj|BAE28834.1| unnamed protein product [Mus musculus]    143   7e-41
+  gi|355693548|gb|EHH28151.1| hypothetical protein EGK_18514 [Mac...    141   8e-41
+  gi|470629408|ref|XP_004321446.1| PREDICTED: T-cell leukemia/lym...    140   1e-40
+  gi|358418022|ref|XP_003583815.1| PREDICTED: T-cell leukemia/lym...    142   2e-40
+  gi|511866791|ref|XP_004754926.1| PREDICTED: T-cell leukemia/lym...    138   6e-40
+  gi|426377933|ref|XP_004055705.1| PREDICTED: T-cell leukemia/lym...    139   7e-40
+  gi|301770233|ref|XP_002920535.1| PREDICTED: t-cell leukemia/lym...    139   5e-39
+  gi|472349785|ref|XP_004394588.1| PREDICTED: LOW QUALITY PROTEIN...    135   1e-38
+  gi|281339677|gb|EFB15261.1| hypothetical protein PANDA_009272 [...    136   3e-38
+  gi|296215843|ref|XP_002754323.1| PREDICTED: T-cell leukemia/lym...    134   6e-38
+  gi|311261534|ref|XP_003128758.1| PREDICTED: T-cell leukemia/lym...    133   9e-38
+  gi|488552596|ref|XP_004467709.1| PREDICTED: uncharacterized pro...    135   1e-37
+  gi|73964442|ref|XP_855242.1| PREDICTED: T-cell leukemia/lymphom...    132   2e-37
+  gi|507631244|ref|XP_004699158.1| PREDICTED: T-cell leukemia/lym...    131   3e-37
+  gi|109506275|ref|XP_574098.2| PREDICTED: protein p13 MTCP-1-lik...    129   2e-36
+  gi|431839257|gb|ELK01184.1| T-cell leukemia/lymphoma protein 1A...    128   6e-35
+  gi|351701174|gb|EHB04093.1| T-cell leukemia/lymphoma protein 1A...    124   1e-34
+  gi|359320154|ref|XP_855245.3| PREDICTED: uncharacterized protei...    126   5e-34
+  gi|440907262|gb|ELR57426.1| T-cell leukemia/lymphoma protein 1B...    122   8e-34
+  gi|432100462|gb|ELK29091.1| T-cell leukemia/lymphoma protein 1A...    126   1e-33
+  gi|444518372|gb|ELV12126.1| T-cell leukemia/lymphoma protein 1B...    120   2e-32
+  gi|504144336|ref|XP_004584597.1| PREDICTED: T-cell leukemia/lym...    108   3e-28
+  gi|488587790|ref|XP_004479213.1| PREDICTED: cx9C motif-containi...    105   2e-27
+  gi|449267893|gb|EMC78784.1| Protein p13 MTCP-1, partial [Columb...  98.0    1e-24
+  gi|432096213|gb|ELK27074.1| T-cell leukemia/lymphoma protein 1A...  88.4    8e-21
+  gi|119593047|gb|EAW72641.1| mature T-cell proliferation 1, isof...  67.2    5e-13
+  gi|351702981|gb|EHB05900.1| Protein p13 MTCP-1 [Heterocephalus ...  63.0    1e-10
+
+Sequences not found previously or not previously below threshold:
+
+  gi|332252593|ref|XP_003275437.1| PREDICTED: LOW QUALITY PROTEIN...    109   3e-28
+  gi|148877859|gb|AAI45789.1| Tcl1b4 protein [Mus musculus]           83.4    2e-18
+  gi|309273258|ref|XP_001481286.2| PREDICTED: protein TCL1B3-like...  73.4    1e-14
+  gi|119571721|gb|EAW51336.1| hCG1646511 [Homo sapiens]               70.7    3e-14
+  gi|149275199|ref|XP_001473277.1| PREDICTED: protein TCL1B3-like...  69.9    2e-13
+  gi|7305553|ref|NP_038801.1| protein TCL1B1 [Mus musculus]           66.0    5e-12
+  gi|7305555|ref|NP_038803.1| protein TCL1B2 [Mus musculus]           64.9    1e-11
+  gi|7305561|ref|NP_038804.1| protein TCL1B5 [Mus musculus]           64.1    3e-11
+  gi|507563856|ref|XP_004665606.1| PREDICTED: uncharacterized pro...  63.4    2e-10
+  gi|74143365|dbj|BAE24177.1| unnamed protein product [Mus musculus]  58.7    4e-09
+  gi|148686824|gb|EDL18771.1| mCG1160, isoform CRA_b [Mus musculus]   56.4    2e-08
+  gi|6466139|gb|AAF12804.1|AF195491_1 T-cell leukemia protein Tcl...  49.5    5e-06
+  gi|354501986|ref|XP_003513068.1| PREDICTED: membrane-spanning 4...  41.0    0.016
+  gi|328854521|gb|EGG03653.1| hypothetical protein MELLADRAFT_900...  37.9    0.20 
+  gi|119497601|ref|XP_001265558.1| aspartate aminotransferase [Ne...  36.8    0.38 
+  gi|496235389|ref|WP_008949424.1| ribosomal large subunit pseudo...  35.6    0.94 
+  gi|431793669|ref|YP_007220574.1| DNA adenine methylase Dam [Des...  36.0    1.0  
+  gi|494900214|ref|WP_007626259.1| hypothetical protein [Rhizobiu...  36.0    1.1  
+  gi|241204031|ref|YP_002975127.1| hypothetical protein Rleg_1296...  35.6    1.3  
+  gi|150377326|ref|YP_001313921.1| hypothetical protein Smed_5211...  35.6    1.3  
+  gi|489674239|ref|WP_003578485.1| hypothetical protein [Rhizobiu...  35.6    1.5  
+  gi|489642809|ref|WP_003547249.1| hypothetical protein [Rhizobiu...  35.2    1.5  
+  gi|363754827|ref|XP_003647629.1| hypothetical protein Ecym_6441...  35.2    1.6  
+  gi|494968729|ref|WP_007694755.1| hypothetical protein [Rhizobiu...  35.2    1.7  
+  gi|489683177|ref|WP_003587399.1| hypothetical protein [Rhizobiu...  35.2    1.7  
+  gi|449017201|dbj|BAM80603.1| hypothetical protein, conserved [C...  35.2    1.8  
+  gi|489669746|ref|WP_003574010.1| hypothetical protein [Rhizobiu...  35.2    1.9  
+  gi|497751927|ref|WP_010066111.1| hypothetical protein, partial ...  34.8    2.0  
+  gi|494794346|ref|WP_007529754.1| conserved exported hypothetica...  34.8    2.1  
+  gi|495095121|ref|WP_007819944.1| hypothetical protein [Rhizobiu...  34.8    2.2  
+  gi|497365105|ref|WP_009679318.1| amino acid adenylation protein...  34.5    3.0  
+  gi|498100912|ref|WP_010415068.1| 6-aminohexanoate-dimer hydrola...  34.5    3.0  
+  gi|485926908|gb|EOD51078.1| putative atp synthase regulation pr...  34.5    3.2  
+  gi|514391259|ref|WP_016552147.1| hypothetical protein [Rhizobiu...  34.1    3.9  
+  gi|242816502|ref|XP_002486791.1| gag/polymerase/env polyprotein...  34.1    4.3  
+  gi|302848536|ref|XP_002955800.1| hypothetical protein VOLCADRAF...  34.1    4.6  
+  gi|322417555|ref|YP_004196778.1| PAS/PAC sensor signal transduc...  33.7    4.7  
+  gi|67537100|ref|XP_662324.1| hypothetical protein AN4720.2 [Asp...  33.3    6.7  
+  gi|333900253|ref|YP_004474126.1| integral membrane sensor signa...  33.3    7.1  
+  gi|440224091|ref|YP_007337487.1| cellulose synthesis protein [R...  33.3    7.1  
+  gi|190891227|ref|YP_001977769.1| hypothetical protein RHECIAT_C...  33.3    9.1  
+  gi|431927037|ref|YP_007240071.1| signal transduction histidine ...  32.9    9.4  
+  gi|470620039|ref|XP_004318339.1| PREDICTED: HEAT repeat-contain...  32.9    9.4  
+  gi|395528324|ref|XP_003766280.1| PREDICTED: sentrin-specific pr...  32.9    9.9  
+
+
+> gi|297488260|ref|XP_002696811.1| PREDICTED: T-cell leukemia/lymphoma 
+protein 1A [Bos taurus]
+  TPA: T-cell lymphoma breakpoint 1-like [Bos taurus]
+Length=185
+
+ Score =   187 bits (474),  Expect = 5e-58, Method: Composition-based stats.
+ Identities = 43/104 (41%), Positives = 64/104 (62%), Gaps = 0/104 (0%)
+
+Query  4    GEDVGAPPDHLWVHQEGIYRDEYQRTWVAVVEEETSFLRARVQQIQVPLGDAARPSHLLT  63
+            G      PDHLW+ ++ +Y DE QRTW+ +  E    L+  ++Q  VPLGD   PS L  
+Sbjct  78   GAHTPLHPDHLWIWEKAVYVDENQRTWLPITIEIEGSLQVLMRQEDVPLGDPVSPSQLGP  137
+
+Query  64   SQLPLMWQLYPEERYMDNNSRLWQIQHHLMVRGVQELLLKLLPD  107
+              LP+MWQLYP  RY  ++S  W+I +H+ + G +++LL+ +PD
+Sbjct  138  YLLPVMWQLYPGRRYRASDSSFWRIVYHIEIGGTEDMLLEQMPD  181
+
+
+
+Lambda      K        H        a         alpha
+   0.307    0.153    0.550    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0477    0.140     1.90     42.6     43.6 
+
+Effective search space used: 141202951296
+Results from round 3
+
+
+Query= 1a1x_A mol:protein length:108  HMTCP-1
+
+Length=108
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  gi|297488260|ref|XP_002696811.1| PREDICTED: T-cell leukemia/lym...    185   3e-57
+  gi|335292964|ref|XP_001926659.2| PREDICTED: T-cell leukemia/lym...    171   1e-52
+  gi|440907263|gb|ELR57427.1| T-cell leukemia/lymphoma protein 1A...    169   6e-52
+  gi|465965241|ref|XP_004262541.1| PREDICTED: uncharacterized pro...    173   8e-52
+  gi|507946117|ref|XP_004682080.1| PREDICTED: T-cell leukemia/lym...    171   9e-52
+  gi|470629411|ref|XP_004321447.1| PREDICTED: T-cell leukemia/lym...    168   9e-52
+  gi|301770235|ref|XP_002920536.1| PREDICTED: t-cell leukemia/lym...    166   7e-51
+  gi|478520164|ref|XP_004434301.1| PREDICTED: T-cell leukemia/lym...    162   2e-49
+  gi|507563854|ref|XP_004665605.1| PREDICTED: T-cell leukemia/lym...    160   2e-48
+  gi|291411816|ref|XP_002722184.1| PREDICTED: T-cell lymphoma bre...    158   1e-47
+  gi|426248894|ref|XP_004018192.1| PREDICTED: T-cell leukemia/lym...    157   2e-47
+  gi|395827917|ref|XP_003787135.1| PREDICTED: T-cell leukemia/lym...    158   2e-47
+  gi|16974831|pdb|1JNP|A Chain A, Crystal Structure Of Murine Tcl...    155   1e-46
+  gi|348553750|ref|XP_003462689.1| PREDICTED: hypothetical protei...    160   2e-46
+  gi|403274600|ref|XP_003929059.1| PREDICTED: T-cell leukemia/lym...    153   6e-46
+  gi|157819357|ref|NP_001103071.1| T-cell leukemia/lymphoma prote...    153   1e-45
+  gi|355693549|gb|EHH28152.1| hypothetical protein EGK_18515 [Mac...    152   2e-45
+  gi|159162910|pdb|1QTT|A Chain A, Solution Structure Of The Onco...    150   9e-45
+  gi|296215845|ref|XP_002754324.1| PREDICTED: uncharacterized pro...    156   1e-44
+  gi|511957318|ref|XP_004796947.1| PREDICTED: T-cell leukemia/lym...    150   2e-44
+  gi|410962937|ref|XP_003988025.1| PREDICTED: T-cell leukemia/lym...    148   8e-44
+  gi|488552593|ref|XP_004467708.1| PREDICTED: T-cell leukemia/lym...    148   1e-43
+  gi|504144334|ref|XP_004584596.1| PREDICTED: T-cell leukemia/lym...    147   1e-43
+  gi|444518371|gb|ELV12125.1| T-cell leukemia/lymphoma protein 1A...    147   2e-43
+  gi|470629408|ref|XP_004321446.1| PREDICTED: T-cell leukemia/lym...    147   3e-43
+  gi|471378078|ref|XP_004376844.1| PREDICTED: T-cell leukemia/lym...    146   5e-43
+  gi|512848455|ref|XP_004886535.1| PREDICTED: T-cell leukemia/lym...    146   6e-43
+  gi|345328460|ref|XP_001513013.2| PREDICTED: protein p13 MTCP-1-...    145   6e-43
+  gi|344273670|ref|XP_003408642.1| PREDICTED: T-cell leukemia/lym...    145   9e-43
+  gi|507984383|ref|XP_004695258.1| PREDICTED: protein p13 MTCP-1 ...    145   1e-42
+  gi|511866791|ref|XP_004754926.1| PREDICTED: T-cell leukemia/lym...    145   2e-42
+  gi|431919194|gb|ELK17899.1| Protein p13 MTCP-1 [Pteropus alecto]      147   3e-42
+  gi|355693548|gb|EHH28151.1| hypothetical protein EGK_18514 [Mac...    145   3e-42
+  gi|507660356|ref|XP_004635275.1| PREDICTED: T-cell leukemia/lym...    145   4e-42
+  gi|354482273|ref|XP_003503323.1| PREDICTED: T-cell leukemia/lym...    143   5e-42
+  gi|395546452|ref|XP_003775101.1| PREDICTED: protein p13 MTCP-1 ...    143   7e-42
+  gi|513180352|ref|XP_004940682.1| PREDICTED: cx9C motif-containi...    141   2e-41
+  gi|472349785|ref|XP_004394588.1| PREDICTED: LOW QUALITY PROTEIN...    141   5e-41
+  gi|426377933|ref|XP_004055705.1| PREDICTED: T-cell leukemia/lym...    141   8e-41
+  gi|301770233|ref|XP_002920535.1| PREDICTED: t-cell leukemia/lym...    143   8e-41
+  gi|74143538|dbj|BAE28834.1| unnamed protein product [Mus musculus]    142   1e-40
+  gi|358418022|ref|XP_003583815.1| PREDICTED: T-cell leukemia/lym...    142   3e-40
+  gi|296215843|ref|XP_002754323.1| PREDICTED: T-cell leukemia/lym...    138   9e-40
+  gi|73964442|ref|XP_855242.1| PREDICTED: T-cell leukemia/lymphom...    138   1e-39
+  gi|114654643|ref|XP_001154719.1| PREDICTED: uncharacterized pro...    137   2e-39
+  gi|148877859|gb|AAI45789.1| Tcl1b4 protein [Mus musculus]             137   3e-39
+  gi|311261534|ref|XP_003128758.1| PREDICTED: T-cell leukemia/lym...    137   3e-39
+  gi|281339677|gb|EFB15261.1| hypothetical protein PANDA_009272 [...    137   7e-39
+  gi|309273258|ref|XP_001481286.2| PREDICTED: protein TCL1B3-like...    132   1e-37
+  gi|512017460|ref|XP_004826014.1| PREDICTED: protein p13 MTCP-1 ...    131   3e-37
+  gi|488552596|ref|XP_004467709.1| PREDICTED: uncharacterized pro...    132   2e-36
+  gi|149275199|ref|XP_001473277.1| PREDICTED: protein TCL1B3-like...    128   4e-36
+  gi|507631244|ref|XP_004699158.1| PREDICTED: T-cell leukemia/lym...    128   7e-36
+  gi|431839257|gb|ELK01184.1| T-cell leukemia/lymphoma protein 1A...    129   4e-35
+  gi|444518372|gb|ELV12126.1| T-cell leukemia/lymphoma protein 1B...    127   5e-35
+  gi|109506275|ref|XP_574098.2| PREDICTED: protein p13 MTCP-1-lik...    123   4e-34
+  gi|432100462|gb|ELK29091.1| T-cell leukemia/lymphoma protein 1A...    126   7e-34
+  gi|359320154|ref|XP_855245.3| PREDICTED: uncharacterized protei...    126   1e-33
+  gi|440907262|gb|ELR57426.1| T-cell leukemia/lymphoma protein 1B...    122   1e-33
+  gi|351701174|gb|EHB04093.1| T-cell leukemia/lymphoma protein 1A...    120   3e-33
+  gi|7305553|ref|NP_038801.1| protein TCL1B1 [Mus musculus]             118   4e-32
+  gi|332252593|ref|XP_003275437.1| PREDICTED: LOW QUALITY PROTEIN...    118   1e-31
+  gi|7305555|ref|NP_038803.1| protein TCL1B2 [Mus musculus]             116   4e-31
+  gi|7305561|ref|NP_038804.1| protein TCL1B5 [Mus musculus]             113   4e-30
+  gi|504144336|ref|XP_004584597.1| PREDICTED: T-cell leukemia/lym...    112   1e-29
+  gi|74143365|dbj|BAE24177.1| unnamed protein product [Mus musculus]    108   2e-27
+  gi|148686824|gb|EDL18771.1| mCG1160, isoform CRA_b [Mus musculus]     105   7e-27
+  gi|488587790|ref|XP_004479213.1| PREDICTED: cx9C motif-containi...  97.2    3e-24
+  gi|449267893|gb|EMC78784.1| Protein p13 MTCP-1, partial [Columb...  94.2    4e-23
+  gi|6466139|gb|AAF12804.1|AF195491_1 T-cell leukemia protein Tcl...  89.1    7e-21
+  gi|432096213|gb|ELK27074.1| T-cell leukemia/lymphoma protein 1A...  88.0    1e-20
+  gi|119571721|gb|EAW51336.1| hCG1646511 [Homo sapiens]               75.7    4e-16
+  gi|507563856|ref|XP_004665606.1| PREDICTED: uncharacterized pro...  78.7    6e-16
+  gi|119593047|gb|EAW72641.1| mature T-cell proliferation 1, isof...  63.0    2e-11
+  gi|351702981|gb|EHB05900.1| Protein p13 MTCP-1 [Heterocephalus ...  59.5    2e-09
+
+Sequences not found previously or not previously below threshold:
+
+  gi|354501986|ref|XP_003513068.1| PREDICTED: membrane-spanning 4...  46.4    3e-04
+  gi|465994318|gb|EMP39450.1| Transitional endoplasmic reticulum ...  40.2    0.041
+  gi|119497601|ref|XP_001265558.1| aspartate aminotransferase [Ne...  37.9    0.19 
+  gi|172037632|ref|YP_001804133.1| flavin oxidoreductase/NADH oxi...  37.9    0.22 
+  gi|328854521|gb|EGG03653.1| hypothetical protein MELLADRAFT_900...  37.5    0.31 
+  gi|150377326|ref|YP_001313921.1| hypothetical protein Smed_5211...  37.5    0.33 
+  gi|494900214|ref|WP_007626259.1| hypothetical protein [Rhizobiu...  36.8    0.55 
+  gi|494794346|ref|WP_007529754.1| conserved exported hypothetica...  36.0    1.0  
+  gi|494968729|ref|WP_007694755.1| hypothetical protein [Rhizobiu...  36.0    1.1  
+  gi|507671209|ref|XP_004708785.1| PREDICTED: platelet-derived gr...  35.6    1.2  
+  gi|241204031|ref|YP_002975127.1| hypothetical protein Rleg_1296...  35.6    1.2  
+  gi|495063842|ref|WP_007788670.1| hypothetical protein [Rhizobiu...  35.6    1.2  
+  gi|489674239|ref|WP_003578485.1| hypothetical protein [Rhizobiu...  35.6    1.3  
+  gi|489642809|ref|WP_003547249.1| hypothetical protein [Rhizobiu...  35.6    1.3  
+  gi|495095121|ref|WP_007819944.1| hypothetical protein [Rhizobiu...  35.6    1.4  
+  gi|405955773|gb|EKC22747.1| Tribbles-like protein 2 [Crassostre...  35.2    1.6  
+  gi|489683177|ref|WP_003587399.1| hypothetical protein [Rhizobiu...  35.2    1.6  
+  gi|489669746|ref|WP_003574010.1| hypothetical protein [Rhizobiu...  35.2    1.6  
+  gi|497751927|ref|WP_010066111.1| hypothetical protein, partial ...  34.8    1.7  
+  gi|514391259|ref|WP_016552147.1| hypothetical protein [Rhizobiu...  35.2    1.9  
+  gi|194865590|ref|XP_001971505.1| GG15002 [Drosophila erecta]        32.9    2.5  
+  gi|449017201|dbj|BAM80603.1| hypothetical protein, conserved [C...  34.5    3.3  
+  gi|363754827|ref|XP_003647629.1| hypothetical protein Ecym_6441...  34.5    3.4  
+  gi|74025038|ref|XP_829085.1| hypothetical protein [Trypanosoma ...  34.5    3.4  
+  gi|496235389|ref|WP_008949424.1| ribosomal large subunit pseudo...  34.1    3.7  
+  gi|190891227|ref|YP_001977769.1| hypothetical protein RHECIAT_C...  34.1    4.2  
+  gi|440224091|ref|YP_007337487.1| cellulose synthesis protein [R...  34.1    4.8  
+  gi|490225604|ref|WP_004123957.1| hypothetical protein [Rhizobiu...  33.7    5.1  
+  gi|378763562|ref|YP_005192178.1| conserved hypothetical protein...  33.7    6.6  
+  gi|497673711|ref|WP_009987895.1| hypothetical protein, partial ...  33.3    6.7  
+  gi|433616727|ref|YP_007193522.1| hypothetical protein C770_GR4p...  33.7    6.7  
+  gi|227819772|ref|YP_002823743.1| hypothetical protein NGR_b1539...  33.3    8.3  
+  gi|119629770|gb|EAX09365.1| hCG2007637, isoform CRA_b [Homo sap...  33.3    8.5  
+
+
+> gi|297488260|ref|XP_002696811.1| PREDICTED: T-cell leukemia/lymphoma 
+protein 1A [Bos taurus]
+  TPA: T-cell lymphoma breakpoint 1-like [Bos taurus]
+Length=185
+
+ Score =   185 bits (469),  Expect = 3e-57, Method: Composition-based stats.
+ Identities = 43/104 (41%), Positives = 64/104 (62%), Gaps = 0/104 (0%)
+
+Query  4    GEDVGAPPDHLWVHQEGIYRDEYQRTWVAVVEEETSFLRARVQQIQVPLGDAARPSHLLT  63
+            G      PDHLW+ ++ +Y DE QRTW+ +  E    L+  ++Q  VPLGD   PS L  
+Sbjct  78   GAHTPLHPDHLWIWEKAVYVDENQRTWLPITIEIEGSLQVLMRQEDVPLGDPVSPSQLGP  137
+
+Query  64   SQLPLMWQLYPEERYMDNNSRLWQIQHHLMVRGVQELLLKLLPD  107
+              LP+MWQLYP  RY  ++S  W+I +H+ + G +++LL+ +PD
+Sbjct  138  YLLPVMWQLYPGRRYRASDSSFWRIVYHIEIGGTEDMLLEQMPD  181
+
+
+
+Lambda      K        H        a         alpha
+   0.306    0.154    0.536    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0485    0.140     1.90     42.6     43.6 
+
+Effective search space used: 141202951296
+
+
+  Database: nr90
+    Posted date:  Sep 24, 2013  5:30 PM
+  Number of letters in database: 5,715,038,960
+  Number of sequences in database:  17,137,457
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

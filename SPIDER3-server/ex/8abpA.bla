@@ -1,0 +1,1710 @@
+PSIBLAST 2.2.29+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: nr90
+           17,137,457 sequences; 5,715,038,960 total letters
+
+Results from round 1
+
+
+Query= blast/8abpA
+
+Length=306
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|445933530|ref|WP_000011385.1| arabinose ABC transporter subs...    626   0.0   
+  gi|260598387|ref|YP_003210958.1| L-arabinose-binding periplasmi...    599   0.0   
+  gi|387888875|ref|YP_006319173.1| L-arabinose-binding periplasmi...    597   0.0   
+  gi|489930577|ref|WP_003833897.1| arabinose ABC transporter subs...    588   0.0   
+  gi|495385535|ref|WP_008110238.1| arabinose ABC transporter subs...    581   0.0   
+  gi|440231046|ref|YP_007344839.1| ABC-type sugar transport syste...    578   0.0   
+  gi|512648975|ref|YP_008106897.1| arabinose ABC transporter subs...    575   0.0   
+  gi|444350804|ref|YP_007386948.1| L-arabinose-binding periplasmi...    576   0.0   
+  gi|493874014|ref|WP_006820458.1| arabinose ABC transporter subs...    573   0.0   
+  gi|498355928|ref|WP_010670084.1| arabinose ABC transporter subs...    571   0.0   
+  gi|498304788|ref|WP_010618944.1| arabinose ABC transporter subs...    570   0.0   
+  gi|317047973|ref|YP_004115621.1| periplasmic-binding protein/La...    568   0.0   
+  gi|307130997|ref|YP_003883013.1| L-arabinose ABC transporter su...    566   0.0   
+  gi|311279206|ref|YP_003941437.1| periplasmic binding protein/La...    566   0.0   
+  gi|495044930|ref|WP_007769769.1| L-arabinose-binding periplasmi...    566   0.0   
+  gi|498990834|ref|XP_004531949.1| PREDICTED: L-arabinose-binding...    561   0.0   
+  gi|491101723|ref|WP_004963323.1| arabinose ABC transporter subs...    561   0.0   
+  gi|496403798|ref|WP_009112788.1| arabinose ABC transporter subs...    560   0.0   
+  gi|242239343|ref|YP_002987524.1| periplasmic binding protein/La...    560   0.0   
+  gi|50121201|ref|YP_050368.1| L-arabinose-binding periplasmic pr...    559   0.0   
+  gi|300716541|ref|YP_003741344.1| L-arabinose-binding periplasmi...    558   0.0   
+  gi|188533908|ref|YP_001907705.1| L-arabinose-binding periplasmi...    556   0.0   
+  gi|510412999|emb|CCV61733.1| L-arabinose-binding periplasmic pr...    555   0.0   
+  gi|333927050|ref|YP_004500629.1| periplasmic binding protein/La...    550   0.0   
+  gi|385788321|ref|YP_005819430.1| L-arabinose-binding periplasmi...    548   0.0   
+  gi|383190293|ref|YP_005200421.1| sugar ABC transporter periplas...    547   0.0   
+  gi|490196620|ref|WP_004095159.1| arabinose ABC transporter subs...    543   0.0   
+  gi|497322952|ref|WP_009637165.1| arabinose ABC transporter subs...    530   0.0   
+  gi|485870303|ref|WP_001467397.1| arabinose ABC transporter subs...    527   0.0   
+  gi|492607096|ref|WP_005901893.1| arabinose ABC transporter L-ar...    529   0.0   
+  gi|145299349|ref|YP_001142190.1| ABC-type arabinose transporter...    529   0.0   
+  gi|507521573|ref|YP_008043187.1| arabinose ABC transporter L-ar...    526   0.0   
+  gi|312172340|emb|CBX80597.1| ABC transport system, D-galactose-...    525   0.0   
+  gi|237808903|ref|YP_002893343.1| periplasmic binding protein/La...    521   0.0   
+  gi|375129537|ref|YP_004991634.1| L-arabinose-binding periplasmi...    506   4e-178
+  gi|407692010|ref|YP_006816799.1| arabinose ABC transporter L-ar...    505   1e-177
+  gi|375263980|ref|YP_005026210.1| L-arabinose-binding periplasmi...    501   5e-176
+  gi|336122852|ref|YP_004564900.1| L-arabinose-binding protein [V...    493   9e-173
+  gi|433660705|ref|YP_007301564.1| L-arabinose-binding periplasmi...    491   5e-172
+  gi|52424118|ref|YP_087255.1| RbsB protein [Mannheimia succinici...    484   2e-169
+  gi|446470817|ref|WP_000548671.1| arabinose ABC transporter subs...    404   8e-140
+  gi|449475075|ref|XP_004154366.1| PREDICTED: L-arabinose-binding...    401   1e-138
+  gi|310774984|gb|ADP21905.1| L-arabinose-binding periplasmic pro...    380   6e-130
+  gi|447094768|ref|WP_001172024.1| sugar ABC transporter substrat...    372   9e-128
+  gi|489271707|ref|WP_003179430.1| arabinose ABC transporter subs...    371   8e-125
+  gi|490842934|ref|WP_004705006.1| sugar ABC transporter substrat...    366   8e-125
+  gi|497859506|ref|WP_010173662.1| arabinose ABC transporter subs...    370   1e-124
+  gi|496336098|ref|WP_009045276.1| arabinose ABC transporter subs...    370   1e-124
+  gi|494462187|ref|WP_007251743.1| arabinose ABC transporter subs...    370   2e-124
+  gi|447917068|ref|YP_007397636.1| arabinose ABC transporter L-ar...    370   2e-124
+  gi|447917889|ref|YP_007398457.1| arabinose ABC transporter L-ar...    369   3e-124
+  gi|498147672|ref|WP_010461828.1| arabinose ABC transporter subs...    369   5e-124
+  gi|497851768|ref|WP_010165924.1| arabinose ABC transporter subs...    367   2e-123
+  gi|387893436|ref|YP_006323733.1| L-arabinose ABC transporter, p...    367   3e-123
+  gi|490505172|ref|WP_004371235.1| arabinose ABC transporter subs...    366   3e-123
+  gi|490552820|ref|WP_004417927.1| L-arabinose ABC-type transport...    366   4e-123
+  gi|497894253|ref|WP_010208409.1| arabinose ABC transporter subs...    365   1e-122
+  gi|498131186|ref|WP_010445342.1| arabinose ABC transporter subs...    365   2e-122
+  gi|492245523|ref|WP_005787492.1| arabinose ABC transporter subs...    359   2e-120
+  gi|77460362|ref|YP_349869.1| periplasmic binding protein/LacI t...    358   5e-120
+  gi|494278589|ref|WP_007160547.1| arabinose ABC transporter subs...    358   6e-120
+  gi|229592086|ref|YP_002874205.1| L-arabinose-binding periplasmi...    357   2e-119
+  gi|488308443|ref|WP_002378081.1| sugar ABC transporter substrat...    351   6e-119
+  gi|491833479|ref|WP_005623290.1| ribose ABC superfamily ATP bin...    351   1e-118
+  gi|489537741|ref|WP_003442463.1| arabinose ABC transporter L-ar...    355   2e-118
+  gi|498494070|ref|WP_010794807.1| hypothetical protein [Pseudomo...    354   3e-118
+  gi|490238339|ref|WP_004136628.1| arabinose ABC transporter L-ar...    342   6e-116
+  gi|491020464|ref|WP_004882168.1| arabinose ABC transporter L-ar...    347   1e-115
+  gi|510308836|gb|EPA94245.1| ABC-type sugar transport system, pe...    346   3e-115
+  gi|28869827|ref|NP_792446.1| L-arabinose ABC transporter peripl...    343   5e-114
+  gi|495649428|ref|WP_008374007.1| arabinose ABC transporter subs...    338   5e-112
+  gi|489529502|ref|WP_003434236.1| arabinose ABC transporter L-ar...    330   1e-108
+  gi|489511455|ref|WP_003416306.1| arabinose ABC transporter subs...    328   6e-108
+  gi|495017605|ref|WP_007743612.1| arabinose ABC transporter subs...    315   5e-103
+  gi|83718663|ref|YP_441726.1| L-arabinose ABC transporter peripl...    315   6e-103
+  gi|497792308|ref|WP_010106492.1| arabinose ABC transporter subs...    313   3e-102
+  gi|78065179|ref|YP_367948.1| sugar ABC transporter periplasmic ...    311   2e-101
+  gi|497777120|ref|WP_010091304.1| arabinose ABC transporter subs...    310   7e-101
+  gi|492894816|ref|WP_006025222.1| arabinose ABC transporter subs...    309   4e-100
+  gi|91785233|ref|YP_560439.1| ABC sugar(arabinose) transporter, ...    306   2e-99 
+  gi|491630082|ref|WP_005487621.1| L-arabinose-binding periplasmi...    305   4e-99 
+  gi|330815500|ref|YP_004359205.1| sugar ABC transporter substrat...    304   7e-99 
+  gi|469775006|gb|AGH85196.1| L-arabinose-binding periplasmic pro...    303   2e-98 
+  gi|496534829|ref|WP_009241520.1| arabinose ABC transporter subs...    302   8e-98 
+  gi|507516886|ref|YP_008038503.1| monosaccharide-transporting AT...    299   7e-97 
+  gi|494058040|ref|WP_007000125.1| arabinose ABC transporter subs...    296   8e-96 
+  gi|86359285|ref|YP_471177.1| sugar ABC transporter, substrate-b...    296   1e-95 
+  gi|510943126|ref|WP_016260866.1| arabinose ABC transporter subs...    289   2e-95 
+  gi|495100500|ref|WP_007825323.1| arabinose ABC transporter subs...    295   5e-95 
+  gi|494173098|ref|WP_007112825.1| ATPase [Halomonas boliviensis]       294   6e-95 
+  gi|498315268|ref|WP_010629424.1| ATPase [Halomonas sp. KM-1]          294   9e-95 
+  gi|496589174|ref|WP_009287511.1| Periplasmic binding protein/La...    293   1e-94 
+  gi|433611350|ref|YP_007194811.1| ABC-type sugar transport syste...    293   2e-94 
+  gi|78062639|ref|YP_372547.1| periplasmic binding protein/LacI t...    293   2e-94 
+  gi|488706155|ref|WP_002630115.1| L-arabinose-binding periplasmi...    293   3e-94 
+  gi|310822662|ref|YP_003955020.1| sugar ABC transporter substrat...    291   1e-93 
+  gi|493991501|ref|WP_006934229.1| arabinose ABC transporter subs...    291   1e-93 
+  gi|510943207|ref|WP_016260941.1| arabinose ABC transporter subs...    280   1e-91 
+  gi|470213897|ref|YP_007616259.1| arabinose ABC transporter L-ar...    285   2e-91 
+  gi|319780053|ref|YP_004139529.1| periplasmic binding protein/La...    283   1e-90 
+  gi|494066605|ref|WP_007008675.1| arabinose ABC transporter subs...    283   1e-90 
+  gi|512440899|ref|WP_016416686.1| ATPase [Halomonas anticariensis]     283   2e-90 
+  gi|495727016|ref|WP_008451595.1| L-arabinose ABC transport syst...    281   9e-90 
+  gi|307731523|ref|YP_003908747.1| periplasmic-binding protein/La...    279   6e-89 
+  gi|121610700|ref|YP_998507.1| periplasmic-binding protein/LacI ...    278   1e-88 
+  gi|83717050|ref|YP_439822.1| L-arabinose ABC transporter substr...    278   2e-88 
+  gi|238027387|ref|YP_002911618.1| sugar ABC transporter [Burkhol...    277   5e-88 
+  gi|490307509|ref|WP_004202569.1| arabinose ABC transporter subs...    275   5e-87 
+  gi|495401459|ref|WP_008126158.1| arabinose ABC transporter subs...    274   6e-87 
+  gi|490770683|ref|WP_004632910.1| L-arabinose-binding protein [R...    273   9e-87 
+  gi|377810999|ref|YP_005043439.1| L-arabinose ABC transporter su...    273   2e-86 
+  gi|493819135|ref|WP_006766677.1| ATPase [Burkholderia dolosa]         273   2e-86 
+  gi|330820445|ref|YP_004349307.1| sugar ABC transporter [Burkhol...    272   4e-86 
+  gi|490304317|ref|WP_004199611.1| arabinose ABC transporter subs...    275   1e-85 
+  gi|494856701|ref|WP_007582801.1| ATPase [Burkholderia sp. BT03]       270   2e-85 
+  gi|496201890|ref|WP_008921727.1| ATPase [Burkholderia sp. H160]       270   2e-85 
+  gi|307545377|ref|YP_003897856.1| ABC transporter periplasmic pr...    269   7e-85 
+  gi|92113147|ref|YP_573075.1| periplasmic binding protein/LacI t...    267   2e-84 
+  gi|490719618|ref|WP_004582183.1| arabinose ABC transporter L-ar...    265   1e-83 
+  gi|497788904|ref|WP_010103088.1| arabinose ABC transporter subs...    264   3e-83 
+  gi|446307661|ref|WP_000385516.1| hypothetical protein, partial ...    250   1e-80 
+  gi|489412445|ref|WP_003318392.1| periplasmic binding protein/La...    254   2e-80 
+  gi|446470815|ref|WP_000548669.1| LacI family transcriptional re...    242   4e-77 
+  gi|490238338|ref|WP_004136627.1| arabinose ABC transporter L-ar...    234   2e-73 
+  gi|497644140|ref|WP_009958324.1| arabinose ABC transporter subs...    236   6e-72 
+  gi|491124478|ref|WP_004982918.1| LacI family transcriptional re...    228   2e-71 
+  gi|498096977|ref|WP_010411133.1| L-arabinose ABC transporter, p...    230   3e-71 
+  gi|490798727|ref|WP_004660864.1| L-arabinose ABC transporter pe...    213   7e-65 
+  gi|489332001|ref|WP_003239256.1| arabinose ABC transporter L-ar...    211   2e-64 
+  gi|446364097|ref|WP_000441952.1| hypothetical protein, partial ...    196   6e-60 
+  gi|510942166|ref|WP_016259906.1| LacI family transcriptional re...    196   1e-59 
+  gi|490538746|ref|WP_004403893.1| L-arabinose ABC transporter pe...    193   1e-57 
+  gi|446470814|ref|WP_000548668.1| hypothetical protein, partial ...    182   3e-54 
+  gi|490538747|ref|WP_004403894.1| L-arabinose ABC transporter pe...    183   9e-54 
+  gi|62867369|dbj|BAD95975.1| ABC-type sugar transport system per...    184   1e-53 
+  gi|485682463|ref|WP_001317156.1| L-arabinose-binding periplasmi...    171   9e-50 
+  gi|489324685|ref|WP_003231991.1| arabinose ABC transporter L-ar...    166   2e-47 
+  gi|489326134|ref|WP_003233434.1| arabinose ABC transporter L-ar...    165   3e-47 
+  gi|488348491|ref|WP_002417876.1| periplasmic binding s and suga...    146   1e-40 
+  gi|489267806|ref|WP_003175586.1| periplasmic binding protein/La...    142   2e-38 
+  gi|498096983|ref|WP_010411139.1| L-arabinose ABC transporter, p...    140   3e-38 
+  gi|491269500|ref|WP_005127631.1| L-arabinose-binding periplasmi...    137   1e-37 
+  gi|491833473|ref|WP_005623286.1| ribose ABC superfamily ATP bin...    137   6e-37 
+  gi|490781933|ref|WP_004644113.1| L-arabinose ABC transporter pe...    136   2e-36 
+  gi|497699474|ref|WP_010013658.1| probable sugar ABC transporter...    133   8e-35 
+  gi|485682462|ref|WP_001317155.1| L-arabinose-binding periplasmi...    129   2e-34 
+  gi|13475901|ref|NP_107471.1| L-arabinose-binding protein [Mesor...    128   3e-31 
+  gi|488308427|ref|WP_002378070.1| periplasmic binding s and suga...    105   3e-25 
+  gi|491295120|ref|WP_005153135.1| L-arabinose-binding periplasmi...    104   6e-23 
+  gi|485870304|ref|WP_001467398.1| ABC-type sugar transport syste...  97.8    1e-22 
+  gi|302384525|ref|YP_003820347.1| LacI family transcriptional re...    103   2e-22 
+  gi|493835235|ref|WP_006782471.1| LacI family transcriptional re...    102   4e-22 
+  gi|490697930|ref|WP_004561484.1| L-arabinose ABC transporter pe...    101   9e-22 
+  gi|490533003|ref|WP_004398175.1| L-arabinose ABC transporter pe...    100   1e-21 
+  gi|496016684|ref|WP_008741263.1| sugar ABC transporter substrat...    101   1e-21 
+  gi|451822546|ref|YP_007458747.1| ABC-type sugar transport syste...    100   2e-21 
+  gi|488659232|ref|WP_002588194.1| hypothetical protein [Clostrid...  99.4    4e-21 
+  gi|150016261|ref|YP_001308515.1| periplasmic binding protein/La...  97.4    2e-20 
+  gi|256394147|ref|YP_003115711.1| periplasmic binding protein/La...  94.7    1e-19 
+  gi|485682461|ref|WP_001317154.1| L-arabinose-binding periplasmi...  86.7    6e-19 
+  gi|407644124|ref|YP_006807883.1| periplasmic binding protein/La...  90.1    6e-18 
+  gi|490760751|ref|WP_004623028.1| ABC-type sugar transport syste...  89.7    1e-17 
+  gi|496463008|ref|WP_009171853.1| LacI family transcriptional re...  86.7    9e-17 
+  gi|374316704|ref|YP_005063132.1| sugar ABC transporter periplas...  85.9    2e-16 
+  gi|299065692|emb|CBJ36866.1| exported protein of unknown functi...  82.4    3e-16 
+  gi|493929015|ref|WP_006873669.1| hypothetical protein [Anaerotr...  82.0    6e-15 
+  gi|489412446|ref|WP_003318393.1| L-arabinose ABC transporter pe...  71.6    3e-13 
+  gi|302339890|ref|YP_003805096.1| sugar ABC transporter periplas...  75.9    6e-13 
+  gi|219883375|ref|YP_002478536.1| periplasmic binding protein/La...  75.5    7e-13 
+  gi|488317165|ref|WP_002386550.1| hypothetical protein, partial ...  63.5    5e-10 
+  gi|511758256|ref|WP_016391505.1| monosaccharide-transporting AT...  57.0    1e-06 
+  gi|495063298|ref|WP_007788128.1| sugar ABC transporter substrat...  57.0    2e-06 
+  gi|339442452|ref|YP_004708457.1| periplasmic sugar-binding prot...  56.2    3e-06 
+  gi|496655820|ref|WP_009298313.1| hypothetical protein [Clostrid...  56.2    3e-06 
+  gi|86360771|ref|YP_472658.1| ribose ABC transporter substrate-b...  54.7    9e-06 
+  gi|496153266|ref|WP_008877773.1| Periplasmic binding protein/La...  54.7    9e-06 
+  gi|472335226|ref|YP_007667501.1| D-ribose-binding periplasmic p...  54.3    1e-05 
+  gi|491568113|ref|WP_005425697.1| hypothetical protein [[Ruminoc...  53.5    2e-05 
+  gi|495095702|ref|WP_007820525.1| sugar ABC transporter substrat...  52.8    4e-05 
+  gi|440223913|ref|YP_007337309.1| erythritol ABC transporter, su...  52.0    6e-05 
+  gi|49083710|gb|AAT51117.1| PA1946, partial [synthetic construct]    52.0    6e-05 
+  gi|492925360|ref|WP_006047570.1| ABC transporter substrate-bind...  52.0    7e-05 
+  gi|497223058|ref|WP_009537320.1| sugar-binding protein [Oribact...  52.0    8e-05 
+  gi|497939669|ref|WP_010253825.1| periplasmic-binding protein/La...  51.6    8e-05 
+  gi|495981233|ref|WP_008705812.1| ribose ABC transporter peripla...  51.6    9e-05 
+  gi|492381884|ref|WP_005826355.1| LacI family transcriptional re...  51.2    1e-04 
+  gi|116670381|ref|YP_831314.1| periplasmic binding protein/LacI ...  51.2    1e-04 
+  gi|514396998|ref|WP_016557852.1| putative ribose ABC transporte...  51.2    1e-04 
+  gi|495714115|ref|WP_008438694.1| LacI family transcriptional re...  50.8    1e-04 
+  gi|378763013|ref|YP_005191629.1| HTH-type transcriptional repre...  50.8    1e-04 
+  gi|489312565|ref|WP_003219963.1| LacI family transcriptional re...  50.8    2e-04 
+  gi|333899929|ref|YP_004473802.1| substrate-binding protein/LacI...  50.4    2e-04 
+  gi|302339569|ref|YP_003804775.1| sugar ABC transporter periplas...  50.4    2e-04 
+  gi|16264083|ref|NP_436875.1| sugar ABC transporter [Sinorhizobi...  50.1    3e-04 
+  gi|398352178|ref|YP_006397642.1| D-ribose-binding periplasmic p...  50.1    3e-04 
+  gi|497861490|ref|WP_010175646.1| LacI family transcriptional re...  49.7    4e-04 
+  gi|490541211|ref|WP_004406339.1| ABC transporter substrate-bind...  49.3    5e-04 
+  gi|150375920|ref|YP_001312516.1| periplasmic binding protein/La...  49.3    5e-04 
+  gi|498131579|ref|WP_010445735.1| LacI family transcription regu...  49.3    5e-04 
+  gi|498484775|ref|WP_010786548.1| D-ribose ABC transporter subst...  49.3    5e-04 
+  gi|386618035|ref|YP_006137615.1| Ribose ABC transport ATP-bindi...  48.9    6e-04 
+  gi|490361159|ref|WP_004240922.1| D-galactose-binding periplasmi...  48.5    8e-04 
+  gi|495155271|ref|WP_007880074.1| ABC transporter substrate-bind...  48.5    9e-04 
+  gi|491644874|ref|WP_005502401.1| D-ribose transporter subunit R...  48.5    0.001 
+  gi|300717559|ref|YP_003742362.1| sugar ABC transporter substrat...  48.5    0.001 
+  gi|495420945|ref|WP_008145642.1| LacI family transcriptional re...  48.5    0.001 
+  gi|448241317|ref|YP_007405370.1| methyl-galactoside transporter...  48.5    0.001 
+  gi|490088437|ref|WP_003990391.1| transporter [Streptomyces viri...  48.9    0.001 
+  gi|495233073|ref|WP_007957844.1| monosaccharide-transporting AT...  47.8    0.001 
+  gi|490535513|ref|WP_004400678.1| hypothetical protein [Vibrio n...  48.1    0.002 
+  gi|492937858|ref|WP_006052135.1| sugar ABC transporter substrat...  47.8    0.002 
+  gi|490531707|ref|WP_004396880.1| D-ribose transporter subunit R...  47.8    0.002 
+  gi|492962425|ref|WP_006070510.1| D-ribose transporter subunit R...  47.8    0.002 
+  gi|512541384|ref|WP_016442592.1| hypothetical protein [Actinoba...  47.8    0.002 
+  gi|498494981|ref|WP_010795716.1| hypothetical protein [Pseudomo...  47.4    0.002 
+  gi|494274275|ref|WP_007158440.1| LacI family transcriptional re...  47.4    0.002 
+  gi|222100592|ref|YP_002535160.1| Ribose ABC transporter, peripl...  47.4    0.002 
+  gi|492573351|ref|WP_005890705.1| methyl-galactoside ABC transpo...  47.4    0.002 
+  gi|498252859|ref|WP_010567015.1| LacI family transcriptional re...  47.4    0.002 
+  gi|489537403|ref|WP_003442126.1| periplasmic binding protein/La...  47.0    0.002 
+  gi|71736389|ref|YP_274344.1| ribose ABC transporter substrate-b...  47.0    0.002 
+  gi|489202114|ref|WP_003111271.1| LacI family transcriptional re...  47.0    0.002 
+  gi|493515845|ref|WP_006470106.1| sugar ABC transporter substrat...  47.4    0.003 
+  gi|187918855|ref|YP_001887886.1| periplasmic binding protein/La...  47.0    0.003 
+  gi|493917621|ref|WP_006862789.1| putative ribose ABC transporte...  47.0    0.003 
+  gi|22126541|ref|NP_669964.1| galactose-binding protein [Yersini...  47.0    0.003 
+  gi|489927843|ref|WP_003831174.1| ABC transporter substrate-bind...  46.6    0.004 
+  gi|379716049|ref|YP_005304386.1| LacI family transcriptional re...  46.6    0.004 
+  gi|345429524|ref|YP_004822642.1| D-ribose transporter subunit [...  46.2    0.004 
+  gi|238027465|ref|YP_002911696.1| Periplasmic binding protein/La...  46.2    0.004 
+  gi|494146218|ref|WP_007085964.1| putative galactoside ABC trans...  46.6    0.004 
+  gi|495380245|ref|WP_008104956.1| methyl-galactoside ABC transpo...  46.2    0.005 
+  gi|121610527|ref|YP_998334.1| periplasmic-binding protein/LacI ...  46.6    0.005 
+  gi|497322468|ref|WP_009636681.1| methyl-galactoside ABC transpo...  46.2    0.005 
+  gi|498321645|ref|WP_010635801.1| methyl-galactoside ABC transpo...  46.2    0.005 
+  gi|206895561|ref|YP_002247721.1| D-ribose-binding periplasmic p...  46.2    0.005 
+  gi|494971684|ref|WP_007697710.1| sugar ABC transporter substrat...  46.2    0.005 
+  gi|497480202|ref|WP_009794400.1| methyl-galactoside ABC transpo...  46.2    0.006 
+  gi|21219330|ref|NP_625109.1| solute-binding lipoprotein [Strept...  46.2    0.006 
+  gi|492220320|ref|WP_005779807.1| LacI family transcriptional re...  45.8    0.006 
+  gi|325109710|ref|YP_004270778.1| monosaccharide ABC transporter...  45.4    0.008 
+  gi|489518982|ref|WP_003423786.1| periplasmic binding protein/La...  45.4    0.008 
+  gi|488645059|ref|WP_002581695.1| hypothetical protein [Clostrid...  45.4    0.008 
+  gi|494460276|ref|WP_007249867.1| LacI family transcriptional re...  45.4    0.008 
+  gi|490197568|ref|WP_004096097.1| methyl-galactoside ABC transpo...  45.4    0.009 
+  gi|498119142|ref|WP_010433298.1| LacI family transcriptional re...  45.4    0.009 
+  gi|487596634|ref|WP_001729256.1| methyl-galactoside ABC transpo...  45.1    0.009 
+  gi|489267200|ref|WP_003174989.1| LacI family transcriptional re...  45.4    0.009 
+  gi|83699618|gb|ABC40715.1| glucose-galactose binding/cyan fluor...  45.8    0.010 
+  gi|487557737|ref|WP_001715933.1| methyl-galactoside ABC transpo...  45.4    0.010 
+  gi|317047838|ref|YP_004115486.1| periplasmic-binding protein/La...  45.1    0.012 
+  gi|229591591|ref|YP_002873710.1| putative ribose transporter su...  45.1    0.013 
+  gi|496152894|ref|WP_008877401.1| Periplasmic binding protein/La...  45.1    0.013 
+  gi|332983247|ref|YP_004464688.1| CUT2 family monosaccharide ABC...  45.1    0.013 
+  gi|170721069|ref|YP_001748757.1| periplasmic binding protein/La...  45.1    0.014 
+  gi|145579680|pdb|2IOY|A Chain A, Crystal Structure Of Thermoana...  44.7    0.014 
+  gi|491446794|ref|WP_005304581.1| D-ribose transporter subunit R...  44.7    0.014 
+  gi|392409023|ref|YP_006445630.1| monosaccharide ABC transporter...  44.7    0.014 
+  gi|433776479|ref|YP_007306946.1| ABC-type sugar transport syste...  44.7    0.014 
+  gi|28869564|ref|NP_792183.1| ribose ABC transporter periplasmic...  44.7    0.015 
+  gi|495390218|ref|WP_008114919.1| LacI family transcriptional re...  44.7    0.015 
+  gi|165977106|ref|YP_001652699.1| D-ribose transporter subunit R...  44.7    0.016 
+  gi|407693428|ref|YP_006818217.1| D-ribose transporter subunit R...  44.7    0.016 
+  gi|365968258|ref|YP_004949820.1| sugar ABC transporter substrat...  44.7    0.016 
+  gi|488660222|ref|WP_002589136.1| hypothetical protein [Clostrid...  44.7    0.016 
+  gi|498035976|ref|WP_010350132.1| transporter [Streptomyces acid...  45.1    0.016 
+  gi|488498810|ref|WP_002542252.1| Fructose ABC transporter, subs...  44.7    0.017 
+  gi|190151001|ref|YP_001969526.1| D-ribose-binding periplasmic p...  44.3    0.018 
+  gi|496480137|ref|WP_009188707.1| transporter [Streptomyces sp. ...  45.1    0.018 
+  gi|491515510|ref|WP_005373143.1| D-ribose transporter subunit R...  44.3    0.018 
+  gi|491270513|ref|WP_005128642.1| methyl-galactoside ABC transpo...  44.7    0.018 
+  gi|491829197|ref|WP_005620989.1| D-ribose transporter subunit R...  44.3    0.019 
+  gi|491539541|ref|WP_005397160.1| ribose ABC transporter, peripl...  44.3    0.019 
+  gi|492248115|ref|WP_005789700.1| LacI family transcriptional re...  44.3    0.020 
+  gi|491817694|ref|WP_005616069.1| D-ribose transporter subunit R...  44.3    0.020 
+  gi|262395639|ref|YP_003287492.1| ribose ABC transporter ribose-...  44.3    0.020 
+  gi|68535394|ref|YP_250099.1| LacI family transcriptional regula...  44.3    0.020 
+  gi|497732699|ref|WP_010046883.1| transporter [Streptomyces char...  44.7    0.020 
+  gi|498080088|ref|WP_010394244.1| ABC transporter substrate-bind...  44.3    0.020 
+  gi|326797200|ref|YP_004315020.1| periplasmic binding protein/La...  44.3    0.021 
+  gi|496544100|ref|WP_009250175.1| LacI family transcriptional re...  44.3    0.021 
+  gi|493932092|ref|WP_006876644.1| LacI family transcriptional re...  43.9    0.021 
+  gi|493067470|ref|WP_006118927.1| ABC transporter substrate-bind...  44.3    0.022 
+  gi|490543079|ref|WP_004408203.1| sugar ABC transporter [Vibrio ...  44.3    0.022 
+  gi|491594682|ref|WP_005452246.1| D-ribose transporter subunit R...  44.3    0.022 
+  gi|497894947|ref|WP_010209103.1| LacI family transcriptional re...  44.3    0.023 
+  gi|20806732|ref|NP_621903.1| periplasmic sugar-binding proteins...  43.9    0.024 
+  gi|491574193|ref|WP_005431772.1| D-ribose transporter subunit R...  43.9    0.026 
+  gi|330837569|ref|YP_004412210.1| monosaccharide ABC transporter...  43.9    0.026 
+  gi|488362990|ref|WP_002432375.1| methyl-galactoside ABC transpo...  43.9    0.026 
+  gi|304317885|ref|YP_003853030.1| D-xylose ABC transporter perip...  43.9    0.027 
+  gi|66045391|ref|YP_235232.1| periplasmic binding protein/LacI t...  43.9    0.027 
+  gi|262199770|ref|YP_003270979.1| D-xylose transporter subunit X...  43.9    0.027 
+  gi|491438915|ref|WP_005296708.1| LacI family transcription regu...  43.9    0.029 
+  gi|428208086|ref|YP_007092439.1| LacI family transcriptional re...  43.9    0.030 
+  gi|150397675|ref|YP_001328142.1| monosaccharide-transporting AT...  43.9    0.030 
+  gi|493271272|ref|WP_006229091.1| D-ribose transporter subunit R...  43.5    0.030 
+  gi|156977357|ref|YP_001448263.1| D-ribose transporter subunit R...  43.5    0.031 
+  gi|491674450|ref|WP_005530592.1| D-ribose transporter subunit R...  43.5    0.032 
+  gi|497389924|ref|WP_009704137.1| D-ribose transporter subunit R...  43.5    0.033 
+  gi|488634793|ref|WP_002571462.1| hypothetical protein [Clostrid...  43.5    0.034 
+  gi|498345087|ref|WP_010659243.1| LacI family transcription regu...  43.5    0.034 
+  gi|491578173|ref|WP_005435748.1| D-ribose transporter subunit R...  43.5    0.034 
+  gi|491641578|ref|WP_005499107.1| D-ribose transporter subunit R...  43.5    0.036 
+  gi|497521362|ref|WP_009835560.1| sugar ABC transporter [Marinom...  43.5    0.037 
+  gi|491023786|ref|WP_004885479.1| periplasmic binding protein/La...  43.5    0.037 
+  gi|491103868|ref|WP_004965318.1| methyl-galactoside ABC transpo...  43.5    0.038 
+  gi|488725068|ref|WP_002648633.1| LacI family transcriptional re...  43.5    0.038 
+  gi|494373517|ref|WP_007199595.1| sugar ABC transporter substrat...  43.5    0.039 
+  gi|375262956|ref|YP_005025186.1| D-ribose transporter subunit R...  43.5    0.039 
+  gi|494728192|ref|WP_007464058.1| Ribose ABC transport system, p...  43.5    0.039 
+  gi|489284908|ref|WP_003192504.1| LacI family transcriptional re...  43.1    0.043 
+  gi|489458369|ref|WP_003363601.1| sugar ABC transporter substrat...  43.1    0.044 
+  gi|378767509|ref|YP_005195977.1| xylitol ABC transporter, perip...  43.1    0.044 
+  gi|242238507|ref|YP_002986688.1| periplasmic binding protein/La...  43.1    0.044 
+  gi|492581527|ref|WP_005893479.1| LacI family transcriptional re...  43.1    0.046 
+  gi|383775637|ref|YP_005460203.1| putative ABC transporter subst...  43.1    0.048 
+  gi|126209136|ref|YP_001054361.1| D-ribose transporter subunit R...  43.1    0.048 
+  gi|491310277|ref|WP_005168257.1| methyl-galactoside ABC transpo...  43.1    0.050 
+  gi|386840335|ref|YP_006245393.1| D-ribose ABC transporter perme...  43.5    0.051 
+  gi|411100491|gb|AFW03678.1| D-galactose-binding periplasmic pro...  43.1    0.051 
+  gi|307129202|ref|YP_003881218.1| ABC transporter substrate-bind...  43.1    0.052 
+  gi|148260847|ref|YP_001234974.1| periplasmic binding protein/La...  43.1    0.052 
+  gi|242280016|ref|YP_002992145.1| D-ribose transporter subunit R...  42.7    0.053 
+  gi|357407401|ref|YP_004919324.1| D-ribose ABC transporter perme...  43.5    0.056 
+  gi|498361860|ref|WP_010676016.1| methyl-galactoside ABC transpo...  43.1    0.056 
+  gi|386592001|ref|YP_006088401.1| Galactose/methyl galactoside A...  43.1    0.056 
+  gi|311070104|ref|YP_003975027.1| ribose ABC transporter ribose-...  42.7    0.057 
+  gi|510816361|ref|WP_016189899.1| methyl-galactoside ABC transpo...  42.7    0.059 
+  gi|307729892|ref|YP_003907116.1| periplasmic-binding protein/La...  42.7    0.063 
+  gi|498138230|ref|WP_010452386.1| D-ribose transporter subunit R...  42.7    0.065 
+  gi|488288141|ref|WP_002359349.1| L-arabinose-binding periplasmi...  39.7    0.069 
+  gi|15966319|ref|NP_386672.1| periplasmic binding ABC transporte...  42.7    0.069 
+  gi|497158418|ref|WP_009490257.1| sugar ABC transporter substrat...  42.4    0.074 
+  gi|387902191|ref|YP_006332530.1| ribose ABC transport system, p...  42.4    0.083 
+  gi|490532612|ref|WP_004397784.1| LacI family transcriptional re...  42.4    0.086 
+  gi|494973667|ref|WP_007699692.1| Galactose/methyl galactoside A...  42.4    0.086 
+  gi|302386294|ref|YP_003822116.1| LacI family transcriptional re...  42.4    0.087 
+  gi|332798645|ref|YP_004460144.1| periplasmic binding protein/La...  42.4    0.089 
+  gi|54303228|ref|YP_133221.1| D-ribose transporter subunit RbsB ...  42.4    0.090 
+  gi|490251056|ref|WP_004149104.1| methyl-galactoside ABC transpo...  42.4    0.091 
+  gi|498332918|ref|WP_010647074.1| D-ribose transporter subunit R...  42.4    0.092 
+  gi|496292854|ref|WP_009004892.1| LacI family transcriptional re...  42.4    0.093 
+  gi|28900939|ref|NP_800594.1| D-ribose transporter subunit RbsB ...  42.0    0.095 
+  gi|383764485|ref|YP_005443467.1| ribose ABC transporter substra...  42.7    0.095 
+  gi|258512241|ref|YP_003185675.1| periplasmic binding protein/La...  42.0    0.100 
+  gi|365971602|ref|YP_004953163.1| D-ribose-binding periplasmic p...  42.4    0.10  
+  gi|493426370|ref|WP_006382071.1| periplasmic binding protein an...  42.4    0.10  
+  gi|489340550|ref|WP_003247728.1| D-ribose transporter subunit R...  42.0    0.11  
+  gi|497375980|ref|WP_009690193.1| simple sugar transporter subst...  42.0    0.11  
+  gi|308186612|ref|YP_003930743.1| HTH-type transcriptional repre...  42.0    0.11  
+  gi|447917406|ref|YP_007397974.1| putative ribose transporter su...  42.0    0.11  
+  gi|13475843|ref|NP_107413.1| ribose ABC transporter substrate-b...  42.0    0.11  
+  gi|491008685|ref|WP_004870400.1| methyl-galactoside ABC transpo...  42.0    0.11  
+  gi|495167774|ref|WP_007892571.1| ABC transporter substrate-bind...  42.0    0.11  
+  gi|495143873|ref|WP_007868680.1| hypothetical protein [Clostrid...  42.0    0.11  
+  gi|493857850|ref|WP_006804694.1| LacI family transcriptional re...  42.0    0.12  
+  gi|312109362|ref|YP_003987678.1| periplasmic binding protein/La...  42.0    0.12  
+  gi|330816798|ref|YP_004360503.1| Periplasmic binding protein/La...  42.0    0.12  
+  gi|375130876|ref|YP_004992976.1| D-galactose/D-glucose ABC tran...  42.0    0.12  
+  gi|386844119|ref|YP_006249177.1| secreted solute-binding lipopr...  42.0    0.12  
+  gi|495622885|ref|WP_008347464.1| ATPase [Burkholderia sp. SJ98]     42.0    0.12  
+  gi|157369806|ref|YP_001477795.1| periplasmic binding protein/La...  42.0    0.13  
+  gi|118467463|ref|YP_888452.1| D-ribose-binding periplasmic prot...  42.0    0.13  
+  gi|493617135|ref|WP_006569353.1| xylose ABC transporter substra...  42.0    0.13  
+  gi|498488439|ref|WP_010790127.1| Ribose ABC transport system, p...  41.6    0.14  
+  gi|514234679|ref|WP_016537328.1| D-galactose-binding periplasmi...  41.6    0.15  
+  gi|494625923|ref|WP_007383867.1| sugar ABC transporter [Strepto...  41.6    0.15  
+  gi|494624230|ref|WP_007382174.1| transporter [Streptomyces svic...  42.0    0.16  
+  gi|433660158|ref|YP_007301017.1| Ribose ABC transport system pe...  41.6    0.16  
+  gi|148260966|ref|YP_001235093.1| monosaccharide-transporting AT...  41.6    0.16  
+  gi|56420416|ref|YP_147734.1| D-xylose ABC transporter substrate...  41.6    0.16  
+  gi|507522453|ref|YP_008044067.1| ribose transport system substr...  41.6    0.16  
+  gi|387894629|ref|YP_006324926.1| ribose ABC transporter peripla...  41.6    0.17  
+  gi|307130008|ref|YP_003882024.1| galactose-binding transport pr...  41.6    0.17  
+  gi|488497733|ref|WP_002541175.1| Ribose ABC transport system, p...  41.2    0.17  
+  gi|312142560|ref|YP_003994006.1| LacI family transcriptional re...  41.2    0.18  
+  gi|323525860|ref|YP_004228013.1| periplasmic-binding protein/La...  41.2    0.18  
+  gi|493521975|ref|WP_006476071.1| LacI family transcriptional re...  41.2    0.18  
+  gi|402566589|ref|YP_006615934.1| periplasmic binding protein/La...  41.2    0.19  
+  gi|491494300|ref|WP_005352023.1| D-ribose transporter subunit R...  41.2    0.19  
+  gi|389861327|ref|YP_006363567.1| sugar ABC transporter periplas...  41.2    0.19  
+  gi|497832523|ref|WP_010146679.1| LacI family transcriptional re...  41.2    0.20  
+  gi|496592501|ref|WP_009288677.1| Periplasmic binding protein/La...  41.2    0.20  
+  gi|378826207|ref|YP_005188939.1| HTH-type transcriptional repre...  41.2    0.20  
+  gi|495378166|ref|WP_008102877.1| ABC transporter substrate-bind...  41.2    0.20  
+  gi|311278579|ref|YP_003940810.1| periplasmic binding protein/La...  41.2    0.21  
+  gi|489343801|ref|WP_003250956.1| xylose ABC transporter substra...  41.2    0.21  
+  gi|497528126|ref|WP_009842324.1| D-ribose transporter subunit R...  41.2    0.22  
+  gi|491462927|ref|WP_005320699.1| sugar ABC transporter [Strepto...  41.2    0.22  
+  gi|377811657|ref|YP_005044097.1| periplasmic binding protein/La...  41.2    0.23  
+  gi|512489279|ref|WP_016430815.1| rhamnose ABC transporter, rham...  41.2    0.23  
+  gi|294678179|ref|YP_003578794.1| monosacharide ABC transporter ...  41.2    0.23  
+  gi|493458038|ref|WP_006413284.1| LacI family transcriptional re...  41.2    0.23  
+  gi|492936456|ref|WP_006051711.1| LacI family transcriptional re...  40.8    0.24  
+  gi|325294188|ref|YP_004280052.1| ribose ABC transporter substra...  40.8    0.24  
+  gi|339628276|ref|YP_004719919.1| monosaccharide-transporting AT...  41.2    0.25  
+  gi|311278866|ref|YP_003941097.1| periplasmic binding protein/La...  40.8    0.25  
+  gi|492352560|ref|WP_005818263.1| D-ribose transporter subunit R...  40.8    0.26  
+  gi|514235548|ref|WP_016538197.1| sugar-binding domain protein [...  40.8    0.26  
+  gi|493226968|ref|WP_006205030.1| sugar ABC transporter substrat...  40.8    0.26  
+  gi|491025238|ref|WP_004886931.1| ribose ABC transporter substra...  40.8    0.27  
+  gi|493816779|ref|WP_006764359.1| LacI family transcriptional re...  40.8    0.27  
+  gi|167038825|ref|YP_001661810.1| D-xylose ABC transporter perip...  40.8    0.29  
+  gi|152995895|ref|YP_001340730.1| periplasmic-binding protein/La...  40.8    0.29  
+  gi|113474630|ref|YP_720691.1| putative galactoside ABC transpor...  40.8    0.30  
+  gi|154246354|ref|YP_001417312.1| periplasmic binding protein/La...  40.8    0.31  
+  gi|271499016|ref|YP_003332041.1| periplasmic-binding protein/La...  40.4    0.32  
+  gi|302339141|ref|YP_003804347.1| sugar ABC transporter periplas...  40.4    0.32  
+  gi|495804888|ref|WP_008529467.1| ABC transporter substrate-bind...  40.4    0.33  
+  gi|339328322|ref|YP_004688014.1| D-ribose-binding protein RbsB ...  40.4    0.33  
+  gi|89055585|ref|YP_511036.1| periplasmic binding protein/LacI t...  40.8    0.34  
+  gi|489308256|ref|WP_003215690.1| sugar ABC transporter substrat...  40.4    0.34  
+  gi|145579686|pdb|2IPL|A Chain A, Crystal Structure Of A Disulfi...  40.4    0.34  
+  gi|497287376|ref|WP_009601593.1| D-ribose transporter subunit R...  40.4    0.35  
+  gi|296271749|ref|YP_003654380.1| periplasmic binding protein/La...  40.4    0.36  
+  gi|209694896|ref|YP_002262824.1| D-ribose transporter subunit R...  40.4    0.38  
+  gi|470479187|ref|YP_007639931.1| D-ribose transporter subunit R...  40.0    0.41  
+  gi|332289959|ref|YP_004420811.1| D-ribose transporter subunit R...  40.4    0.41  
+  gi|498484701|ref|WP_010786480.1| D-ribose transporter subunit R...  40.0    0.41  
+  gi|188587283|ref|YP_001918828.1| monosaccharide-transporting AT...  40.0    0.44  
+  gi|496690251|ref|WP_009331794.1| D-ribose transporter subunit R...  40.0    0.44  
+  gi|492120449|ref|WP_005753545.1| ribose ABC transporter peripla...  40.0    0.45  
+  gi|440286902|ref|YP_007339667.1| ABC-type sugar transport syste...  40.0    0.45  
+  gi|197335842|ref|YP_002156262.1| D-ribose transporter subunit R...  40.0    0.46  
+  gi|152998185|ref|YP_001343020.1| periplasmic-binding protein/La...  40.0    0.47  
+  gi|489890817|ref|WP_003794267.1| methyl-galactoside ABC transpo...  40.0    0.47  
+  gi|488633282|ref|WP_002569964.1| hypothetical protein [Clostrid...  40.0    0.48  
+  gi|209548100|ref|YP_002280017.1| periplasmic binding protein/La...  40.0    0.48  
+  gi|498995253|ref|XP_004533062.1| PREDICTED: D-ribose-binding pe...  40.0    0.48  
+  gi|29832247|ref|NP_826881.1| sugar ABC transporter substrate-bi...  40.0    0.49  
+  gi|119944128|ref|YP_941808.1| D-ribose transporter subunit RbsB...  40.0    0.50  
+  gi|59712054|ref|YP_204830.1| D-ribose transporter subunit RbsB ...  40.0    0.50  
+  gi|489870690|ref|WP_003774238.1| methyl-galactoside ABC transpo...  40.0    0.52  
+  gi|383790366|ref|YP_005474940.1| transcriptional regulator [Spi...  40.0    0.55  
+  gi|495153772|ref|WP_007878576.1| periplasmic binding protein/La...  40.0    0.55  
+  gi|491966581|ref|WP_005696654.1| methyl-galactoside ABC transpo...  39.7    0.60  
+  gi|493811774|ref|WP_006759465.1| LacI family transcriptional re...  39.7    0.62  
+  gi|307726945|ref|YP_003910158.1| periplasmic-binding protein/La...  39.7    0.63  
+  gi|269955685|ref|YP_003325474.1| rhamnose ABC transporter perip...  39.7    0.64  
+  gi|291301096|ref|YP_003512374.1| periplasmic binding protein/La...  39.7    0.65  
+  gi|491541361|ref|WP_005398980.1| hypothetical protein [Helcococ...  39.7    0.65  
+  gi|496161173|ref|WP_008885680.1| sugar ABC transporter [Citreic...  39.7    0.65  
+  gi|317048846|ref|YP_004116494.1| periplasmic-binding protein/La...  39.7    0.67  
+  gi|219871755|ref|YP_002476130.1| D-ribose transporter subunit R...  39.7    0.67  
+  gi|489641391|ref|WP_003545831.1| ABC transporter substrate-bind...  39.7    0.68  
+  gi|493373737|ref|WP_006330047.1| Periplasmic binding protein/La...  39.7    0.68  
+  gi|271968707|ref|YP_003342903.1| sugar ABC transporter [Strepto...  39.7    0.69  
+  gi|488393854|ref|WP_002463239.1| methyl-galactoside ABC transpo...  39.7    0.70  
+  gi|497322161|ref|WP_009636374.1| ABC transporter substrate-bind...  39.7    0.72  
+  gi|121609040|ref|YP_996847.1| periplasmic-binding protein/LacI ...  39.7    0.72  
+  gi|495732443|ref|WP_008457022.1| sugar ABC transporter substrat...  39.3    0.72  
+  gi|489942651|ref|WP_003845958.1| ribose transport system substr...  39.3    0.73  
+  gi|29831861|ref|NP_826495.1| D-ribose ABC transporter permease ...  40.0    0.73  
+  gi|384134877|ref|YP_005517591.1| purine operon repressor, PurR ...  39.7    0.73  
+  gi|319954105|ref|YP_004165372.1| periplasmic binding protein/la...  39.7    0.75  
+  gi|493095182|ref|WP_006132837.1| solute-binding lipoprotein [St...  39.3    0.80  
+  gi|238920030|ref|YP_002933545.1| periplasmic binding protein/La...  39.3    0.80  
+  gi|497778276|ref|WP_010092460.1| LacI family transcriptional re...  39.3    0.87  
+  gi|310823305|ref|YP_003955663.1| LacI family transcriptional re...  39.3    0.88  
+  gi|497323316|ref|WP_009637529.1| D-ribose transporter subunit R...  39.3    0.88  
+  gi|494683131|ref|YP_007948705.1| periplasmic binding protein/La...  39.3    0.89  
+  gi|127512798|ref|YP_001093995.1| LacI family transcriptional re...  39.3    0.91  
+  gi|222102065|ref|YP_002546655.1| sugar uptake ABC transporter p...  39.3    0.95  
+  gi|498129557|ref|WP_010443713.1| LacI family transcriptional re...  39.3    0.95  
+  gi|490658482|ref|WP_004523472.1| sugar ABC transporter substrat...  39.3    0.98  
+  gi|489652485|ref|WP_003556870.1| ABC transporter substrate-bind...  38.9    0.99  
+  gi|491920066|ref|WP_005672551.1| methyl-galactoside ABC transpo...  38.9    0.99  
+  gi|300716425|ref|YP_003741228.1| sugar ABC transporter substrat...  38.9    1.0   
+  gi|157148179|ref|YP_001455498.1| hypothetical protein CKO_03990...  38.9    1.0   
+  gi|493932453|ref|WP_006876981.1| cytochrome C [Anaerotruncus co...  38.9    1.0   
+  gi|446656157|ref|WP_000733503.1| sugar ABC transporter substrat...  38.9    1.0   
+  gi|383189366|ref|YP_005199494.1| sugar ABC transporter periplas...  38.9    1.1   
+  gi|491790680|ref|WP_005601407.1| catabolite control protein A [...  38.9    1.1   
+  gi|492954324|ref|WP_006062409.1| sugar-binding domain protein [...  38.9    1.1   
+  gi|512499066|ref|WP_016435042.1| hypothetical protein [Streptom...  39.3    1.1   
+  gi|152974391|ref|YP_001373908.1| monosaccharide-transporting AT...  38.9    1.1   
+  gi|491752989|ref|WP_005585081.1| conserved hypothetical protein...  38.9    1.2   
+  gi|313683554|ref|YP_004061292.1| monosaccharide ABC transporter...  38.9    1.2   
+  gi|493589625|ref|WP_006542537.1| sugar ABC transporter [Frankia...  38.9    1.2   
+  gi|493447789|ref|WP_006403119.1| periplasmic binding protein/La...  38.9    1.2   
+  gi|34497977|ref|NP_902192.1| ribose ABC transporter substrate-b...  38.9    1.2   
+  gi|336324800|ref|YP_004604766.1| DNA-binding transcriptional re...  38.9    1.3   
+  gi|479209619|ref|YP_007837554.1| Transcriptional regulators [Fa...  38.9    1.3   
+  gi|334340036|ref|YP_004545016.1| periplasmic binding protein/La...  38.5    1.3   
+  gi|496676498|ref|WP_009318988.1| periplasmic binding protein an...  38.9    1.3   
+  gi|330836061|ref|YP_004410702.1| periplasmic binding protein/La...  38.5    1.4   
+  gi|490527266|ref|WP_004392528.1| ribose ABC transporter substra...  38.5    1.4   
+  gi|297583221|ref|YP_003699001.1| periplasmic-binding protein/La...  38.5    1.4   
+  gi|291296133|ref|YP_003507531.1| D-xylose ABC transporter perip...  38.5    1.4   
+  gi|496419476|ref|WP_009128323.1| ABC-type sugar transport syste...  38.5    1.4   
+  gi|496656555|ref|WP_009299048.1| sugar ABC transporter [Clostri...  38.9    1.4   
+  gi|401764722|ref|YP_006579729.1| ribose transport system substr...  38.5    1.5   
+  gi|323358444|ref|YP_004224840.1| sugar ABC transporter periplas...  38.5    1.6   
+  gi|494128184|ref|WP_007067956.1| sugar ABC transporter [Fulvima...  38.5    1.6   
+  gi|490226559|ref|WP_004124911.1| putative sugar ABC transporter...  38.5    1.7   
+  gi|493874411|ref|WP_006820848.1| methyl-galactoside ABC transpo...  38.5    1.7   
+  gi|496200209|ref|WP_008920046.1| sugar ABC transporter substrat...  38.1    1.8   
+  gi|302385831|ref|YP_003821653.1| LacI family transcriptional re...  38.1    1.8   
+  gi|493108788|ref|WP_006140571.1| transporter [Streptomyces gris...  38.5    2.0   
+
+
+> gi|445933530|ref|WP_000011385.1| arabinose ABC transporter substrate-binding 
+protein [Escherichia coli]
+Length=346
+
+ Score =   626 bits (1614),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 304/306 (99%), Positives = 306/306 (100%), Gaps = 0/306 (0%)
+
+Query  1    ENLKLGFLVKQPEEPWFQTEWKFADKAGKDLGFEVIKIAVPDGEKTLNAIDSLAASGAKG  60
+            ENLKLGFLVKQPEEPWFQTEWKFADKAGK+LGFEVIKIAVPDGEKTLNAIDSLAASGAKG
+Sbjct  41   ENLKLGFLVKQPEEPWFQTEWKFADKAGKNLGFEVIKIAVPDGEKTLNAIDSLAASGAKG  100
+
+Query  61   FVICTPDPKLGSAIVAKARGYDMKVIAVDDQFVNAKGKPMDTVPLVMLAATKIGERQGQE  120
+            FVICTPDPKLGSAIVAKARGYDMKVIAVDDQFVNAKGKPMDTVPLVM+AATKIGERQGQE
+Sbjct  101  FVICTPDPKLGSAIVAKARGYDMKVIAVDDQFVNAKGKPMDTVPLVMMAATKIGERQGQE  160
+
+Query  121  LYKEMQKRGWDVKESAVMAITANELDTARRRTTGSMDALKAAGFPEKQIYQVPTKSNDIP  180
+            LYKEMQKRGWDVKESAVMAITANELDTARRRTTGSMDALKAAGFPEKQIYQVPTKSNDIP
+Sbjct  161  LYKEMQKRGWDVKESAVMAITANELDTARRRTTGSMDALKAAGFPEKQIYQVPTKSNDIP  220
+
+Query  181  GAFDAANSMLVQHPEVKHWLIVGMNDSTVLGGVRATEGQGFKAADIIGIGINGVDAVSEL  240
+            GAFDAANSMLVQHPEVKHWLIVGMNDSTVLGGVRATEGQGFKAADIIGIGINGVDAVSEL
+Sbjct  221  GAFDAANSMLVQHPEVKHWLIVGMNDSTVLGGVRATEGQGFKAADIIGIGINGVDAVSEL  280
+
+Query  241  SKAQATGFYGSLLPSPDVHGYKSSEMLYNWVAKDVEPPKFTEVTDVVLITRDNFKEELEK  300
+            SKAQATGFYGSLLPSPDVHGYKSSEMLYNWVAKDVEPPKFTEVTDVVLITRDNFKEELEK
+Sbjct  281  SKAQATGFYGSLLPSPDVHGYKSSEMLYNWVAKDVEPPKFTEVTDVVLITRDNFKEELEK  340
+
+Query  301  KGLGGK  306
+            KGLGGK
+Sbjct  341  KGLGGK  346
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.133    0.387    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 556599716979
+Results from round 2
+
+
+Query= blast/8abpA
+
+Length=306
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  gi|445933530|ref|WP_000011385.1| arabinose ABC transporter subs...    414   2e-141
+  gi|444350804|ref|YP_007386948.1| L-arabinose-binding periplasmi...    412   6e-141
+  gi|260598387|ref|YP_003210958.1| L-arabinose-binding periplasmi...    410   4e-140
+  gi|489930577|ref|WP_003833897.1| arabinose ABC transporter subs...    408   1e-139
+  gi|317047973|ref|YP_004115621.1| periplasmic-binding protein/La...    408   2e-139
+  gi|495385535|ref|WP_008110238.1| arabinose ABC transporter subs...    404   4e-138
+  gi|242239343|ref|YP_002987524.1| periplasmic binding protein/La...    402   2e-137
+  gi|387888875|ref|YP_006319173.1| L-arabinose-binding periplasmi...    402   3e-137
+  gi|512648975|ref|YP_008106897.1| arabinose ABC transporter subs...    401   1e-136
+  gi|311279206|ref|YP_003941437.1| periplasmic binding protein/La...    401   1e-136
+  gi|498304788|ref|WP_010618944.1| arabinose ABC transporter subs...    401   1e-136
+  gi|307130997|ref|YP_003883013.1| L-arabinose ABC transporter su...    400   2e-136
+  gi|493874014|ref|WP_006820458.1| arabinose ABC transporter subs...    399   3e-136
+  gi|498990834|ref|XP_004531949.1| PREDICTED: L-arabinose-binding...    399   8e-136
+  gi|383190293|ref|YP_005200421.1| sugar ABC transporter periplas...    398   9e-136
+  gi|510412999|emb|CCV61733.1| L-arabinose-binding periplasmic pr...    398   1e-135
+  gi|300716541|ref|YP_003741344.1| L-arabinose-binding periplasmi...    398   1e-135
+  gi|491101723|ref|WP_004963323.1| arabinose ABC transporter subs...    397   5e-135
+  gi|440231046|ref|YP_007344839.1| ABC-type sugar transport syste...    396   5e-135
+  gi|497322952|ref|WP_009637165.1| arabinose ABC transporter subs...    396   5e-135
+  gi|498355928|ref|WP_010670084.1| arabinose ABC transporter subs...    396   7e-135
+  gi|496403798|ref|WP_009112788.1| arabinose ABC transporter subs...    396   1e-134
+  gi|50121201|ref|YP_050368.1| L-arabinose-binding periplasmic pr...    395   2e-134
+  gi|333927050|ref|YP_004500629.1| periplasmic binding protein/La...    395   3e-134
+  gi|490196620|ref|WP_004095159.1| arabinose ABC transporter subs...    392   2e-133
+  gi|188533908|ref|YP_001907705.1| L-arabinose-binding periplasmi...    391   1e-132
+  gi|385788321|ref|YP_005819430.1| L-arabinose-binding periplasmi...    389   6e-132
+  gi|407692010|ref|YP_006816799.1| arabinose ABC transporter L-ar...    387   2e-131
+  gi|495044930|ref|WP_007769769.1| L-arabinose-binding periplasmi...    384   5e-130
+  gi|492607096|ref|WP_005901893.1| arabinose ABC transporter L-ar...    383   8e-130
+  gi|375263980|ref|YP_005026210.1| L-arabinose-binding periplasmi...    381   7e-129
+  gi|507521573|ref|YP_008043187.1| arabinose ABC transporter L-ar...    378   7e-128
+  gi|433660705|ref|YP_007301564.1| L-arabinose-binding periplasmi...    377   3e-127
+  gi|237808903|ref|YP_002893343.1| periplasmic binding protein/La...    376   4e-127
+  gi|145299349|ref|YP_001142190.1| ABC-type arabinose transporter...    376   5e-127
+  gi|336122852|ref|YP_004564900.1| L-arabinose-binding protein [V...    376   7e-127
+  gi|375129537|ref|YP_004991634.1| L-arabinose-binding periplasmi...    376   8e-127
+  gi|312172340|emb|CBX80597.1| ABC transport system, D-galactose-...    374   3e-126
+  gi|52424118|ref|YP_087255.1| RbsB protein [Mannheimia succinici...    372   4e-125
+  gi|498131186|ref|WP_010445342.1| arabinose ABC transporter subs...    358   8e-120
+  gi|496336098|ref|WP_009045276.1| arabinose ABC transporter subs...    358   9e-120
+  gi|498494070|ref|WP_010794807.1| hypothetical protein [Pseudomo...    354   3e-118
+  gi|489271707|ref|WP_003179430.1| arabinose ABC transporter subs...    353   6e-118
+  gi|494278589|ref|WP_007160547.1| arabinose ABC transporter subs...    353   9e-118
+  gi|497859506|ref|WP_010173662.1| arabinose ABC transporter subs...    350   8e-117
+  gi|498315268|ref|WP_010629424.1| ATPase [Halomonas sp. KM-1]          350   1e-116
+  gi|447917068|ref|YP_007397636.1| arabinose ABC transporter L-ar...    350   2e-116
+  gi|495017605|ref|WP_007743612.1| arabinose ABC transporter subs...    349   4e-116
+  gi|490552820|ref|WP_004417927.1| L-arabinose ABC-type transport...    348   7e-116
+  gi|498147672|ref|WP_010461828.1| arabinose ABC transporter subs...    347   1e-115
+  gi|494462187|ref|WP_007251743.1| arabinose ABC transporter subs...    347   3e-115
+  gi|489537741|ref|WP_003442463.1| arabinose ABC transporter L-ar...    346   4e-115
+  gi|78065179|ref|YP_367948.1| sugar ABC transporter periplasmic ...    345   9e-115
+  gi|492894816|ref|WP_006025222.1| arabinose ABC transporter subs...    345   2e-114
+  gi|447917889|ref|YP_007398457.1| arabinose ABC transporter L-ar...    344   3e-114
+  gi|485870303|ref|WP_001467397.1| arabinose ABC transporter subs...    340   7e-114
+  gi|497777120|ref|WP_010091304.1| arabinose ABC transporter subs...    342   1e-113
+  gi|497792308|ref|WP_010106492.1| arabinose ABC transporter subs...    342   1e-113
+  gi|83718663|ref|YP_441726.1| L-arabinose ABC transporter peripl...    342   2e-113
+  gi|77460362|ref|YP_349869.1| periplasmic binding protein/LacI t...    341   3e-113
+  gi|387893436|ref|YP_006323733.1| L-arabinose ABC transporter, p...    340   6e-113
+  gi|510308836|gb|EPA94245.1| ABC-type sugar transport system, pe...    340   8e-113
+  gi|497851768|ref|WP_010165924.1| arabinose ABC transporter subs...    340   9e-113
+  gi|512440899|ref|WP_016416686.1| ATPase [Halomonas anticariensis]     340   9e-113
+  gi|490505172|ref|WP_004371235.1| arabinose ABC transporter subs...    338   3e-112
+  gi|330815500|ref|YP_004359205.1| sugar ABC transporter substrat...    338   4e-112
+  gi|28869827|ref|NP_792446.1| L-arabinose ABC transporter peripl...    338   5e-112
+  gi|229592086|ref|YP_002874205.1| L-arabinose-binding periplasmi...    338   6e-112
+  gi|91785233|ref|YP_560439.1| ABC sugar(arabinose) transporter, ...    337   8e-112
+  gi|492245523|ref|WP_005787492.1| arabinose ABC transporter subs...    337   1e-111
+  gi|491020464|ref|WP_004882168.1| arabinose ABC transporter L-ar...    337   1e-111
+  gi|507516886|ref|YP_008038503.1| monosaccharide-transporting AT...    337   2e-111
+  gi|496589174|ref|WP_009287511.1| Periplasmic binding protein/La...    337   2e-111
+  gi|469775006|gb|AGH85196.1| L-arabinose-binding periplasmic pro...    336   2e-111
+  gi|496534829|ref|WP_009241520.1| arabinose ABC transporter subs...    335   5e-111
+  gi|494173098|ref|WP_007112825.1| ATPase [Halomonas boliviensis]       335   6e-111
+  gi|307545377|ref|YP_003897856.1| ABC transporter periplasmic pr...    335   8e-111
+  gi|490304317|ref|WP_004199611.1| arabinose ABC transporter subs...    339   2e-110
+  gi|497894253|ref|WP_010208409.1| arabinose ABC transporter subs...    333   4e-110
+  gi|92113147|ref|YP_573075.1| periplasmic binding protein/LacI t...    333   6e-110
+  gi|489529502|ref|WP_003434236.1| arabinose ABC transporter L-ar...    331   2e-109
+  gi|489511455|ref|WP_003416306.1| arabinose ABC transporter subs...    331   3e-109
+  gi|491630082|ref|WP_005487621.1| L-arabinose-binding periplasmi...    328   2e-108
+  gi|495649428|ref|WP_008374007.1| arabinose ABC transporter subs...    328   6e-108
+  gi|78062639|ref|YP_372547.1| periplasmic binding protein/LacI t...    327   6e-108
+  gi|494058040|ref|WP_007000125.1| arabinose ABC transporter subs...    326   1e-107
+  gi|238027387|ref|YP_002911618.1| sugar ABC transporter [Burkhol...    326   3e-107
+  gi|490719618|ref|WP_004582183.1| arabinose ABC transporter L-ar...    324   1e-106
+  gi|493991501|ref|WP_006934229.1| arabinose ABC transporter subs...    323   2e-106
+  gi|488706155|ref|WP_002630115.1| L-arabinose-binding periplasmi...    323   3e-106
+  gi|307731523|ref|YP_003908747.1| periplasmic-binding protein/La...    323   4e-106
+  gi|310822662|ref|YP_003955020.1| sugar ABC transporter substrat...    322   9e-106
+  gi|86359285|ref|YP_471177.1| sugar ABC transporter, substrate-b...    321   1e-105
+  gi|490307509|ref|WP_004202569.1| arabinose ABC transporter subs...    322   2e-105
+  gi|494856701|ref|WP_007582801.1| ATPase [Burkholderia sp. BT03]       321   2e-105
+  gi|493819135|ref|WP_006766677.1| ATPase [Burkholderia dolosa]         321   3e-105
+  gi|330820445|ref|YP_004349307.1| sugar ABC transporter [Burkhol...    321   3e-105
+  gi|494066605|ref|WP_007008675.1| arabinose ABC transporter subs...    319   8e-105
+  gi|495100500|ref|WP_007825323.1| arabinose ABC transporter subs...    317   5e-104
+  gi|121610700|ref|YP_998507.1| periplasmic-binding protein/LacI ...    317   1e-103
+  gi|496201890|ref|WP_008921727.1| ATPase [Burkholderia sp. H160]       317   1e-103
+  gi|377810999|ref|YP_005043439.1| L-arabinose ABC transporter su...    316   2e-103
+  gi|83717050|ref|YP_439822.1| L-arabinose ABC transporter substr...    316   3e-103
+  gi|490770683|ref|WP_004632910.1| L-arabinose-binding protein [R...    315   5e-103
+  gi|433611350|ref|YP_007194811.1| ABC-type sugar transport syste...    314   7e-103
+  gi|319780053|ref|YP_004139529.1| periplasmic binding protein/La...    309   1e-100
+  gi|495401459|ref|WP_008126158.1| arabinose ABC transporter subs...    304   8e-99 
+  gi|497788904|ref|WP_010103088.1| arabinose ABC transporter subs...    303   3e-98 
+  gi|470213897|ref|YP_007616259.1| arabinose ABC transporter L-ar...    300   2e-97 
+  gi|495727016|ref|WP_008451595.1| L-arabinose ABC transport syst...    297   4e-96 
+  gi|449475075|ref|XP_004154366.1| PREDICTED: L-arabinose-binding...    273   4e-88 
+  gi|491833479|ref|WP_005623290.1| ribose ABC superfamily ATP bin...    273   6e-88 
+  gi|310774984|gb|ADP21905.1| L-arabinose-binding periplasmic pro...    271   3e-87 
+  gi|490842934|ref|WP_004705006.1| sugar ABC transporter substrat...    268   3e-86 
+  gi|497644140|ref|WP_009958324.1| arabinose ABC transporter subs...    266   2e-83 
+  gi|488308443|ref|WP_002378081.1| sugar ABC transporter substrat...    255   2e-81 
+  gi|446470817|ref|WP_000548671.1| arabinose ABC transporter subs...    255   3e-81 
+  gi|447094768|ref|WP_001172024.1| sugar ABC transporter substrat...    250   9e-80 
+  gi|490238339|ref|WP_004136628.1| arabinose ABC transporter L-ar...    244   2e-77 
+  gi|489412445|ref|WP_003318392.1| periplasmic binding protein/La...    246   4e-77 
+  gi|498096977|ref|WP_010411133.1| L-arabinose ABC transporter, p...    226   1e-69 
+  gi|490798727|ref|WP_004660864.1| L-arabinose ABC transporter pe...    222   4e-68 
+  gi|451822546|ref|YP_007458747.1| ABC-type sugar transport syste...    224   1e-67 
+  gi|13475901|ref|NP_107471.1| L-arabinose-binding protein [Mesor...    223   2e-67 
+  gi|150016261|ref|YP_001308515.1| periplasmic binding protein/La...    219   1e-65 
+  gi|510943126|ref|WP_016260866.1| arabinose ABC transporter subs...    212   2e-65 
+  gi|496016684|ref|WP_008741263.1| sugar ABC transporter substrat...    217   5e-64 
+  gi|407644124|ref|YP_006807883.1| periplasmic binding protein/La...    211   2e-62 
+  gi|256394147|ref|YP_003115711.1| periplasmic binding protein/La...    209   1e-61 
+  gi|489332001|ref|WP_003239256.1| arabinose ABC transporter L-ar...    204   1e-61 
+  gi|491295120|ref|WP_005153135.1| L-arabinose-binding periplasmi...    207   4e-61 
+  gi|62867369|dbj|BAD95975.1| ABC-type sugar transport system per...    202   1e-60 
+  gi|488659232|ref|WP_002588194.1| hypothetical protein [Clostrid...    206   2e-60 
+  gi|496463008|ref|WP_009171853.1| LacI family transcriptional re...    205   3e-60 
+  gi|493835235|ref|WP_006782471.1| LacI family transcriptional re...    206   4e-60 
+  gi|510943207|ref|WP_016260941.1| arabinose ABC transporter subs...    199   5e-60 
+  gi|490533003|ref|WP_004398175.1| L-arabinose ABC transporter pe...    201   4e-59 
+  gi|490697930|ref|WP_004561484.1| L-arabinose ABC transporter pe...    201   5e-59 
+  gi|490760751|ref|WP_004623028.1| ABC-type sugar transport syste...    202   6e-59 
+  gi|302339890|ref|YP_003805096.1| sugar ABC transporter periplas...    199   4e-58 
+  gi|302384525|ref|YP_003820347.1| LacI family transcriptional re...    199   1e-57 
+  gi|222100592|ref|YP_002535160.1| Ribose ABC transporter, peripl...    194   4e-56 
+  gi|374316704|ref|YP_005063132.1| sugar ABC transporter periplas...    193   1e-55 
+  gi|493929015|ref|WP_006873669.1| hypothetical protein [Anaerotr...    192   8e-55 
+  gi|490538746|ref|WP_004403893.1| L-arabinose ABC transporter pe...    186   8e-55 
+  gi|495063298|ref|WP_007788128.1| sugar ABC transporter substrat...    187   1e-53 
+  gi|378763013|ref|YP_005191629.1| HTH-type transcriptional repre...    186   2e-53 
+  gi|16264083|ref|NP_436875.1| sugar ABC transporter [Sinorhizobi...    186   3e-53 
+  gi|398352178|ref|YP_006397642.1| D-ribose-binding periplasmic p...    186   5e-53 
+  gi|496153266|ref|WP_008877773.1| Periplasmic binding protein/La...    185   6e-53 
+  gi|150375920|ref|YP_001312516.1| periplasmic binding protein/La...    185   7e-53 
+  gi|446307661|ref|WP_000385516.1| hypothetical protein, partial ...    177   3e-52 
+  gi|514396998|ref|WP_016557852.1| putative ribose ABC transporte...    183   3e-52 
+  gi|86360771|ref|YP_472658.1| ribose ABC transporter substrate-b...    182   6e-52 
+  gi|495095702|ref|WP_007820525.1| sugar ABC transporter substrat...    180   4e-51 
+  gi|490538747|ref|WP_004403894.1| L-arabinose ABC transporter pe...    174   2e-50 
+  gi|440223913|ref|YP_007337309.1| erythritol ABC transporter, su...    177   8e-50 
+  gi|339442452|ref|YP_004708457.1| periplasmic sugar-binding prot...    179   1e-49 
+  gi|497939669|ref|WP_010253825.1| periplasmic-binding protein/La...    177   2e-49 
+  gi|511758256|ref|WP_016391505.1| monosaccharide-transporting AT...    173   3e-48 
+  gi|333899929|ref|YP_004473802.1| substrate-binding protein/LacI...    173   3e-48 
+  gi|49083710|gb|AAT51117.1| PA1946, partial [synthetic construct]      172   1e-47 
+  gi|492937858|ref|WP_006052135.1| sugar ABC transporter substrat...    170   4e-47 
+  gi|495233073|ref|WP_007957844.1| monosaccharide-transporting AT...    170   4e-47 
+  gi|490238338|ref|WP_004136627.1| arabinose ABC transporter L-ar...    166   4e-47 
+  gi|498494981|ref|WP_010795716.1| hypothetical protein [Pseudomo...    170   6e-47 
+  gi|386618035|ref|YP_006137615.1| Ribose ABC transport ATP-bindi...    169   7e-47 
+  gi|494274275|ref|WP_007158440.1| LacI family transcriptional re...    168   2e-46 
+  gi|219883375|ref|YP_002478536.1| periplasmic binding protein/La...    167   8e-46 
+  gi|491124478|ref|WP_004982918.1| LacI family transcriptional re...    159   7e-45 
+  gi|497699474|ref|WP_010013658.1| probable sugar ABC transporter...    159   1e-44 
+  gi|490531707|ref|WP_004396880.1| D-ribose transporter subunit R...    162   2e-44 
+  gi|446470815|ref|WP_000548669.1| LacI family transcriptional re...    157   5e-44 
+  gi|492925360|ref|WP_006047570.1| ABC transporter substrate-bind...    161   1e-43 
+  gi|492962425|ref|WP_006070510.1| D-ribose transporter subunit R...    160   2e-43 
+  gi|489324685|ref|WP_003231991.1| arabinose ABC transporter L-ar...    155   2e-43 
+  gi|495155271|ref|WP_007880074.1| ABC transporter substrate-bind...    160   3e-43 
+  gi|491644874|ref|WP_005502401.1| D-ribose transporter subunit R...    157   2e-42 
+  gi|495420945|ref|WP_008145642.1| LacI family transcriptional re...    157   4e-42 
+  gi|495981233|ref|WP_008705812.1| ribose ABC transporter peripla...    157   4e-42 
+  gi|512541384|ref|WP_016442592.1| hypothetical protein [Actinoba...    156   1e-41 
+  gi|489326134|ref|WP_003233434.1| arabinose ABC transporter L-ar...    148   8e-41 
+  gi|495714115|ref|WP_008438694.1| LacI family transcriptional re...    153   1e-40 
+  gi|489312565|ref|WP_003219963.1| LacI family transcriptional re...    152   2e-40 
+  gi|490541211|ref|WP_004406339.1| ABC transporter substrate-bind...    152   3e-40 
+  gi|497861490|ref|WP_010175646.1| LacI family transcriptional re...    151   6e-40 
+  gi|448241317|ref|YP_007405370.1| methyl-galactoside transporter...    148   1e-38 
+  gi|300717559|ref|YP_003742362.1| sugar ABC transporter substrat...    147   2e-38 
+  gi|510942166|ref|WP_016259906.1| LacI family transcriptional re...    141   3e-38 
+  gi|490361159|ref|WP_004240922.1| D-galactose-binding periplasmi...    147   3e-38 
+
+Sequences not found previously or not previously below threshold:
+
+  gi|157364179|ref|YP_001470946.1| monosaccharide-transporting AT...    185   6e-53
+  gi|493515845|ref|WP_006470106.1| sugar ABC transporter substrat...    185   2e-52
+  gi|495078945|ref|WP_007803769.1| sugar ABC transporter substrat...    179   1e-50
+  gi|494373517|ref|WP_007199595.1| sugar ABC transporter substrat...    179   1e-50
+  gi|496502165|ref|WP_009210448.1| sugar ABC transporter substrat...    176   1e-49
+  gi|494971684|ref|WP_007697710.1| sugar ABC transporter substrat...    174   2e-48
+  gi|495366556|ref|WP_008091270.1| LacI family transcriptional re...    173   3e-48
+  gi|430749528|ref|YP_007212436.1| sugar ABC transporter substrat...    174   4e-48
+  gi|433776479|ref|YP_007306946.1| ABC-type sugar transport syste...    172   4e-48
+  gi|317047838|ref|YP_004115486.1| periplasmic-binding protein/La...    171   1e-47
+  gi|152984587|ref|YP_001348706.1| ribose ABC transporter peripla...    172   2e-47
+  gi|170721140|ref|YP_001748828.1| monosaccharide-transporting AT...    170   4e-47
+  gi|493373737|ref|WP_006330047.1| Periplasmic binding protein/La...    169   7e-47
+  gi|126453843|ref|YP_001066131.1| ribose ABC transporter peripla...    171   7e-47
+  gi|489927843|ref|WP_003831174.1| ABC transporter substrate-bind...    169   1e-46
+  gi|489202114|ref|WP_003111271.1| LacI family transcriptional re...    169   1e-46
+  gi|13475843|ref|NP_107413.1| ribose ABC transporter substrate-b...    169   1e-46
+  gi|378767509|ref|YP_005195977.1| xylitol ABC transporter, perip...    168   2e-46
+  gi|307129202|ref|YP_003881218.1| ABC transporter substrate-bind...    168   3e-46
+  gi|493226968|ref|WP_006205030.1| sugar ABC transporter substrat...    168   3e-46
+  gi|104781095|ref|YP_607593.1| ribose ABC transporter periplasmi...    168   3e-46
+  gi|493067470|ref|WP_006118927.1| ABC transporter substrate-bind...    167   3e-46
+  gi|152995895|ref|YP_001340730.1| periplasmic-binding protein/La...    167   6e-46
+  gi|148270910|ref|YP_001245370.1| monosaccharide-transporting AT...    166   7e-46
+  gi|71736389|ref|YP_274344.1| ribose ABC transporter substrate-b...    167   8e-46
+  gi|494873065|ref|WP_007599160.1| sugar ABC transporter substrat...    167   8e-46
+  gi|20806732|ref|NP_621903.1| periplasmic sugar-binding proteins...    166   1e-45
+  gi|295676732|ref|YP_003605256.1| LacI family transcriptional re...    165   3e-45
+  gi|497908273|ref|WP_010222429.1| LacI family transcriptional re...    165   3e-45
+  gi|152977861|ref|YP_001343490.1| periplasmic binding protein/La...    164   4e-45
+  gi|492220320|ref|WP_005779807.1| LacI family transcriptional re...    165   4e-45
+  gi|492581527|ref|WP_005893479.1| LacI family transcriptional re...    164   6e-45
+  gi|281413190|ref|YP_003347269.1| periplasmic binding protein/La...    164   6e-45
+  gi|308186612|ref|YP_003930743.1| HTH-type transcriptional repre...    165   7e-45
+  gi|28869564|ref|NP_792183.1| ribose ABC transporter periplasmic...    164   8e-45
+  gi|494460276|ref|WP_007249867.1| LacI family transcriptional re...    164   1e-44
+  gi|294678179|ref|YP_003578794.1| monosacharide ABC transporter ...    164   1e-44
+  gi|440232464|ref|YP_007346257.1| ABC-type sugar transport syste...    163   1e-44
+  gi|495167774|ref|WP_007892571.1| ABC transporter substrate-bind...    163   2e-44
+  gi|497337974|ref|WP_009652187.1| LacI family transcriptional re...    163   2e-44
+  gi|481850216|ref|YP_007874656.1| ribose ABC transport system [R...    163   2e-44
+  gi|339486938|ref|YP_004701466.1| monosaccharide-transporting AT...    163   2e-44
+  gi|489518982|ref|WP_003423786.1| periplasmic binding protein/La...    162   3e-44
+  gi|495378166|ref|WP_008102877.1| ABC transporter substrate-bind...    162   4e-44
+  gi|493816779|ref|WP_006764359.1| LacI family transcriptional re...    162   5e-44
+  gi|495597664|ref|WP_008322243.1| LacI family transcriptional re...    162   5e-44
+  gi|495181111|ref|WP_007905901.1| LacI family transcriptional re...    162   6e-44
+  gi|496403456|ref|WP_009112446.1| sugar ABC transporter substrat...    162   6e-44
+  gi|498119142|ref|WP_010433298.1| LacI family transcriptional re...    162   6e-44
+  gi|495332426|ref|WP_008057164.1| LacI family transcriptional re...    161   8e-44
+  gi|495383486|ref|WP_008108193.1| sugar ABC transporter substrat...    161   1e-43
+  gi|217076772|ref|YP_002334488.1| D-ribose-binding protein [Ther...    160   1e-43
+  gi|493458038|ref|WP_006413284.1| LacI family transcriptional re...    161   1e-43
+  gi|495215439|ref|WP_007940218.1| LacI family transcriptional re...    161   1e-43
+  gi|300716425|ref|YP_003741228.1| sugar ABC transporter substrat...    161   1e-43
+  gi|160902388|ref|YP_001567969.1| monosaccharide-transporting AT...    160   1e-43
+  gi|497371681|ref|WP_009685894.1| LacI family transcriptional re...    161   1e-43
+  gi|145579680|pdb|2IOY|A Chain A, Crystal Structure Of Thermoana...    160   1e-43
+  gi|490238058|ref|WP_004136350.1| periplasmic binding protein/La...    161   1e-43
+  gi|206895561|ref|YP_002247721.1| D-ribose-binding periplasmic p...    160   1e-43
+  gi|495351153|ref|WP_008075878.1| LacI family transcriptional re...    161   1e-43
+  gi|307729892|ref|YP_003907116.1| periplasmic-binding protein/La...    161   1e-43
+  gi|497375980|ref|WP_009690193.1| simple sugar transporter subst...    161   2e-43
+  gi|496203111|ref|WP_008922948.1| LacI family transcriptional re...    161   2e-43
+  gi|495282497|ref|WP_008007251.1| LacI family transcriptional re...    161   2e-43
+  gi|70729471|ref|YP_259209.1| ribose ABC transporter periplasmic...    161   2e-43
+  gi|498138230|ref|WP_010452386.1| D-ribose transporter subunit R...    160   2e-43
+  gi|490249421|ref|WP_004147509.1| ABC transporter substrate-bind...    160   2e-43
+  gi|489929709|ref|WP_003833033.1| LacI family transcriptional re...    160   2e-43
+  gi|387902191|ref|YP_006332530.1| ribose ABC transport system, p...    160   2e-43
+  gi|490201572|ref|WP_004100051.1| ABC transporter substrate-bind...    160   2e-43
+  gi|26989177|ref|NP_744602.1| monosaccharide-transporting ATPase...    160   3e-43
+  gi|271499016|ref|YP_003332041.1| periplasmic-binding protein/La...    160   3e-43
+  gi|66045391|ref|YP_235232.1| periplasmic binding protein/LacI t...    160   3e-43
+  gi|512578577|ref|YP_008096022.1| LacI family transcriptional re...    160   4e-43
+  gi|512684961|ref|YP_008112941.1| ribose ABC transporter substra...    160   4e-43
+  gi|493521975|ref|WP_006476071.1| LacI family transcriptional re...    159   5e-43
+  gi|491594682|ref|WP_005452246.1| D-ribose transporter subunit R...    159   5e-43
+  gi|403058913|ref|YP_006647130.1| sugar ABC transporter substrat...    159   5e-43
+  gi|489272221|ref|WP_003179941.1| LacI family transcriptional re...    159   5e-43
+  gi|491025238|ref|WP_004886931.1| ribose ABC transporter substra...    159   6e-43
+  gi|197335842|ref|YP_002156262.1| D-ribose transporter subunit R...    158   6e-43
+  gi|494018281|ref|WP_006960604.1| D-ribose transporter subunit R...    158   6e-43
+  gi|507081436|ref|WP_016152186.1| hypothetical protein [Citrobac...    159   7e-43
+  gi|495355262|ref|WP_008079983.1| D-ribose transporter subunit R...    158   7e-43
+  gi|433660158|ref|YP_007301017.1| Ribose ABC transport system pe...    158   9e-43
+  gi|497389924|ref|WP_009704137.1| D-ribose transporter subunit R...    158   9e-43
+  gi|156977357|ref|YP_001448263.1| D-ribose transporter subunit R...    158   9e-43
+  gi|402566589|ref|YP_006615934.1| periplasmic binding protein/La...    159   1e-42
+  gi|491674450|ref|WP_005530592.1| D-ribose transporter subunit R...    158   1e-42
+  gi|187924244|ref|YP_001895886.1| periplasmic binding protein/La...    159   1e-42
+  gi|490883622|ref|WP_004745594.1| D-ribose transporter subunit R...    158   1e-42
+  gi|493811774|ref|WP_006759465.1| LacI family transcriptional re...    158   1e-42
+  gi|59712054|ref|YP_204830.1| D-ribose transporter subunit RbsB ...    158   1e-42
+  gi|167034488|ref|YP_001669719.1| monosaccharide-transporting AT...    158   1e-42
+  gi|490546196|ref|WP_004411320.1| D-ribose transporter subunit R...    157   1e-42
+  gi|491612116|ref|WP_005469673.1| D-ribose transporter subunit R...    157   1e-42
+  gi|28900939|ref|NP_800594.1| D-ribose transporter subunit RbsB ...    157   1e-42
+  gi|498332918|ref|WP_010647074.1| D-ribose transporter subunit R...    157   1e-42
+  gi|375133297|ref|YP_005049705.1| ribose ABC transporter, peripl...    157   1e-42
+  gi|490877468|ref|WP_004739466.1| D-ribose transporter subunit R...    157   1e-42
+  gi|492896221|ref|WP_006026627.1| LacI family transcriptional re...    158   2e-42
+  gi|491515510|ref|WP_005373143.1| D-ribose transporter subunit R...    157   2e-42
+  gi|495222561|ref|WP_007947335.1| LacI family transcriptional re...    158   2e-42
+  gi|490711448|ref|WP_004574327.1| monosaccharide-transporting AT...    158   2e-42
+  gi|497528126|ref|WP_009842324.1| D-ribose transporter subunit R...    157   2e-42
+  gi|491574193|ref|WP_005431772.1| D-ribose transporter subunit R...    157   2e-42
+  gi|77458146|ref|YP_347651.1| periplasmic binding protein/LacI t...    158   2e-42
+  gi|497801439|ref|WP_010115623.1| LacI family transcriptional re...    158   2e-42
+  gi|498141802|ref|WP_010455958.1| LacI family transcriptional re...    157   2e-42
+  gi|255532690|ref|YP_003093062.1| periplasmic binding protein/La...    157   2e-42
+  gi|491578173|ref|WP_005435748.1| D-ribose transporter subunit R...    157   2e-42
+  gi|510310033|gb|EPA95312.1| ABC-type sugar transport system, pe...    157   2e-42
+  gi|491446794|ref|WP_005304581.1| D-ribose transporter subunit R...    156   2e-42
+  gi|491539541|ref|WP_005397160.1| ribose ABC transporter, peripl...    157   3e-42
+  gi|229591591|ref|YP_002873710.1| putative ribose transporter su...    157   3e-42
+  gi|497778276|ref|WP_010092460.1| LacI family transcriptional re...    157   3e-42
+  gi|497932043|ref|WP_010246199.1| sugar ABC transporter substrat...    157   4e-42
+  gi|495231237|ref|WP_007956008.1| LacI family transcriptional re...    157   4e-42
+  gi|498252859|ref|WP_010567015.1| LacI family transcriptional re...    157   4e-42
+  gi|497158418|ref|WP_009490257.1| sugar ABC transporter substrat...    157   4e-42
+  gi|491641578|ref|WP_005499107.1| D-ribose transporter subunit R...    156   4e-42
+  gi|494327948|ref|WP_007181730.1| LacI family transcriptional re...    157   4e-42
+  gi|494560298|ref|WP_007335408.1| LacI family transcriptional re...    158   4e-42
+  gi|495492454|ref|WP_008217127.1| D-ribose transporter subunit R...    156   4e-42
+  gi|496893300|ref|WP_009400237.1| ribose ABC transporter peripla...    157   4e-42
+  gi|489319041|ref|WP_003226388.1| LacI family transcriptional re...    157   5e-42
+  gi|498114920|ref|WP_010429076.1| D-ribose transporter subunit R...    156   5e-42
+  gi|262395639|ref|YP_003287492.1| ribose ABC transporter ribose-...    156   5e-42
+  gi|495188686|ref|WP_007913476.1| LacI family transcriptional re...    157   5e-42
+  gi|495236465|ref|WP_007961235.1| LacI family transcriptional re...    157   5e-42
+  gi|491506301|ref|WP_005363948.1| D-ribose transporter subunit R...    156   6e-42
+  gi|209694896|ref|YP_002262824.1| D-ribose transporter subunit R...    156   6e-42
+  gi|490534727|ref|WP_004399896.1| ABC-type sugar transport syste...    156   6e-42
+  gi|32472547|ref|NP_865541.1| ribose ABC transporter, periplasmi...    157   6e-42
+  gi|493271272|ref|WP_006229091.1| D-ribose transporter subunit R...    156   6e-42
+  gi|426410301|ref|YP_007030400.1| ribose ABC transporter substra...    156   7e-42
+  gi|496333874|ref|WP_009043052.1| LacI family transcriptional re...    156   7e-42
+  gi|493934098|ref|WP_006878524.1| D-ribose transporter subunit R...    156   8e-42
+  gi|32474004|ref|NP_866998.1| D-ribose-binding periplasmic prote...    157   8e-42
+  gi|495650810|ref|WP_008375389.1| LacI family transcriptional re...    156   9e-42
+  gi|492936456|ref|WP_006051711.1| LacI family transcriptional re...    156   9e-42
+  gi|495322502|ref|WP_008047248.1| LacI family transcriptional re...    156   1e-41
+  gi|313680238|ref|YP_004057977.1| monosaccharide ABC transporter...    156   1e-41
+  gi|323525860|ref|YP_004228013.1| periplasmic-binding protein/La...    156   1e-41
+  gi|333907410|ref|YP_004480996.1| periplasmic binding protein/La...    156   1e-41
+  gi|378949923|ref|YP_005207411.1| protein RbsB [Pseudomonas fluo...    156   1e-41
+  gi|497530706|ref|WP_009844904.1| D-ribose transporter subunit R...    155   1e-41
+  gi|317047768|ref|YP_004115416.1| periplasmic-binding protein/La...    156   1e-41
+  gi|491651679|ref|WP_005508400.1| D-ribose transporter subunit R...    156   1e-41
+  gi|336125836|ref|YP_004577792.1| D-ribose-binding protein [Vibr...    155   1e-41
+  gi|495303484|ref|WP_008028234.1| LacI family transcriptional re...    156   1e-41
+  gi|375262956|ref|YP_005025186.1| D-ribose transporter subunit R...    155   1e-41
+  gi|330810605|ref|YP_004355067.1| ribose ABC transporter peripla...    156   2e-41
+  gi|91783815|ref|YP_559021.1| ABC ribose transporter, periplasmi...    156   2e-41
+  gi|497322161|ref|WP_009636374.1| ABC transporter substrate-bind...    155   2e-41
+  gi|27366523|ref|NP_762050.1| D-ribose transporter subunit RbsB ...    154   2e-41
+  gi|167038421|ref|YP_001665999.1| monosaccharide-transporting AT...    155   2e-41
+  gi|494728192|ref|WP_007464058.1| Ribose ABC transport system, p...    154   2e-41
+  gi|255035891|ref|YP_003086512.1| monosaccharide-transporting AT...    155   2e-41
+  gi|297543756|ref|YP_003676058.1| periplasmic binding protein/La...    155   2e-41
+  gi|238027465|ref|YP_002911696.1| Periplasmic binding protein/La...    155   2e-41
+  gi|495302567|ref|WP_008027317.1| sugar ABC transporter substrat...    155   2e-41
+  gi|237808591|ref|YP_002893031.1| periplasmic binding protein/La...    155   2e-41
+  gi|489296142|ref|WP_003203649.1| LacI family transcriptional re...    155   2e-41
+  gi|447917406|ref|YP_007397974.1| putative ribose transporter su...    155   2e-41
+  gi|495250942|ref|WP_007975698.1| LacI family transcriptional re...    155   3e-41
+  gi|242240926|ref|YP_002989107.1| periplasmic binding protein/La...    154   3e-41
+  gi|495195745|ref|WP_007920535.1| LacI family transcriptional re...    154   3e-41
+  gi|325109710|ref|YP_004270778.1| monosaccharide ABC transporter...    155   3e-41
+  gi|186475996|ref|YP_001857466.1| periplasmic binding protein/La...    154   3e-41
+  gi|489267200|ref|WP_003174989.1| LacI family transcriptional re...    154   3e-41
+  gi|490868326|ref|WP_004730342.1| D-ribose transporter subunit R...    154   3e-41
+  gi|258512241|ref|YP_003185675.1| periplasmic binding protein/La...    154   4e-41
+  gi|495267704|ref|WP_007992459.1| LacI family transcriptional re...    154   4e-41
+  gi|489965633|ref|WP_003868877.1| D-ribose transporter subunit R...    154   4e-41
+  gi|493694454|ref|WP_006644331.1| D-ribose transporter subunit R...    154   4e-41
+  gi|446659837|ref|WP_000737183.1| D-ribose transporter subunit R...    154   5e-41
+  gi|340789282|ref|YP_004754747.1| ribose ABC transport system, p...    155   5e-41
+  gi|496531870|ref|WP_009238561.1| LacI family transcriptional re...    154   5e-41
+  gi|489965782|ref|WP_003869026.1| D-ribose transporter subunit R...    154   5e-41
+  gi|495291642|ref|WP_008016396.1| LacI family transcriptional re...    154   5e-41
+  gi|446659838|ref|WP_000737184.1| D-ribose transporter subunit R...    153   6e-41
+  gi|507515939|ref|YP_008037556.1| periplasmic binding protein/La...    154   6e-41
+  gi|487832360|ref|WP_001905826.1| D-ribose transporter subunit R...    153   7e-41
+  gi|383785857|ref|YP_005470426.1| monosaccharide ABC transporter...    153   7e-41
+  gi|54303228|ref|YP_133221.1| D-ribose transporter subunit RbsB ...    153   8e-41
+  gi|495268621|ref|WP_007993376.1| LacI family transcriptional re...    154   8e-41
+  gi|446659836|ref|WP_000737182.1| D-ribose transporter subunit R...    152   9e-41
+  gi|495604084|ref|WP_008328663.1| LacI family transcriptional re...    153   1e-40
+  gi|446659835|ref|WP_000737181.1| D-ribose transporter subunit R...    152   1e-40
+  gi|330816798|ref|YP_004360503.1| Periplasmic binding protein/La...    153   1e-40
+  gi|218676704|ref|YP_002395523.1| D-ribose transporter subunit R...    152   1e-40
+  gi|488497733|ref|WP_002541175.1| Ribose ABC transport system, p...    152   1e-40
+  gi|495940264|ref|WP_008664843.1| monosaccharide-transporting AT...    154   1e-40
+  gi|487811655|ref|WP_001885121.1| D-ribose transporter subunit R...    152   1e-40
+  gi|495928827|ref|WP_008653406.1| ribose ABC transporter peripla...    154   1e-40
+  gi|408672032|ref|YP_006871780.1| periplasmic binding protein/La...    152   1e-40
+  gi|493349516|ref|WP_006306227.1| Ribose ABC transport system, p...    152   1e-40
+  gi|487933042|ref|WP_002006508.1| D-ribose transporter subunit R...    152   1e-40
+  gi|493510492|ref|WP_006464843.1| LacI family transcriptional re...    152   1e-40
+  gi|495863997|ref|WP_008588576.1| ribose ABC transporter substra...    152   2e-40
+  gi|497287376|ref|WP_009601593.1| D-ribose transporter subunit R...    152   2e-40
+  gi|489340550|ref|WP_003247728.1| D-ribose transporter subunit R...    152   2e-40
+  gi|446961016|ref|WP_001038272.1| D-ribose transporter subunit R...    152   2e-40
+  gi|15600901|ref|NP_232531.1| D-ribose transporter subunit RbsB ...    152   2e-40
+  gi|495013099|ref|WP_007739111.1| LacI family transcriptional re...    152   2e-40
+  gi|446659832|ref|WP_000737178.1| D-ribose transporter subunit R...    152   2e-40
+  gi|15603190|ref|NP_246263.1| hypothetical protein PM1325 [Paste...    152   2e-40
+  gi|446659834|ref|WP_000737180.1| D-ribose transporter subunit R...    152   2e-40
+  gi|446659831|ref|WP_000737177.1| D-ribose transporter subunit R...    152   2e-40
+  gi|495783324|ref|WP_008507903.1| ribose ABC transporter substra...    152   3e-40
+  gi|487814275|ref|WP_001887741.1| D-ribose transporter subunit R...    151   3e-40
+  gi|377820702|ref|YP_004977073.1| periplasmic binding protein/La...    152   3e-40
+  gi|487819366|ref|WP_001892832.1| D-ribose transporter subunit R...    151   3e-40
+  gi|384422647|ref|YP_005632006.1| ribose ABC transporter substra...    151   3e-40
+  gi|497894947|ref|WP_010209103.1| LacI family transcriptional re...    152   3e-40
+  gi|300311608|ref|YP_003775700.1| sugar ABC transporter periplas...    152   3e-40
+  gi|495944686|ref|WP_008669265.1| Monosaccharide-transporting AT...    152   3e-40
+  gi|487817685|ref|WP_001891151.1| D-ribose transporter subunit R...    151   3e-40
+  gi|310823305|ref|YP_003955663.1| LacI family transcriptional re...    152   3e-40
+  gi|360038133|ref|YP_004939895.1| D-ribose transporter subunit R...    151   3e-40
+  gi|312109362|ref|YP_003987678.1| periplasmic binding protein/La...    152   3e-40
+  gi|487835363|ref|WP_001908829.1| D-ribose transporter subunit R...    151   4e-40
+  gi|334340036|ref|YP_004545016.1| periplasmic binding protein/La...    152   4e-40
+  gi|446659830|ref|WP_000737176.1| D-ribose transporter subunit R...    151   5e-40
+  gi|489537403|ref|WP_003442126.1| periplasmic binding protein/La...    151   5e-40
+  gi|487970312|ref|WP_002043254.1| D-ribose-binding periplasmic p...    151   5e-40
+  gi|239617002|ref|YP_002940324.1| periplasmic binding protein/La...    151   5e-40
+  gi|187918879|ref|YP_001887910.1| periplasmic binding protein/La...    151   5e-40
+  gi|488725068|ref|WP_002648633.1| LacI family transcriptional re...    151   5e-40
+  gi|446659833|ref|WP_000737179.1| D-ribose transporter subunit R...    151   6e-40
+  gi|493422739|ref|WP_006378510.1| amino acid or sugar ABC transp...    156   6e-40
+  gi|490973617|ref|WP_004835408.1| D-ribose transporter subunit R...    151   6e-40
+  gi|498129557|ref|WP_010443713.1| LacI family transcriptional re...    151   6e-40
+  gi|22126541|ref|NP_669964.1| galactose-binding protein [Yersini...    152   7e-40
+  gi|469773311|gb|AGH83501.1| Ribose ABC transport system, peripl...    151   7e-40
+  gi|446659829|ref|WP_000737175.1| D-ribose transporter subunit R...    150   8e-40
+  gi|495390218|ref|WP_008114919.1| LacI family transcriptional re...    151   8e-40
+  gi|495375788|ref|WP_008100500.1| ribose ABC transporter substra...    151   8e-40
+  gi|492120449|ref|WP_005753545.1| ribose ABC transporter peripla...    149   1e-39
+  gi|492151243|ref|WP_005763566.1| ribose ABC superfamily ATP bin...    150   1e-39
+  gi|294139405|ref|YP_003555383.1| ribose ABC transporter peripla...    150   1e-39
+  gi|490841786|ref|WP_004703860.1| D-ribose transporter subunit R...    150   1e-39
+  gi|297531469|ref|YP_003672744.1| periplasmic binding protein/La...    150   1e-39
+  gi|514405769|dbj|GAD13457.1| ribose ABC transporter ribose-bind...    150   1e-39
+  gi|312142560|ref|YP_003994006.1| LacI family transcriptional re...    151   1e-39
+  gi|91779519|ref|YP_554727.1| sugar ABC transporter periplasmic ...    150   1e-39
+  gi|299066982|emb|CBJ38177.1| ribose ABC transporter, periplasmi...    150   1e-39
+  gi|157960346|ref|YP_001500380.1| D-ribose transporter subunit R...    149   2e-39
+  gi|307546560|ref|YP_003899039.1| ABC transporter periplasmic pr...    150   2e-39
+  gi|490845293|ref|WP_004707356.1| D-ribose transporter subunit R...    149   2e-39
+  gi|491014025|ref|WP_004875734.1| D-ribose transporter subunit R...    149   2e-39
+  gi|300692020|ref|YP_003753015.1| ribose ABC transporter peripla...    150   2e-39
+  gi|495913850|ref|WP_008638429.1| ribose ABC transporter ribose-...    150   2e-39
+  gi|497323316|ref|WP_009637529.1| D-ribose transporter subunit R...    149   2e-39
+  gi|22124782|ref|NP_668205.1| solute-binding periplasmic protein...    150   2e-39
+  gi|261420678|ref|YP_003254360.1| periplasmic binding protein/La...    149   2e-39
+  gi|490307255|ref|WP_004202323.1| D-ribose transporter subunit R...    149   2e-39
+  gi|386835667|ref|YP_006240987.1| RbsB protein [Pasteurella mult...    149   3e-39
+  gi|375010399|ref|YP_004984032.1| hypothetical protein [Geobacil...    149   3e-39
+  gi|302878768|ref|YP_003847332.1| periplasmic binding protein/La...    149   4e-39
+  gi|288937907|ref|YP_003441966.1| periplasmic binding protein/La...    149   4e-39
+  gi|498035976|ref|WP_010350132.1| transporter [Streptomyces acid...    153   4e-39
+  gi|488366262|ref|WP_002435647.1| sugar ABC transporter substrat...    149   4e-39
+  gi|489577272|ref|WP_003481718.1| D-ribose transporter subunit R...    148   4e-39
+  gi|431796661|ref|YP_007223565.1| sugar ABC transporter substrat...    149   5e-39
+  gi|206580208|ref|YP_002241268.1| D-ribose transporter subunit R...    148   5e-39
+  gi|257067104|ref|YP_003153360.1| periplasmic binding protein/La...    149   5e-39
+  gi|170717461|ref|YP_001784558.1| monosaccharide-transporting AT...    148   6e-39
+  gi|302337550|ref|YP_003802756.1| periplasmic binding protein/La...    149   6e-39
+  gi|492901251|ref|WP_006031657.1| D-ribose transporter subunit R...    148   6e-39
+  gi|498488439|ref|WP_010790127.1| Ribose ABC transport system, p...    148   7e-39
+  gi|152972660|ref|YP_001337806.1| D-ribose transporter subunit R...    148   7e-39
+  gi|345298249|ref|YP_004827607.1| periplasmic binding protein/La...    148   8e-39
+  gi|123441170|ref|YP_001005157.1| putative sugar ABC transporter...    148   8e-39
+  gi|490283095|ref|WP_004178959.1| sugar ABC transporter substrat...    148   8e-39
+  gi|495625082|ref|WP_008349661.1| LacI family transcriptional re...    148   8e-39
+  gi|492248115|ref|WP_005789700.1| LacI family transcriptional re...    148   8e-39
+  gi|119944128|ref|YP_941808.1| D-ribose transporter subunit RbsB...    147   9e-39
+  gi|259906698|ref|YP_002647054.1| D-ribose transporter subunit R...    147   9e-39
+  gi|494318891|ref|WP_007178155.1| LacI family transcriptional re...    148   1e-38
+  gi|331270087|ref|YP_004396579.1| ribose ABC transporter peripla...    147   1e-38
+  gi|491088826|ref|WP_004950436.1| D-ribose transporter subunit R...    147   1e-38
+  gi|157373129|ref|YP_001481118.1| D-ribose transporter subunit R...    147   1e-38
+  gi|123440414|ref|YP_001004408.1| D-ribose transporter subunit R...    147   1e-38
+  gi|311070104|ref|YP_003975027.1| ribose ABC transporter ribose-...    147   1e-38
+  gi|491747903|ref|WP_005581036.1| monosaccharide-transporting AT...    147   1e-38
+  gi|493372683|ref|WP_006328997.1| D-ribose transporter subunit R...    147   1e-38
+  gi|491334884|ref|WP_005192843.1| D-ribose transporter subunit R...    147   1e-38
+  gi|300714606|ref|YP_003739409.1| D-ribose ABC transporter subst...    147   2e-38
+  gi|486414311|ref|WP_001611111.1| D-ribose-binding periplasmic p...    147   2e-38
+  gi|493365423|ref|WP_006321844.1| D-ribose transporter subunit R...    147   2e-38
+  gi|332159635|ref|YP_004296212.1| D-ribose transporter subunit R...    147   2e-38
+  gi|386310397|ref|YP_006006453.1| ribose ABC transport system, p...    147   2e-38
+  gi|488640672|ref|WP_002577330.1| ribose ABC transporter substra...    148   2e-38
+  gi|152977768|ref|YP_001343397.1| monosaccharide-transporting AT...    147   2e-38
+  gi|219849769|ref|YP_002464202.1| monosaccharide-transporting AT...    147   2e-38
+  gi|489481419|ref|WP_003386401.1| periplasmic binding protein/La...    147   2e-38
+  gi|490275570|ref|WP_004171567.1| D-ribose transport periplasmic...    146   2e-38
+  gi|491729444|ref|WP_005566939.1| monosaccharide-transporting AT...    146   2e-38
+  gi|145579471|pdb|2GX6|A Chain A, Rational Stabilization Of E. C...    146   3e-38
+  gi|387894629|ref|YP_006324926.1| ribose ABC transporter peripla...    147   3e-38
+  gi|242280016|ref|YP_002992145.1| D-ribose transporter subunit R...    146   3e-38
+  gi|498995602|ref|XP_004533149.1| PREDICTED: D-ribose-binding pe...    146   3e-38
+  gi|333929806|ref|YP_004503385.1| periplasmic binding protein/La...    146   3e-38
+  gi|188587283|ref|YP_001918828.1| monosaccharide-transporting AT...    146   3e-38
+  gi|510898944|ref|WP_016231273.1| D-ribose-binding periplasmic p...    146   3e-38
+  gi|489284908|ref|WP_003192504.1| LacI family transcriptional re...    146   4e-38
+  gi|485880358|ref|WP_001475948.1| D-ribose-binding periplasmic p...    146   4e-38
+
+
+> gi|445933530|ref|WP_000011385.1| arabinose ABC transporter substrate-binding 
+protein [Escherichia coli]
+Length=346
+
+ Score =   414 bits (1063),  Expect = 2e-141, Method: Composition-based stats.
+ Identities = 304/306 (99%), Positives = 306/306 (100%), Gaps = 0/306 (0%)
+
+Query  1    ENLKLGFLVKQPEEPWFQTEWKFADKAGKDLGFEVIKIAVPDGEKTLNAIDSLAASGAKG  60
+            ENLKLGFLVKQPEEPWFQTEWKFADKAGK+LGFEVIKIAVPDGEKTLNAIDSLAASGAKG
+Sbjct  41   ENLKLGFLVKQPEEPWFQTEWKFADKAGKNLGFEVIKIAVPDGEKTLNAIDSLAASGAKG  100
+
+Query  61   FVICTPDPKLGSAIVAKARGYDMKVIAVDDQFVNAKGKPMDTVPLVMLAATKIGERQGQE  120
+            FVICTPDPKLGSAIVAKARGYDMKVIAVDDQFVNAKGKPMDTVPLVM+AATKIGERQGQE
+Sbjct  101  FVICTPDPKLGSAIVAKARGYDMKVIAVDDQFVNAKGKPMDTVPLVMMAATKIGERQGQE  160
+
+Query  121  LYKEMQKRGWDVKESAVMAITANELDTARRRTTGSMDALKAAGFPEKQIYQVPTKSNDIP  180
+            LYKEMQKRGWDVKESAVMAITANELDTARRRTTGSMDALKAAGFPEKQIYQVPTKSNDIP
+Sbjct  161  LYKEMQKRGWDVKESAVMAITANELDTARRRTTGSMDALKAAGFPEKQIYQVPTKSNDIP  220
+
+Query  181  GAFDAANSMLVQHPEVKHWLIVGMNDSTVLGGVRATEGQGFKAADIIGIGINGVDAVSEL  240
+            GAFDAANSMLVQHPEVKHWLIVGMNDSTVLGGVRATEGQGFKAADIIGIGINGVDAVSEL
+Sbjct  221  GAFDAANSMLVQHPEVKHWLIVGMNDSTVLGGVRATEGQGFKAADIIGIGINGVDAVSEL  280
+
+Query  241  SKAQATGFYGSLLPSPDVHGYKSSEMLYNWVAKDVEPPKFTEVTDVVLITRDNFKEELEK  300
+            SKAQATGFYGSLLPSPDVHGYKSSEMLYNWVAKDVEPPKFTEVTDVVLITRDNFKEELEK
+Sbjct  281  SKAQATGFYGSLLPSPDVHGYKSSEMLYNWVAKDVEPPKFTEVTDVVLITRDNFKEELEK  340
+
+Query  301  KGLGGK  306
+            KGLGGK
+Sbjct  341  KGLGGK  346
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.131    0.320    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0399    0.140     1.90     42.6     43.6 
+
+Effective search space used: 556599716979
+Results from round 3
+
+
+Query= blast/8abpA
+
+Length=306
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  gi|444350804|ref|YP_007386948.1| L-arabinose-binding periplasmi...    348   1e-115
+  gi|317047973|ref|YP_004115621.1| periplasmic-binding protein/La...    345   7e-115
+  gi|260598387|ref|YP_003210958.1| L-arabinose-binding periplasmi...    345   1e-114
+  gi|445933530|ref|WP_000011385.1| arabinose ABC transporter subs...    343   8e-114
+  gi|489930577|ref|WP_003833897.1| arabinose ABC transporter subs...    342   1e-113
+  gi|495385535|ref|WP_008110238.1| arabinose ABC transporter subs...    339   2e-112
+  gi|300716541|ref|YP_003741344.1| L-arabinose-binding periplasmi...    339   2e-112
+  gi|242239343|ref|YP_002987524.1| periplasmic binding protein/La...    338   3e-112
+  gi|512648975|ref|YP_008106897.1| arabinose ABC transporter subs...    338   5e-112
+  gi|498304788|ref|WP_010618944.1| arabinose ABC transporter subs...    337   1e-111
+  gi|498990834|ref|XP_004531949.1| PREDICTED: L-arabinose-binding...    336   2e-111
+  gi|491101723|ref|WP_004963323.1| arabinose ABC transporter subs...    337   2e-111
+  gi|387888875|ref|YP_006319173.1| L-arabinose-binding periplasmi...    336   2e-111
+  gi|307130997|ref|YP_003883013.1| L-arabinose ABC transporter su...    336   3e-111
+  gi|311279206|ref|YP_003941437.1| periplasmic binding protein/La...    336   3e-111
+  gi|383190293|ref|YP_005200421.1| sugar ABC transporter periplas...    336   4e-111
+  gi|493874014|ref|WP_006820458.1| arabinose ABC transporter subs...    335   5e-111
+  gi|498355928|ref|WP_010670084.1| arabinose ABC transporter subs...    335   6e-111
+  gi|510412999|emb|CCV61733.1| L-arabinose-binding periplasmic pr...    334   2e-110
+  gi|497322952|ref|WP_009637165.1| arabinose ABC transporter subs...    333   3e-110
+  gi|333927050|ref|YP_004500629.1| periplasmic binding protein/La...    333   3e-110
+  gi|50121201|ref|YP_050368.1| L-arabinose-binding periplasmic pr...    333   3e-110
+  gi|440231046|ref|YP_007344839.1| ABC-type sugar transport syste...    332   5e-110
+  gi|490196620|ref|WP_004095159.1| arabinose ABC transporter subs...    332   2e-109
+  gi|496403798|ref|WP_009112788.1| arabinose ABC transporter subs...    329   1e-108
+  gi|188533908|ref|YP_001907705.1| L-arabinose-binding periplasmi...    327   1e-107
+  gi|407692010|ref|YP_006816799.1| arabinose ABC transporter L-ar...    325   4e-107
+  gi|375263980|ref|YP_005026210.1| L-arabinose-binding periplasmi...    325   5e-107
+  gi|492607096|ref|WP_005901893.1| arabinose ABC transporter L-ar...    325   6e-107
+  gi|385788321|ref|YP_005819430.1| L-arabinose-binding periplasmi...    325   7e-107
+  gi|433660705|ref|YP_007301564.1| L-arabinose-binding periplasmi...    322   1e-105
+  gi|336122852|ref|YP_004564900.1| L-arabinose-binding protein [V...    322   1e-105
+  gi|495044930|ref|WP_007769769.1| L-arabinose-binding periplasmi...    320   3e-105
+  gi|507521573|ref|YP_008043187.1| arabinose ABC transporter L-ar...    320   3e-105
+  gi|375129537|ref|YP_004991634.1| L-arabinose-binding periplasmi...    319   1e-104
+  gi|237808903|ref|YP_002893343.1| periplasmic binding protein/La...    319   2e-104
+  gi|145299349|ref|YP_001142190.1| ABC-type arabinose transporter...    315   3e-103
+  gi|52424118|ref|YP_087255.1| RbsB protein [Mannheimia succinici...    314   1e-102
+  gi|495017605|ref|WP_007743612.1| arabinose ABC transporter subs...    312   6e-102
+  gi|78065179|ref|YP_367948.1| sugar ABC transporter periplasmic ...    312   1e-101
+  gi|492894816|ref|WP_006025222.1| arabinose ABC transporter subs...    310   8e-101
+  gi|497777120|ref|WP_010091304.1| arabinose ABC transporter subs...    309   1e-100
+  gi|312172340|emb|CBX80597.1| ABC transport system, D-galactose-...    308   2e-100
+  gi|497792308|ref|WP_010106492.1| arabinose ABC transporter subs...    305   2e-99 
+  gi|83718663|ref|YP_441726.1| L-arabinose ABC transporter peripl...    305   3e-99 
+  gi|507516886|ref|YP_008038503.1| monosaccharide-transporting AT...    305   4e-99 
+  gi|498131186|ref|WP_010445342.1| arabinose ABC transporter subs...    304   8e-99 
+  gi|330815500|ref|YP_004359205.1| sugar ABC transporter substrat...    303   3e-98 
+  gi|91785233|ref|YP_560439.1| ABC sugar(arabinose) transporter, ...    302   4e-98 
+  gi|498315268|ref|WP_010629424.1| ATPase [Halomonas sp. KM-1]          302   8e-98 
+  gi|496336098|ref|WP_009045276.1| arabinose ABC transporter subs...    300   4e-97 
+  gi|498494070|ref|WP_010794807.1| hypothetical protein [Pseudomo...    300   4e-97 
+  gi|512440899|ref|WP_016416686.1| ATPase [Halomonas anticariensis]     299   7e-97 
+  gi|494278589|ref|WP_007160547.1| arabinose ABC transporter subs...    297   3e-96 
+  gi|489271707|ref|WP_003179430.1| arabinose ABC transporter subs...    297   4e-96 
+  gi|469775006|gb|AGH85196.1| L-arabinose-binding periplasmic pro...    297   6e-96 
+  gi|490552820|ref|WP_004417927.1| L-arabinose ABC-type transport...    297   8e-96 
+  gi|494462187|ref|WP_007251743.1| arabinose ABC transporter subs...    297   8e-96 
+  gi|496534829|ref|WP_009241520.1| arabinose ABC transporter subs...    296   1e-95 
+  gi|447917068|ref|YP_007397636.1| arabinose ABC transporter L-ar...    295   2e-95 
+  gi|20806732|ref|NP_621903.1| periplasmic sugar-binding proteins...    295   2e-95 
+  gi|497859506|ref|WP_010173662.1| arabinose ABC transporter subs...    295   2e-95 
+  gi|92113147|ref|YP_573075.1| periplasmic binding protein/LacI t...    295   4e-95 
+  gi|307545377|ref|YP_003897856.1| ABC transporter periplasmic pr...    295   4e-95 
+  gi|494058040|ref|WP_007000125.1| arabinose ABC transporter subs...    294   6e-95 
+  gi|491630082|ref|WP_005487621.1| L-arabinose-binding periplasmi...    293   2e-94 
+  gi|498147672|ref|WP_010461828.1| arabinose ABC transporter subs...    292   4e-94 
+  gi|206895561|ref|YP_002247721.1| D-ribose-binding periplasmic p...    290   6e-94 
+  gi|489537741|ref|WP_003442463.1| arabinose ABC transporter L-ar...    291   8e-94 
+  gi|148270910|ref|YP_001245370.1| monosaccharide-transporting AT...    289   2e-93 
+  gi|447917889|ref|YP_007398457.1| arabinose ABC transporter L-ar...    290   3e-93 
+  gi|494173098|ref|WP_007112825.1| ATPase [Halomonas boliviensis]       289   7e-93 
+  gi|497851768|ref|WP_010165924.1| arabinose ABC transporter subs...    289   7e-93 
+  gi|496589174|ref|WP_009287511.1| Periplasmic binding protein/La...    289   7e-93 
+  gi|493349516|ref|WP_006306227.1| Ribose ABC transport system, p...    288   1e-92 
+  gi|490505172|ref|WP_004371235.1| arabinose ABC transporter subs...    288   1e-92 
+  gi|491020464|ref|WP_004882168.1| arabinose ABC transporter L-ar...    288   2e-92 
+  gi|160902388|ref|YP_001567969.1| monosaccharide-transporting AT...    286   2e-92 
+  gi|28869827|ref|NP_792446.1| L-arabinose ABC transporter peripl...    287   4e-92 
+  gi|229592086|ref|YP_002874205.1| L-arabinose-binding periplasmi...    287   6e-92 
+  gi|77460362|ref|YP_349869.1| periplasmic binding protein/LacI t...    286   7e-92 
+  gi|387893436|ref|YP_006323733.1| L-arabinose ABC transporter, p...    286   9e-92 
+  gi|145579680|pdb|2IOY|A Chain A, Crystal Structure Of Thermoana...    284   9e-92 
+  gi|281413190|ref|YP_003347269.1| periplasmic binding protein/La...    285   9e-92 
+  gi|492245523|ref|WP_005787492.1| arabinose ABC transporter subs...    286   1e-91 
+  gi|510308836|gb|EPA94245.1| ABC-type sugar transport system, pe...    286   1e-91 
+  gi|485870303|ref|WP_001467397.1| arabinose ABC transporter subs...    283   2e-91 
+  gi|490304317|ref|WP_004199611.1| arabinose ABC transporter subs...    289   3e-91 
+  gi|488706155|ref|WP_002630115.1| L-arabinose-binding periplasmi...    285   3e-91 
+  gi|494856701|ref|WP_007582801.1| ATPase [Burkholderia sp. BT03]       284   5e-91 
+  gi|493991501|ref|WP_006934229.1| arabinose ABC transporter subs...    284   8e-91 
+  gi|490534727|ref|WP_004399896.1| ABC-type sugar transport syste...    283   1e-90 
+  gi|497894253|ref|WP_010208409.1| arabinose ABC transporter subs...    283   1e-90 
+  gi|491594682|ref|WP_005452246.1| D-ribose transporter subunit R...    281   3e-90 
+  gi|86359285|ref|YP_471177.1| sugar ABC transporter, substrate-b...    282   3e-90 
+  gi|121610700|ref|YP_998507.1| periplasmic-binding protein/LacI ...    282   4e-90 
+  gi|297543756|ref|YP_003676058.1| periplasmic binding protein/La...    281   4e-90 
+  gi|433660158|ref|YP_007301017.1| Ribose ABC transport system pe...    280   4e-90 
+  gi|238027387|ref|YP_002911618.1| sugar ABC transporter [Burkhol...    282   4e-90 
+  gi|494018281|ref|WP_006960604.1| D-ribose transporter subunit R...    280   5e-90 
+  gi|493819135|ref|WP_006766677.1| ATPase [Burkholderia dolosa]         282   5e-90 
+  gi|489965782|ref|WP_003869026.1| D-ribose transporter subunit R...    281   6e-90 
+  gi|310822662|ref|YP_003955020.1| sugar ABC transporter substrat...    281   6e-90 
+  gi|490546196|ref|WP_004411320.1| D-ribose transporter subunit R...    280   6e-90 
+  gi|490719618|ref|WP_004582183.1| arabinose ABC transporter L-ar...    281   7e-90 
+  gi|167038421|ref|YP_001665999.1| monosaccharide-transporting AT...    280   7e-90 
+  gi|490883622|ref|WP_004745594.1| D-ribose transporter subunit R...    280   8e-90 
+  gi|489529502|ref|WP_003434236.1| arabinose ABC transporter L-ar...    281   9e-90 
+  gi|28900939|ref|NP_800594.1| D-ribose transporter subunit RbsB ...    280   1e-89 
+  gi|494066605|ref|WP_007008675.1| arabinose ABC transporter subs...    281   1e-89 
+  gi|156977357|ref|YP_001448263.1| D-ribose transporter subunit R...    279   1e-89 
+  gi|490531707|ref|WP_004396880.1| D-ribose transporter subunit R...    279   1e-89 
+  gi|491674450|ref|WP_005530592.1| D-ribose transporter subunit R...    279   1e-89 
+  gi|307731523|ref|YP_003908747.1| periplasmic-binding protein/La...    280   1e-89 
+  gi|497389924|ref|WP_009704137.1| D-ribose transporter subunit R...    279   1e-89 
+  gi|217076772|ref|YP_002334488.1| D-ribose-binding protein [Ther...    279   2e-89 
+  gi|495100500|ref|WP_007825323.1| arabinose ABC transporter subs...    280   2e-89 
+  gi|498138230|ref|WP_010452386.1| D-ribose transporter subunit R...    279   2e-89 
+  gi|492962425|ref|WP_006070510.1| D-ribose transporter subunit R...    279   2e-89 
+  gi|497528126|ref|WP_009842324.1| D-ribose transporter subunit R...    279   2e-89 
+  gi|54303228|ref|YP_133221.1| D-ribose transporter subunit RbsB ...    279   3e-89 
+  gi|489511455|ref|WP_003416306.1| arabinose ABC transporter subs...    280   3e-89 
+  gi|493934098|ref|WP_006878524.1| D-ribose transporter subunit R...    278   3e-89 
+  gi|498332918|ref|WP_010647074.1| D-ribose transporter subunit R...    278   3e-89 
+  gi|493271272|ref|WP_006229091.1| D-ribose transporter subunit R...    278   4e-89 
+  gi|491574193|ref|WP_005431772.1| D-ribose transporter subunit R...    278   4e-89 
+  gi|491641578|ref|WP_005499107.1| D-ribose transporter subunit R...    278   4e-89 
+  gi|330820445|ref|YP_004349307.1| sugar ABC transporter [Burkhol...    279   5e-89 
+  gi|491578173|ref|WP_005435748.1| D-ribose transporter subunit R...    277   6e-89 
+  gi|489965633|ref|WP_003868877.1| D-ribose transporter subunit R...    278   6e-89 
+  gi|491539541|ref|WP_005397160.1| ribose ABC transporter, peripl...    277   1e-88 
+  gi|495355262|ref|WP_008079983.1| D-ribose transporter subunit R...    277   1e-88 
+  gi|491515510|ref|WP_005373143.1| D-ribose transporter subunit R...    276   2e-88 
+  gi|491446794|ref|WP_005304581.1| D-ribose transporter subunit R...    275   2e-88 
+  gi|496201890|ref|WP_008921727.1| ATPase [Burkholderia sp. H160]       278   2e-88 
+  gi|78062639|ref|YP_372547.1| periplasmic binding protein/LacI t...    277   2e-88 
+  gi|197335842|ref|YP_002156262.1| D-ribose transporter subunit R...    276   3e-88 
+  gi|495649428|ref|WP_008374007.1| arabinose ABC transporter subs...    277   3e-88 
+  gi|433611350|ref|YP_007194811.1| ABC-type sugar transport syste...    277   5e-88 
+  gi|262395639|ref|YP_003287492.1| ribose ABC transporter ribose-...    275   5e-88 
+  gi|495492454|ref|WP_008217127.1| D-ribose transporter subunit R...    275   5e-88 
+  gi|375262956|ref|YP_005025186.1| D-ribose transporter subunit R...    275   6e-88 
+  gi|490877468|ref|WP_004739466.1| D-ribose transporter subunit R...    275   6e-88 
+  gi|491644874|ref|WP_005502401.1| D-ribose transporter subunit R...    275   6e-88 
+  gi|27366523|ref|NP_762050.1| D-ribose transporter subunit RbsB ...    275   6e-88 
+  gi|491612116|ref|WP_005469673.1| D-ribose transporter subunit R...    275   6e-88 
+  gi|490841786|ref|WP_004703860.1| D-ribose transporter subunit R...    275   7e-88 
+  gi|489340550|ref|WP_003247728.1| D-ribose transporter subunit R...    275   8e-88 
+  gi|59712054|ref|YP_204830.1| D-ribose transporter subunit RbsB ...    274   1e-87 
+  gi|495913850|ref|WP_008638429.1| ribose ABC transporter ribose-...    275   1e-87 
+  gi|491651679|ref|WP_005508400.1| D-ribose transporter subunit R...    275   1e-87 
+  gi|375133297|ref|YP_005049705.1| ribose ABC transporter, peripl...    274   1e-87 
+  gi|491014025|ref|WP_004875734.1| D-ribose transporter subunit R...    274   1e-87 
+  gi|209694896|ref|YP_002262824.1| D-ribose transporter subunit R...    274   2e-87 
+  gi|491506301|ref|WP_005363948.1| D-ribose transporter subunit R...    274   2e-87 
+  gi|83717050|ref|YP_439822.1| L-arabinose ABC transporter substr...    275   2e-87 
+  gi|491334884|ref|WP_005192843.1| D-ribose transporter subunit R...    273   2e-87 
+  gi|494728192|ref|WP_007464058.1| Ribose ABC transport system, p...    273   2e-87 
+  gi|490845293|ref|WP_004707356.1| D-ribose transporter subunit R...    273   2e-87 
+  gi|312109362|ref|YP_003987678.1| periplasmic binding protein/La...    274   2e-87 
+  gi|498114920|ref|WP_010429076.1| D-ribose transporter subunit R...    273   3e-87 
+  gi|493694454|ref|WP_006644331.1| D-ribose transporter subunit R...    273   3e-87 
+  gi|497530706|ref|WP_009844904.1| D-ribose transporter subunit R...    273   3e-87 
+  gi|319780053|ref|YP_004139529.1| periplasmic binding protein/La...    274   3e-87 
+  gi|336125836|ref|YP_004577792.1| D-ribose-binding protein [Vibr...    273   5e-87 
+  gi|377810999|ref|YP_005043439.1| L-arabinose ABC transporter su...    274   5e-87 
+  gi|490868326|ref|WP_004730342.1| D-ribose transporter subunit R...    272   6e-87 
+  gi|222100592|ref|YP_002535160.1| Ribose ABC transporter, peripl...    273   7e-87 
+  gi|123440414|ref|YP_001004408.1| D-ribose transporter subunit R...    272   7e-87 
+  gi|257067104|ref|YP_003153360.1| periplasmic binding protein/La...    273   8e-87 
+  gi|490307509|ref|WP_004202569.1| arabinose ABC transporter subs...    274   1e-86 
+  gi|332159635|ref|YP_004296212.1| D-ribose transporter subunit R...    272   1e-86 
+  gi|386310397|ref|YP_006006453.1| ribose ABC transport system, p...    272   1e-86 
+  gi|490770683|ref|WP_004632910.1| L-arabinose-binding protein [R...    273   2e-86 
+  gi|487832360|ref|WP_001905826.1| D-ribose transporter subunit R...    271   2e-86 
+  gi|491413658|ref|WP_005271461.1| D-ribose transporter subunit R...    271   2e-86 
+  gi|446659837|ref|WP_000737183.1| D-ribose transporter subunit R...    270   3e-86 
+  gi|490851873|ref|WP_004713931.1| D-ribose transporter subunit R...    270   4e-86 
+  gi|446659836|ref|WP_000737182.1| D-ribose transporter subunit R...    270   5e-86 
+  gi|496379187|ref|WP_009088177.1| D-ribose transporter subunit R...    270   5e-86 
+  gi|446659835|ref|WP_000737181.1| D-ribose transporter subunit R...    270   5e-86 
+  gi|300714606|ref|YP_003739409.1| D-ribose ABC transporter subst...    270   6e-86 
+  gi|446659838|ref|WP_000737184.1| D-ribose transporter subunit R...    270   6e-86 
+  gi|218676704|ref|YP_002395523.1| D-ribose transporter subunit R...    270   6e-86 
+  gi|488497733|ref|WP_002541175.1| Ribose ABC transport system, p...    270   6e-86 
+  gi|495168847|ref|WP_007893644.1| D-ribose transporter subunit R...    269   9e-86 
+  gi|497788904|ref|WP_010103088.1| arabinose ABC transporter subs...    271   9e-86 
+  gi|490973617|ref|WP_004835408.1| D-ribose transporter subunit R...    270   1e-85 
+  gi|251797968|ref|YP_003012699.1| periplasmic binding protein/La...    270   1e-85 
+  gi|383785857|ref|YP_005470426.1| monosaccharide ABC transporter...    269   1e-85 
+  gi|487811655|ref|WP_001885121.1| D-ribose transporter subunit R...    269   1e-85 
+  gi|157364179|ref|YP_001470946.1| monosaccharide-transporting AT...    270   1e-85 
+  gi|259906698|ref|YP_002647054.1| D-ribose transporter subunit R...    268   2e-85 
+  gi|487933042|ref|WP_002006508.1| D-ribose transporter subunit R...    268   2e-85 
+  gi|15600901|ref|NP_232531.1| D-ribose transporter subunit RbsB ...    268   2e-85 
+  gi|490856119|ref|WP_004718162.1| D-ribose transporter subunit R...    268   2e-85 
+  gi|487817685|ref|WP_001891151.1| D-ribose transporter subunit R...    268   3e-85 
+  gi|239617002|ref|YP_002940324.1| periplasmic binding protein/La...    268   3e-85 
+  gi|311070104|ref|YP_003975027.1| ribose ABC transporter ribose-...    268   3e-85 
+  gi|350267850|ref|YP_004879157.1| D-ribose-binding protein [Baci...    268   3e-85 
+  gi|446961016|ref|WP_001038272.1| D-ribose transporter subunit R...    268   3e-85 
+  gi|487814275|ref|WP_001887741.1| D-ribose transporter subunit R...    268   3e-85 
+  gi|446659832|ref|WP_000737178.1| D-ribose transporter subunit R...    268   4e-85 
+  gi|446659831|ref|WP_000737177.1| D-ribose transporter subunit R...    268   4e-85 
+  gi|493071860|ref|WP_006121182.1| D-ribose transporter subunit R...    268   4e-85 
+  gi|374993306|ref|YP_004968805.1| sugar ABC transporter periplas...    268   4e-85 
+  gi|495382048|ref|WP_008106759.1| D-ribose transporter subunit R...    268   4e-85 
+  gi|291615557|ref|YP_003518299.1| RbsB [Pantoea ananatis LMG 20103]    268   4e-85 
+  gi|487819366|ref|WP_001892832.1| D-ribose transporter subunit R...    268   5e-85 
+  gi|157373129|ref|YP_001481118.1| D-ribose transporter subunit R...    268   5e-85 
+  gi|446659834|ref|WP_000737180.1| D-ribose transporter subunit R...    267   6e-85 
+  gi|384422647|ref|YP_005632006.1| ribose ABC transporter substra...    267   6e-85 
+  gi|487970312|ref|WP_002043254.1| D-ribose-binding periplasmic p...    267   6e-85 
+  gi|271502647|ref|YP_003335673.1| periplasmic-binding protein/La...    267   6e-85 
+  gi|297531469|ref|YP_003672744.1| periplasmic binding protein/La...    268   6e-85 
+  gi|360038133|ref|YP_004939895.1| D-ribose transporter subunit R...    267   7e-85 
+  gi|497287376|ref|WP_009601593.1| D-ribose transporter subunit R...    267   7e-85 
+  gi|491088826|ref|WP_004950436.1| D-ribose transporter subunit R...    267   7e-85 
+  gi|446659833|ref|WP_000737179.1| D-ribose transporter subunit R...    267   7e-85 
+  gi|490307255|ref|WP_004202323.1| D-ribose transporter subunit R...    267   7e-85 
+  gi|497323316|ref|WP_009637529.1| D-ribose transporter subunit R...    267   8e-85 
+  gi|493372683|ref|WP_006328997.1| D-ribose transporter subunit R...    267   8e-85 
+  gi|134300361|ref|YP_001113857.1| periplasmic binding protein/La...    267   9e-85 
+  gi|514405769|dbj|GAD13457.1| ribose ABC transporter ribose-bind...    267   1e-84 
+  gi|491433469|ref|WP_005291262.1| D-ribose transporter subunit R...    267   1e-84 
+  gi|446659830|ref|WP_000737176.1| D-ribose transporter subunit R...    267   1e-84 
+  gi|294139405|ref|YP_003555383.1| ribose ABC transporter peripla...    267   1e-84 
+  gi|498488439|ref|WP_010790127.1| Ribose ABC transport system, p...    267   1e-84 
+  gi|261420678|ref|YP_003254360.1| periplasmic binding protein/La...    267   1e-84 
+  gi|269140854|ref|YP_003297555.1| D-ribose periplasmic binding p...    266   1e-84 
+  gi|498358025|ref|WP_010672181.1| D-ribose transporter subunit R...    266   2e-84 
+  gi|493365423|ref|WP_006321844.1| D-ribose transporter subunit R...    266   2e-84 
+  gi|152972660|ref|YP_001337806.1| D-ribose transporter subunit R...    266   2e-84 
+  gi|333924082|ref|YP_004497662.1| periplasmic binding protein/La...    267   2e-84 
+  gi|308188697|ref|YP_003932828.1| ABC-type sugar transport syste...    266   2e-84 
+  gi|497944683|ref|WP_010258839.1| D-ribose transporter subunit R...    266   2e-84 
+  gi|219849769|ref|YP_002464202.1| monosaccharide-transporting AT...    267   2e-84 
+  gi|470166051|ref|YP_007547138.1| D-ribose-binding periplasmic p...    267   2e-84 
+  gi|333929806|ref|YP_004503385.1| periplasmic binding protein/La...    266   2e-84 
+  gi|288937907|ref|YP_003441966.1| periplasmic binding protein/La...    266   2e-84 
+  gi|489328294|ref|WP_003235580.1| D-ribose-binding protein [Baci...    266   2e-84 
+  gi|384177228|ref|YP_005558613.1| D-ribose-binding protein [Baci...    266   2e-84 
+  gi|492901251|ref|WP_006031657.1| D-ribose transporter subunit R...    266   3e-84 
+  gi|317050155|ref|YP_004117803.1| periplasmic-binding protein/La...    265   3e-84 
+  gi|430756613|ref|YP_007207893.1| D-ribose-binding protein [Baci...    266   3e-84 
+  gi|206580208|ref|YP_002241268.1| D-ribose transporter subunit R...    266   3e-84 
+  gi|487835363|ref|WP_001908829.1| D-ribose transporter subunit R...    265   3e-84 
+  gi|495686442|ref|WP_008411021.1| putative sugar transporter sub...    266   3e-84 
+  gi|188587283|ref|YP_001918828.1| monosaccharide-transporting AT...    266   3e-84 
+  gi|490275570|ref|WP_004171567.1| D-ribose transport periplasmic...    265   3e-84 
+  gi|448244569|ref|YP_007408622.1| D-ribose transporter subunit R...    265   3e-84 
+  gi|321313140|ref|YP_004205427.1| ribose ABC transporter ribose-...    266   3e-84 
+  gi|491095251|ref|WP_004956856.1| D-ribose transporter subunit R...    265   4e-84 
+  gi|307128773|ref|YP_003880789.1| D-ribose ABC transporter subst...    265   4e-84 
+  gi|490195307|ref|WP_004093866.1| D-ribose transporter subunit R...    265   4e-84 
+  gi|489946170|ref|WP_003849477.1| D-ribose transporter subunit R...    265   4e-84 
+  gi|242241369|ref|YP_002989550.1| D-ribose transporter subunit R...    265   5e-84 
+  gi|188532181|ref|YP_001905978.1| D-ribose transporter subunit R...    265   5e-84 
+  gi|470464547|ref|YP_007630858.1| D-ribose transporter subunit R...    265   5e-84 
+  gi|238921724|ref|YP_002935239.1| D-ribose-binding periplasmic p...    265   5e-84 
+  gi|491010226|ref|WP_004871935.1| D-ribose transporter subunit R...    265   5e-84 
+  gi|449096049|ref|YP_007428540.1| ribose ABC transporter (ribose...    265   5e-84 
+  gi|491697742|ref|WP_005549995.1| D-ribose transporter subunit R...    265   5e-84 
+  gi|428281207|ref|YP_005562942.1| ribose ABC transporter substra...    265   5e-84 
+  gi|491072137|ref|WP_004933760.1| D-ribose transporter subunit R...    265   6e-84 
+  gi|110644091|ref|YP_671821.1| D-ribose transporter subunit RbsB...    265   6e-84 
+  gi|375010399|ref|YP_004984032.1| hypothetical protein [Geobacil...    265   7e-84 
+  gi|446659829|ref|WP_000737175.1| D-ribose transporter subunit R...    264   7e-84 
+  gi|375258160|ref|YP_005017330.1| D-ribose transporter subunit R...    265   8e-84 
+  gi|493363520|ref|WP_006319949.1| ribose ABC transporter peripla...    265   8e-84 
+  gi|145579471|pdb|2GX6|A Chain A, Rational Stabilization Of E. C...    264   8e-84 
+  gi|336247945|ref|YP_004591655.1| D-ribose transporter subunit R...    265   8e-84 
+  gi|498995602|ref|XP_004533149.1| PREDICTED: D-ribose-binding pe...    263   9e-84 
+  gi|498017967|ref|WP_010332123.1| D-ribose transporter subunit R...    265   9e-84 
+  gi|496091192|ref|WP_008815699.1| D-ribose transporter subunit R...    264   1e-83 
+  gi|386760225|ref|YP_006233442.1| ribose ABC transporter ribose-...    264   1e-83 
+  gi|485719356|ref|WP_001350843.1| D-ribose transporter subunit R...    264   1e-83 
+  gi|446978998|ref|WP_001056254.1| D-ribose transporter subunit R...    264   1e-83 
+  gi|440233116|ref|YP_007346909.1| ABC-type sugar transport syste...    264   1e-83 
+  gi|510898944|ref|WP_016231273.1| D-ribose-binding periplasmic p...    264   1e-83 
+  gi|481851498|ref|YP_007875938.1| D-ribose transporter subunit R...    264   1e-83 
+  gi|490228714|ref|WP_004127061.1| D-ribose transporter subunit R...    264   1e-83 
+  gi|429506893|ref|YP_007188077.1| hypothetical protein B938_1702...    264   2e-83 
+  gi|310659710|ref|YP_003937431.1| D-ribose transporter subunit ;...    264   2e-83 
+  gi|486414311|ref|WP_001611111.1| D-ribose-binding periplasmic p...    264   2e-83 
+  gi|237807349|ref|YP_002891789.1| D-ribose transporter subunit R...    263   2e-83 
+  gi|446979020|ref|WP_001056276.1| D-ribose transporter subunit R...    263   2e-83 
+  gi|16080649|ref|NP_391477.1| ribose ABC transporter ribose-bind...    264   2e-83 
+  gi|108803790|ref|YP_643727.1| periplasmic binding protein/LacI ...    264   2e-83 
+  gi|490208915|ref|WP_004107321.1| D-ribose transporter subunit R...    263   2e-83 
+  gi|485857912|ref|WP_001458417.1| D-ribose-binding periplasmic p...    263   2e-83 
+  gi|383192268|ref|YP_005202396.1| sugar ABC transporter periplas...    263   2e-83 
+  gi|446979691|ref|WP_001056947.1| D-ribose transporter subunit R...    263   2e-83 
+  gi|305676207|ref|YP_003867879.1| ribose ABC transporter ribose-...    263   2e-83 
+  gi|498033979|ref|WP_010348135.1| D-ribose transporter subunit R...    264   2e-83 
+  gi|291286163|ref|YP_003502979.1| periplasmic binding protein/La...    263   2e-83 
+  gi|485880358|ref|WP_001475948.1| D-ribose-binding periplasmic p...    263   2e-83 
+  gi|485768495|ref|WP_001392875.1| D-ribose-binding periplasmic p...    263   3e-83 
+  gi|290473134|ref|YP_003465995.1| D-ribose ABC transporter subst...    263   3e-83 
+  gi|485894669|ref|WP_001486247.1| D-ribose-binding periplasmic p...    263   3e-83 
+  gi|312170580|emb|CBX78844.1| D-ribose transport periplasmic bin...    263   3e-83 
+  gi|332289584|ref|YP_004420436.1| D-ribose transporter subunit R...    263   3e-83 
+  gi|446979014|ref|WP_001056270.1| D-ribose transporter subunit R...    263   3e-83 
+  gi|251791726|ref|YP_003006447.1| D-ribose transporter subunit R...    263   4e-83 
+  gi|446979693|ref|WP_001056949.1| D-ribose transporter subunit R...    263   4e-83 
+  gi|509593190|gb|EOY78541.1| D-ribose-binding periplasmic protei...    263   4e-83 
+  gi|446979018|ref|WP_001056274.1| D-ribose transporter subunit R...    263   4e-83 
+  gi|197284002|ref|YP_002149874.1| D-ribose transporter subunit R...    263   4e-83 
+  gi|485783706|ref|WP_001406287.1| D-ribose-binding periplasmic p...    263   4e-83 
+  gi|498014675|ref|WP_010328831.1| D-ribose transporter subunit R...    263   5e-83 
+  gi|490365461|ref|WP_004245125.1| D-ribose transporter subunit R...    262   5e-83 
+  gi|446979021|ref|WP_001056277.1| D-ribose transporter subunit R...    262   5e-83 
+  gi|212640486|ref|YP_002317006.1| ribose ABC transporter peripla...    263   6e-83 
+  gi|446979019|ref|WP_001056275.1| lac repressor [Shigella flexneri]    262   6e-83 
+  gi|495401459|ref|WP_008126158.1| arabinose ABC transporter subs...    263   6e-83 
+  gi|157144387|ref|YP_001451706.1| D-ribose transporter subunit R...    262   7e-83 
+  gi|492352560|ref|WP_005818263.1| D-ribose transporter subunit R...    262   7e-83 
+  gi|511064588|ref|YP_008079906.1| ribose ABC transporter substra...    262   7e-83 
+  gi|446979022|ref|WP_001056278.1| D-ribose transporter subunit R...    262   8e-83 
+  gi|498112454|ref|WP_010426610.1| D-ribose transporter subunit R...    262   8e-83 
+  gi|304317159|ref|YP_003852304.1| periplasmic binding protein/La...    262   9e-83 
+  gi|491045045|ref|WP_004906703.1| D-ribose transporter subunit R...    262   9e-83 
+  gi|493689268|ref|WP_006639323.1| ribose ABC transporter substra...    262   9e-83 
+  gi|446979690|ref|WP_001056946.1| D-ribose transporter subunit R...    262   1e-82 
+  gi|219871755|ref|YP_002476130.1| D-ribose transporter subunit R...    262   1e-82 
+  gi|384048488|ref|YP_005496505.1| monosaccharide-transporting AT...    262   1e-82 
+  gi|495778919|ref|WP_008503498.1| D-ribose transporter subunit R...    262   1e-82 
+  gi|387891194|ref|YP_006321492.1| D-ribose-binding periplasmic p...    262   1e-82 
+  gi|345301552|ref|YP_004830910.1| periplasmic binding protein/La...    262   1e-82 
+  gi|495054794|ref|WP_007779630.1| Ribose ABC transport system, p...    261   1e-82 
+  gi|498034070|ref|WP_010348226.1| D-ribose transporter subunit R...    262   1e-82 
+  gi|494888163|ref|WP_007614209.1| D-ribose transporter subunit R...    262   1e-82 
+  gi|156936131|ref|YP_001440047.1| D-ribose transporter subunit R...    261   1e-82 
+  gi|498484701|ref|WP_010786480.1| D-ribose transporter subunit R...    261   1e-82 
+  gi|401761519|ref|YP_006576526.1| ribose transport system substr...    261   1e-82 
+  gi|494938429|ref|WP_007664460.1| Ribose ABC transport system, p...    261   2e-82 
+  gi|487383946|ref|WP_001656058.1| D-ribose-binding periplasmic p...    261   2e-82 
+  gi|283787559|ref|YP_003367424.1| D-ribose ABC transporter subst...    261   2e-82 
+  gi|365972795|ref|YP_004954356.1| D-ribose-binding periplasmic p...    261   2e-82 
+  gi|490950892|ref|WP_004812712.1| D-ribose transporter subunit R...    262   2e-82 
+  gi|493178038|ref|WP_006177540.1| D-ribose transporter subunit R...    261   2e-82 
+  gi|498035976|ref|WP_010350132.1| transporter [Streptomyces acid...    271   2e-82 
+  gi|493738611|ref|WP_006687780.1| D-ribose transporter subunit R...    261   2e-82 
+  gi|507084344|ref|WP_016155091.1| D-ribose-binding periplasmic p...    261   2e-82 
+  gi|255035891|ref|YP_003086512.1| monosaccharide-transporting AT...    262   2e-82 
+  gi|389839010|ref|YP_006341094.1| D-ribose transporter subunit R...    261   2e-82 
+  gi|495078945|ref|WP_007803769.1| sugar ABC transporter substrat...    262   2e-82 
+  gi|493871395|ref|WP_006817902.1| D-ribose transporter subunit R...    261   2e-82 
+  gi|374335327|ref|YP_005092014.1| D-ribose transporter subunit R...    261   2e-82 
+  gi|495727016|ref|WP_008451595.1| L-arabinose ABC transport syst...    262   2e-82 
+  gi|296105455|ref|YP_003615601.1| ribose transport system substr...    261   2e-82 
+  gi|493861981|ref|WP_006808741.1| D-ribose transporter subunit R...    261   3e-82 
+  gi|493422739|ref|WP_006378510.1| amino acid or sugar ABC transp...    271   3e-82 
+  gi|446979009|ref|WP_001056265.1| D-ribose transporter subunit R...    260   3e-82 
+  gi|494120075|ref|WP_007059854.1| D-ribose transporter subunit R...    261   3e-82 
+  gi|386743415|ref|YP_006216594.1| D-ribose transporter subunit R...    260   3e-82 
+  gi|494977570|ref|WP_007703594.1| Ribose ABC transport system, p...    260   3e-82 
+  gi|492821908|ref|WP_005976898.1| D-ribose transporter subunit R...    260   4e-82 
+  gi|491044684|ref|WP_004906343.1| D-ribose transporter subunit R...    260   4e-82 
+  gi|494211098|ref|WP_007129682.1| D-ribose transporter subunit R...    260   4e-82 
+  gi|496406171|ref|WP_009115035.1| D-ribose transporter subunit R...    260   4e-82 
+  gi|446979013|ref|WP_001056269.1| D-ribose transporter subunit R...    260   4e-82 
+  gi|494674553|ref|WP_007432493.1| D-ribose transporter subunit R...    260   5e-82 
+  gi|513039475|ref|WP_016507359.1| periplasmic binding protein/La...    260   5e-82 
+  gi|514060785|ref|YP_008124866.1| D-ribose transporter subunit R...    260   5e-82 
+  gi|495002217|ref|WP_007728231.1| Ribose ABC transport system, p...    260   5e-82 
+  gi|311281684|ref|YP_003943915.1| periplasmic binding protein/La...    260   6e-82 
+  gi|497782237|ref|WP_010096421.1| D-ribose transporter subunit R...    260   6e-82 
+  gi|493869531|ref|WP_006816098.1| D-ribose transporter subunit R...    260   7e-82 
+  gi|490977955|ref|WP_004839719.1| D-ribose transporter subunit R...    260   7e-82 
+  gi|392981371|ref|YP_006479959.1| ribose transport system substr...    260   7e-82 
+  gi|260599995|ref|YP_003212566.1| D-ribose transporter subunit R...    260   7e-82 
+  gi|336115243|ref|YP_004570010.1| periplasmic binding protein/La...    260   8e-82 
+  gi|62182367|ref|YP_218784.1| D-ribose transporter subunit RbsB ...    259   8e-82 
+  gi|494146184|ref|WP_007085930.1| ribose ABC transporter ribose-...    260   8e-82 
+  gi|320159955|ref|YP_004173179.1| ribose ABC transporter substra...    260   8e-82 
+  gi|440289785|ref|YP_007342550.1| ABC-type sugar transport syste...    259   8e-82 
+  gi|496189758|ref|WP_008914265.1| D-ribose transporter subunit R...    259   8e-82 
+  gi|119944128|ref|YP_941808.1| D-ribose transporter subunit RbsB...    259   9e-82 
+  gi|384161216|ref|YP_005543289.1| ribose ABC transporter (ribose...    260   9e-82 
+  gi|493515845|ref|WP_006470106.1| sugar ABC transporter substrat...    261   1e-81 
+  gi|446979000|ref|WP_001056256.1| D-ribose transporter subunit R...    259   1e-81 
+  gi|490954375|ref|WP_004816191.1| D-ribose transporter subunit R...    260   1e-81 
+  gi|488366182|ref|WP_002435567.1| D-ribose transporter subunit R...    259   1e-81 
+  gi|378957273|ref|YP_005214760.1| D-ribose-binding periplasmic p...    259   1e-81 
+  gi|494373517|ref|WP_007199595.1| sugar ABC transporter substrat...    260   1e-81 
+  gi|340001352|ref|YP_004732236.1| D-ribose-binding periplasmic p...    259   1e-81 
+  gi|253690595|ref|YP_003019785.1| periplasmic binding protein/La...    259   1e-81 
+  gi|495030147|ref|WP_007755703.1| Ribose ABC transport system, p...    259   1e-81 
+  gi|310778134|ref|YP_003966467.1| ribose-binding protein [Ilyoba...    259   1e-81 
+  gi|498367324|ref|WP_010681480.1| D-ribose transporter subunit R...    258   1e-81 
+  gi|446979001|ref|WP_001056257.1| D-ribose transporter subunit R...    258   1e-81 
+  gi|198245799|ref|YP_002217832.1| D-ribose transporter subunit R...    258   2e-81 
+  gi|492747997|ref|WP_005948151.1| D-ribose transporter subunit R...    258   2e-81 
+  gi|261823716|ref|YP_003261822.1| D-ribose transporter subunit R...    258   2e-81 
+  gi|242280016|ref|YP_002992145.1| D-ribose transporter subunit R...    258   2e-81 
+  gi|495733197|ref|WP_008457776.1| D-ribose transporter subunit R...    258   2e-81 
+  gi|493711027|ref|WP_006660664.1| D-ribose transporter subunit R...    258   2e-81 
+  gi|494611108|ref|WP_007369354.1| D-ribose transporter subunit R...    258   3e-81 
+  gi|261405854|ref|YP_003242095.1| periplasmic-binding protein/La...    258   3e-81 
+  gi|446979011|ref|WP_001056267.1| D-ribose transporter subunit R...    258   3e-81 
+  gi|487361366|ref|WP_001636221.1| Ribose ABC transport system ri...    258   3e-81 
+  gi|512650786|ref|YP_008108848.1| D-ribose transporter subunit R...    258   3e-81 
+  gi|492036730|ref|WP_005727713.1| D-ribose transporter subunit R...    257   3e-81 
+  gi|161505589|ref|YP_001572701.1| D-ribose transporter subunit R...    258   3e-81 
+  gi|146313743|ref|YP_001178817.1| D-ribose transporter subunit R...    258   3e-81 
+  gi|496189210|ref|WP_008913717.1| D-ribose transporter subunit R...    258   3e-81 
+  gi|138896807|ref|YP_001127260.1| ribose ABC transporter ribose-...    258   4e-81 
+  gi|50118978|ref|YP_048145.1| D-ribose transporter subunit RbsB ...    257   4e-81 
+  gi|205354535|ref|YP_002228336.1| D-ribose transporter subunit R...    257   5e-81 
+  gi|490961454|ref|WP_004823267.1| D-ribose transporter subunit R...    258   5e-81 
+  gi|15602018|ref|NP_245090.1| D-ribose transporter subunit RbsB ...    257   5e-81 
+  gi|32472547|ref|NP_865541.1| ribose ABC transporter, periplasmi...    258   5e-81 
+  gi|492113219|ref|WP_005751126.1| D-ribose transporter subunit R...    257   6e-81 
+  gi|310642286|ref|YP_003947044.1| LacI family transcriptional re...    257   8e-81 
+  gi|345003236|ref|YP_004806090.1| inner-membrane translocator [S...    267   8e-81 
+  gi|255532690|ref|YP_003093062.1| periplasmic binding protein/La...    257   9e-81 
+  gi|492149974|ref|WP_005762876.1| D-ribose transporter subunit R...    257   1e-80 
+  gi|126209136|ref|YP_001054361.1| D-ribose transporter subunit R...    256   1e-80 
+  gi|498217872|ref|WP_010532028.1| D-ribose transporter subunit R...    257   1e-80 
+  gi|493545530|ref|WP_006499368.1| ribose ABC transporter, peripl...    257   1e-80 
+  gi|497309068|ref|WP_009623285.1| D-ribose transporter subunit R...    257   1e-80 
+  gi|487596324|ref|WP_001729130.1| D-ribose transporter subunit R...    257   1e-80 
+  gi|190151001|ref|YP_001969526.1| D-ribose-binding periplasmic p...    256   1e-80 
+  gi|308069246|ref|YP_003870851.1| D-ribose-binding protein [Paen...    257   1e-80 
+  gi|152977883|ref|YP_001343512.1| D-ribose transporter subunit R...    256   1e-80 
+  gi|492019936|ref|WP_005720239.1| D-ribose transporter subunit R...    256   1e-80 
+  gi|334340036|ref|YP_004545016.1| periplasmic binding protein/La...    257   1e-80 
+  gi|495063298|ref|WP_007788128.1| sugar ABC transporter substrat...    257   1e-80 
+  gi|497517960|ref|WP_009832158.1| D-ribose transporter subunit R...    256   1e-80 
+  gi|331270087|ref|YP_004396579.1| ribose ABC transporter peripla...    256   2e-80 
+  gi|489429084|ref|WP_003334699.1| D-ribose transporter subunit R...    256   2e-80 
+  gi|37524090|ref|NP_927434.1| D-ribose transporter subunit RbsB ...    256   2e-80 
+  gi|470479187|ref|YP_007639931.1| D-ribose transporter subunit R...    255   2e-80 
+  gi|495618694|ref|WP_008343273.1| D-ribose transporter subunit R...    256   2e-80 
+  gi|494624230|ref|WP_007382174.1| transporter [Streptomyces svic...    266   2e-80 
+  gi|498360634|ref|WP_010674790.1| D-ribose transporter subunit R...    255   2e-80 
+  gi|495375788|ref|WP_008100500.1| ribose ABC transporter substra...    257   2e-80 
+  gi|491829197|ref|WP_005620989.1| D-ribose transporter subunit R...    255   2e-80 
+  gi|430749528|ref|YP_007212436.1| sugar ABC transporter substrat...    258   3e-80 
+  gi|491817694|ref|WP_005616069.1| D-ribose transporter subunit R...    255   3e-80 
+  gi|407693428|ref|YP_006818217.1| D-ribose transporter subunit R...    255   3e-80 
+  gi|498179787|ref|WP_010493943.1| D-ribose transporter subunit R...    256   3e-80 
+  gi|493582071|ref|WP_006535118.1| D-ribose transporter subunit R...    255   3e-80 
+  gi|308050423|ref|YP_003913989.1| ribose-binding protein [Ferrim...    255   3e-80 
+  gi|492558760|ref|WP_005885855.1| D-ribose transporter subunit R...    255   3e-80 
+  gi|514236193|ref|WP_016538842.1| D-ribose-binding periplasmic p...    255   4e-80 
+  gi|167630482|ref|YP_001680981.1| ribose abc transporter ribose-...    255   4e-80 
+  gi|495863997|ref|WP_008588576.1| ribose ABC transporter substra...    255   5e-80 
+  gi|408672032|ref|YP_006871780.1| periplasmic binding protein/La...    255   5e-80 
+  gi|472334829|ref|YP_007667104.1| D-ribose-binding periplasmic p...    255   6e-80 
+  gi|374323941|ref|YP_005077070.1| D-ribose-binding protein [Paen...    255   6e-80 
+  gi|496153266|ref|WP_008877773.1| Periplasmic binding protein/La...    255   6e-80 
+  gi|374331228|ref|YP_005081412.1| D-ribose-binding protein [Pseu...    254   7e-80 
+  gi|514396998|ref|WP_016557852.1| putative ribose ABC transporte...    255   7e-80 
+  gi|446979698|ref|WP_001056954.1| D-ribose transporter subunit R...    254   7e-80 
+  gi|497397553|ref|WP_009711766.1| D-ribose transporter subunit R...    255   7e-80 
+  gi|489435222|ref|WP_003340753.1| D-ribose transporter subunit R...    255   8e-80 
+  gi|455737608|ref|YP_007503874.1| Ribose ABC transport system, p...    254   8e-80 
+  gi|495944686|ref|WP_008669265.1| Monosaccharide-transporting AT...    255   9e-80 
+  gi|446979694|ref|WP_001056950.1| D-ribose transporter subunit R...    254   9e-80 
+  gi|393198849|ref|YP_006460691.1| sugar ABC transporter periplas...    255   9e-80 
+  gi|497227551|ref|WP_009541813.1| Ribose ABC transport system, p...    254   9e-80 
+  gi|499149639|ref|WP_010862944.1| D-ribose transporter subunit R...    254   1e-79 
+  gi|157960346|ref|YP_001500380.1| D-ribose transporter subunit R...    254   1e-79 
+  gi|470213897|ref|YP_007616259.1| arabinose ABC transporter L-ar...    255   1e-79 
+  gi|471325026|ref|YP_007524056.1| ribose ABC transporter, permea...    264   1e-79 
+  gi|446979695|ref|WP_001056951.1| D-ribose transporter subunit R...    253   2e-79 
+  gi|446979696|ref|WP_001056952.1| D-ribose transporter subunit R...    254   2e-79 
+  gi|495683773|ref|WP_008408352.1| D-ribose transporter subunit R...    254   2e-79 
+  gi|489307697|ref|WP_003215132.1| D-ribose transporter subunit R...    253   2e-79 
+  gi|16264083|ref|NP_436875.1| sugar ABC transporter [Sinorhizobi...    254   2e-79 
+  gi|226940634|ref|YP_002795708.1| RbsB [Laribacter hongkongensis...    253   2e-79 
+  gi|495821907|ref|WP_008546486.1| D-ribose transporter subunit R...    253   2e-79 
+  gi|490099203|ref|WP_004001091.1| putative Ribose ABC transporte...    263   2e-79 
+  gi|496502165|ref|WP_009210448.1| sugar ABC transporter substrat...    253   2e-79 
+  gi|297583221|ref|YP_003699001.1| periplasmic-binding protein/La...    253   2e-79 
+  gi|408357315|ref|YP_006845846.1| ribose ABC transporter substra...    253   3e-79 
+  gi|86360771|ref|YP_472658.1| ribose ABC transporter substrate-b...    253   3e-79 
+  gi|229917240|ref|YP_002885886.1| LacI family transcriptional re...    253   3e-79 
+  gi|493292785|ref|WP_006250467.1| D-ribose transporter subunit R...    253   3e-79 
+  gi|165977106|ref|YP_001652699.1| D-ribose transporter subunit R...    253   3e-79 
+  gi|492141521|ref|WP_005760458.1| D-ribose transporter subunit R...    253   3e-79 
+  gi|258512241|ref|YP_003185675.1| periplasmic binding protein/La...    253   3e-79 
+  gi|330829629|ref|YP_004392581.1| ribose ABC transporter peripla...    253   3e-79 
+  gi|118443514|ref|YP_878666.1| ribose ABC transporter substrate-...    253   3e-79 
+  gi|489472307|ref|WP_003377392.1| D-ribose transporter subunit R...    253   4e-79 
+  gi|491764500|ref|WP_005590113.1| D-ribose transporter subunit R...    252   4e-79 
+  gi|491494224|ref|WP_005351947.1| D-ribose transporter subunit R...    252   4e-79 
+  gi|497965825|ref|WP_010279981.1| D-ribose transporter subunit R...    253   4e-79 
+  gi|431796661|ref|YP_007223565.1| sugar ABC transporter substrat...    253   4e-79 
+  gi|407719049|ref|YP_006796454.1| D-ribose-binding protein [Leuc...    253   4e-79 
+  gi|497181480|ref|WP_009499627.1| D-ribose transporter subunit R...    253   5e-79 
+  gi|157694019|ref|YP_001488481.1| ribose ABC transporter ATP-bin...    253   5e-79 
+  gi|313680238|ref|YP_004057977.1| monosaccharide ABC transporter...    253   5e-79 
+
+Sequences not found previously or not previously below threshold:
+
+  gi|489243121|ref|WP_003151323.1| D-ribose transporter subunit R...    261   2e-82
+  gi|489320538|ref|WP_003227871.1| D-ribose transporter subunit R...    261   2e-82
+  gi|494016121|ref|WP_006958468.1| D-ribose transporter subunit R...    253   2e-79
+  gi|490077601|ref|WP_003979748.1| ribose ABC transporter substra...    254   3e-79
+  gi|387120493|ref|YP_006286376.1| D-ribose transporter subunit R...    252   4e-79
+
+
+> gi|444350804|ref|YP_007386948.1| L-arabinose-binding periplasmic 
+protein precursor AraF (TC 3.A.1.2.2) [Enterobacter aerogenes 
+EA1509E]
+  L-arabinose-binding periplasmic protein precursor AraF (TC 3.A.1.2.2) 
+[Enterobacter aerogenes]
+  L-arabinose-binding periplasmic protein precursor AraF (TC 3.A.1.2.2) 
+[Enterobacter aerogenes EA1509E]
+Length=352
+
+ Score =   348 bits (893),  Expect = 1e-115, Method: Composition-based stats.
+ Identities = 275/303 (91%), Positives = 292/303 (96%), Gaps = 0/303 (0%)
+
+Query  1    ENLKLGFLVKQPEEPWFQTEWKFADKAGKDLGFEVIKIAVPDGEKTLNAIDSLAASGAKG  60
+            ENLKLGFLVKQPEEPWFQTEWKFADKAGKDLGFEVIKIAVPDGEKTLNAIDSLAASGAKG
+Sbjct  50   ENLKLGFLVKQPEEPWFQTEWKFADKAGKDLGFEVIKIAVPDGEKTLNAIDSLAASGAKG  109
+
+Query  61   FVICTPDPKLGSAIVAKARGYDMKVIAVDDQFVNAKGKPMDTVPLVMLAATKIGERQGQE  120
+            FVICTPDPKLGSAIVAKARGYDMKVI VDDQFVNAKGKPM++VPLVM+AA++IG RQGQE
+Sbjct  110  FVICTPDPKLGSAIVAKARGYDMKVITVDDQFVNAKGKPMESVPLVMMAASEIGARQGQE  169
+
+Query  121  LYKEMQKRGWDVKESAVMAITANELDTARRRTTGSMDALKAAGFPEKQIYQVPTKSNDIP  180
+            LYKEMQKRGWDVK++ VMAITA+ELDTARRRTTGS+DALKAAGFPEKQIY+VPTKSNDIP
+Sbjct  170  LYKEMQKRGWDVKDTGVMAITADELDTARRRTTGSIDALKAAGFPEKQIYRVPTKSNDIP  229
+
+Query  181  GAFDAANSMLVQHPEVKHWLIVGMNDSTVLGGVRATEGQGFKAADIIGIGINGVDAVSEL  240
+            GAFDA NSMLVQHP+VKHWLIVGMND+TVLGGVRATEGQGFKA D+IGIGINGVDAV+EL
+Sbjct  230  GAFDAGNSMLVQHPQVKHWLIVGMNDNTVLGGVRATEGQGFKAPDVIGIGINGVDAVNEL  289
+
+Query  241  SKAQATGFYGSLLPSPDVHGYKSSEMLYNWVAKDVEPPKFTEVTDVVLITRDNFKEELEK  300
+            SKAQ TGFYGSLLPSPD+HGYK+SEMLYNWV K  EPPKFT VTDVVLITRDNFK+EL K
+Sbjct  290  SKAQPTGFYGSLLPSPDIHGYKTSEMLYNWVTKGTEPPKFTAVTDVVLITRDNFKQELAK  349
+
+Query  301  KGL  303
+            KGL
+Sbjct  350  KGL  352
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.160    0.431    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0491    0.140     1.90     42.6     43.6 
+
+Effective search space used: 556599716979
+
+
+  Database: nr90
+    Posted date:  Sep 24, 2013  5:30 PM
+  Number of letters in database: 5,715,038,960
+  Number of sequences in database:  17,137,457
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

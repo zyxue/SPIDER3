@@ -1,0 +1,14 @@
+# Prerequisite:
+Python 2.7, numpy.
+
+# Generate the your file list
+The required stucture is that the first column has the sequence name, and the second colomn the file name of the fasta file.
+See file_list for an example.
+
+
+# Set variables
+In ./input_script_np.sh set the SAVE_DIR and INPUT_LIST variables as needed.
+
+# RUN
+./impute_scipt_np.sh
+

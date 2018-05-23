@@ -1,0 +1,15 @@
+# Prerequisite:
+Python 2.7, numpy, tensorflow (tested with version 1.14) either CPU or GPU version.
+
+# Generate the your file list
+The required stucture is that the first column has the sequence name, and the second colomn the file name of the fasta file.
+See file_list for an example.
+
+
+# Set variables
+In ./input_script.sh set the SAVE_DIR and INPUT_LIST variables as needed.
+Also set the NCORES variable to be the number of CPU cores that you want to make available.
+
+# RUN
+./impute_scipt.sh
+
